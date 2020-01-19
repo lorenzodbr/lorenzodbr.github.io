@@ -408,9 +408,7 @@ input[type=search]::-webkit-search-decoration {
     width: 83.33333%
 }
 
-.row-col-12>.col-xs-6 {
-    width: 50%
-}
+
 
 @media(min-width:768px) {
     .row .col-sm-1 {
@@ -5433,13 +5431,13 @@ main {
 
 @media(min-width:1200px) {
     .widget-lang button {
-        height: 120px
+        height: 80px
     }
     .atail-header {
-        height: 121px
+        height: 80px
     }
     main {
-        padding-top: 120px
+        padding-top: 80px
     }
 }
 
@@ -6053,8 +6051,8 @@ a:hover {
         color: #a9acb5
     }
     .nav-list {
-        background-color: rgba(255, 255, 255, 0.8);
-		backdrop-filter: blur(2px);
+        background: rgba(255, 255, 255, 0.8);
+		backdrop-filter: blur(3px);
     }
     .window-height {
         background-color: transparent
