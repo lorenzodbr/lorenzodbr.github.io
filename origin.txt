@@ -1,0 +1,432 @@
+Uri: https://riccardo.im/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/index.xml
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\index.xml
+Content Type: application/xml
+
+Uri: https://riccardo.im/css/main-unito.css
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\css\main-unito.css
+Content Type: text/css
+
+Uri: https://riccardo.im/img/apple-touch-icon.png
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://riccardo.im/img/favicon-32x32.png
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\favicon-32x32.png
+Content Type: image/png
+
+Uri: https://riccardo.im/img/favicon-16x16.png
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\favicon-16x16.png
+Content Type: image/png
+
+Uri: https://riccardo.im/img/site.webmanifest
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\site.bin
+Content Type: application/octet-stream
+
+Uri: https://riccardo.im/img/safari-pinned-tab.svg
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\safari-pinned-tab.svg
+Content Type: image/svg+xml
+
+Uri: https://riccardo.im/libri/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\libri\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/articoli/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\articoli\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/contatti/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\contatti\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/recensioni/room-tour-2020/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\room-tour-2020\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/recensioni/apple-macbook-pro-16/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\apple-macbook-pro-16\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/recensioni/surface-laptop-3/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\surface-laptop-3\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/recensioni/lenovo-thinkbook-13s/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\lenovo-thinkbook-13s\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/recensioni/apple-macbook-pro-13-2019/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\apple-macbook-pro-13-2019\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/privacy-cookie-policy/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\privacy-cookie-policy\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/js/main_noflash.js
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\js\main_noflash.js
+Content Type: application/javascript
+
+Uri: https://riccardo.im/js/quicklink.umd.js
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\js\quicklink.umd.js
+Content Type: application/javascript
+
+Uri: https://riccardo.im/js/cloudinary-core-shrinkwrap.js
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\js\cloudinary-core-shrinkwrap.js
+Content Type: application/javascript
+
+Uri: https://riccardo.im/img/svg/select-ico.svg
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\svg\select-ico.svg
+Content Type: image/svg+xml
+
+Uri: https://riccardo.im/fonts/montserrat-v13-latin-regular.woff2
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\fonts\montserrat-v13-latin-regular.woff2
+Content Type: font/woff2
+
+Uri: https://riccardo.im/fonts/montserrat-v13-latin-regular.woff
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\fonts\montserrat-v13-latin-regular.woff
+Content Type: application/font-woff
+
+Uri: https://riccardo.im/fonts/montserrat-v13-latin-700.woff2
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\fonts\montserrat-v13-latin-700.woff2
+Content Type: font/woff2
+
+Uri: https://riccardo.im/fonts/montserrat-v13-latin-700.woff
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\fonts\montserrat-v13-latin-700.woff
+Content Type: application/font-woff
+
+Uri: https://riccardo.im/fonts/hind-v9-latin-300.woff2
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\fonts\hind-v9-latin-300.woff2
+Content Type: font/woff2
+
+Uri: https://riccardo.im/fonts/hind-v9-latin-300.woff
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\fonts\hind-v9-latin-300.woff
+Content Type: application/font-woff
+
+Uri: https://riccardo.im/fonts/hind-v9-latin-regular.woff2
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\fonts\hind-v9-latin-regular.woff2
+Content Type: font/woff2
+
+Uri: https://riccardo.im/fonts/hind-v9-latin-regular.woff
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\fonts\hind-v9-latin-regular.woff
+Content Type: application/font-woff
+
+Uri: https://riccardo.im/img/libri-consigliati-riccardo-palombo.png
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\libri-consigliati-riccardo-palombo.png
+Content Type: image/png
+
+Uri: https://riccardo.im/recensioni/feiyutech-ak4500/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\feiyutech-ak4500\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/articoli/avm-fritzbox-vodafone-voip-adsl/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\articoli\avm-fritzbox-vodafone-voip-adsl\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/recensioni/canon-g7x-mark3/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\canon-g7x-mark3\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/recensioni/minix-neo-storage/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\minix-neo-storage\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/articoli/lezioni-di-letteratura-nabokov/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\articoli\lezioni-di-letteratura-nabokov\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/recensioni/kindle-oasis-2019/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\kindle-oasis-2019\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/recensioni/akko-3068/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\akko-3068\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/articoli/scrivere-come-i-grandi/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\articoli\scrivere-come-i-grandi\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/recensioni/garmin-forerunner-245-music/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\garmin-forerunner-245-music\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/recensioni/dell-xps-13-9380/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\recensioni\dell-xps-13-9380\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/articoli/nuovo-sito-riccardo-palombo/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\articoli\nuovo-sito-riccardo-palombo\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-50/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-50\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-49/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-49\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-48/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-48\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-47/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-47\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-46/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-46\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-45/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-45\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-44/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-44\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-43/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-43\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/2/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\2\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/3/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\3\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/7/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\7\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/newsletter/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\newsletter\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-25/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-25\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/js/jquery.min.js
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://riccardo.im/css/lightbox.css
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\css\lightbox.css
+Content Type: text/css
+
+Uri: https://riccardo.im/js/lazysizes.min.js
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\js\lazysizes.min.js
+Content Type: application/javascript
+
+Uri: https://riccardo.im/js/typed.min.js
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\js\typed.min.js
+Content Type: application/javascript
+
+Uri: https://riccardo.im/js/lightbox.js
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\js\lightbox.js
+Content Type: application/javascript
+
+Uri: https://riccardo.im/podcast/il-mordente-1/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-1\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-9/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-9\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-42/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-42\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-41/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-41\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-40/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-40\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-39/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-39\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-38/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-38\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-37/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-37\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-35/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-35\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-34/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-34\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-33/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-33\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-32/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-32\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-31/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-31\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-30/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-30\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-29/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-29\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-28/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-28\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-27/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-27\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-26/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-26\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/4/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\4\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/6/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\6\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/img/newsletter-riccardo-palombo.png
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\newsletter-riccardo-palombo.png
+Content Type: image/png
+
+Uri: https://riccardo.im/podcast/il-mordente-24/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-24\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/img/loading.gif
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\loading.gif
+Content Type: image/gif
+
+Uri: https://riccardo.im/img/prev.png
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\prev.png
+Content Type: image/png
+
+Uri: https://riccardo.im/img/next.png
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\next.png
+Content Type: image/png
+
+Uri: https://riccardo.im/img/close.png
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\img\close.png
+Content Type: image/png
+
+Uri: https://riccardo.im/podcast/il-mordente-2/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-2\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-8/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-8\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-10/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-10\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-23/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-23\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-22/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-22\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-21/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-21\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-20/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-20\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-19/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-19\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-18/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-18\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/5/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\5\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-7/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-7\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-6/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-6\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-5/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-5\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-4/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-4\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-3/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-3\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-11/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-11\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-17/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-17\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-16/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-16\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-15/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-15\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-14/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-14\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-13/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-13\index.htm
+Content Type: text/html
+
+Uri: https://riccardo.im/podcast/il-mordente-12/
+File Name: C:\Users\Lorenzo\Desktop\test\riccardo.im\podcast\il-mordente-12\index.htm
+Content Type: text/html
+

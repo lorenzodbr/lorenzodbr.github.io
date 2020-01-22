@@ -855,14 +855,14 @@ body.window-height {
     display: block;
     color: #a9acb5;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: .75rem;
     letter-spacing: 1.97px
 }
 
 @media(min-width:1133px) {
     .atail-multitext-title {
-        margin-bottom: 45px
+        margin-bottom: 35px
     }
 }
 
@@ -1064,6 +1064,12 @@ body.window-height {
     line-height: 1.61;
     margin-bottom: 30px;
     max-width: 520px
+}
+
+@media(min-width:1133px) {
+    .promo-box {
+        margin-bottom: 100px;
+    }
 }
 
 .promo-box p {
@@ -2487,15 +2493,14 @@ a {
 @media(max-width:1132px) {
     .logo a img {
         width: 30px;
-		padding-top: 32px;
+		padding-top: 6px;
     }
     .atail-text-logo {
-        height: 76px;
+        height: auto;
         padding: 0;
         font-size: 24px!important;
         width: auto;
         position: relative;
-        top: -26px;
         overflow: visible
     }
 }
@@ -2718,7 +2723,7 @@ p:empty {
         height: 50px
     }
     .single-project .atail-sharing {
-        text-align: center
+        text-align: justify
     }
 }
 
@@ -3343,7 +3348,8 @@ p:empty {
 
 .single-project {
     margin-bottom: 115px;
-    margin-top: 115px
+    margin-top: 115px;
+	text-align: justify;
 }
 
 .single-project+div {
@@ -5611,8 +5617,8 @@ main .main-scroll>img {
     main .main-scroll>.row,
     main .main-scroll>[class*=' row-col-'],
     main .main-scroll>[class^=row-col-] {
-        margin-top: 80px;
-        margin-bottom: 80px
+        margin-top: 40px;
+        margin-bottom: 40px
     }
     .sides {
         width: 100%;
@@ -6470,7 +6476,6 @@ div.cs-select .cs-options ul {
 }
 
 .tris {
-    background-color: #f9f9f9;
     padding: 10px 0 0
 }
 
