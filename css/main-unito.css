@@ -2392,7 +2392,7 @@ h2 {
 @media(min-width:1133px) {
     .all-atail-projects h1,
     h2 {
-        font-size: 3.75rem
+        font-size: 4rem;
     }
 }
 
@@ -2439,7 +2439,7 @@ a {
     }
     .logo {
         height: 70px;
-        text-align: left;
+        text-align: center;
         left: 19px;
         top: -19px
     }
@@ -2458,8 +2458,8 @@ a {
 
 @media(min-width:1133px) and (max-width:1400px) {
     .logo {
-        width: calc(14.925%+70px);
-        left: 2px
+        width: 70px;
+        left: 0.1px
     }
 }
 
@@ -2517,14 +2517,17 @@ a {
         display: inline-block;
         padding: 0 20px
     }
-	.atail-logo-portrait{
-		display:none;
+	.logo a img {
+		height: 6vh;
+		width: auto;
 	}
+	
 }
 
 @media(min-width:1200px) {
     .atail-text-logo {
-        padding: 36px 0 0
+        padding: 20px 0 0;
+		height: 10vh;
     }
 }
 
@@ -2722,7 +2725,7 @@ p:empty {
         width: 50px;
         height: 50px
     }
-    .single-project .atail-sharing {
+    .single-project a .atail-sharing {
         text-align: justify
     }
 }
@@ -4921,8 +4924,23 @@ tbody tr:nth-child(even) {
     background-color: #edf3f5
 }
 
-td {
-    color: #6e7075
+td.red{
+    color: #ff3333
+}
+td.yellow{
+    color: #dbd800
+}
+td.blue{
+    color: #2338c2
+}
+td.green{
+    color: #148714
+}
+td.purple{
+	color: #5d1487
+}
+td.brown{
+    color: #91470a
 }
 
 td,
@@ -5507,7 +5525,7 @@ main .main-scroll>.row,
 main .main-scroll>[class*=' row-col-'],
 main .main-scroll>[class^=row-col-] {
     position: relative;
-    margin: 30px 0
+    margin: 80px 0
 }
 
 main .main-scroll .project-preview-images+div,
@@ -5617,7 +5635,7 @@ main .main-scroll>img {
     main .main-scroll>.row,
     main .main-scroll>[class*=' row-col-'],
     main .main-scroll>[class^=row-col-] {
-        margin-top: 40px;
+        margin-top: 60px;
         margin-bottom: 40px
     }
     .sides {
@@ -6057,19 +6075,19 @@ a:hover {
         color: #a9acb5
     }
     .nav-list {
-        background: rgba(255, 255, 255, 0.8);
-		backdrop-filter: blur(3px);
+        background: #fff;
     }
     .window-height {
         background-color: transparent
-    }
-    .nav-list>li>a>span:last-child {
-        color: #4d4f54
     }
     .nav-list>li.current-menu-item>a>span:last-child,
     .nav-list>li>a:hover span:last-child {
         color: #ff3644
     }
+	.nav-list li span.active{
+		color: #ff3644
+	}
+	
     .nav-list>li>a>.nav-list-counter {
         color: #a9acb5
     }
@@ -6500,11 +6518,34 @@ tbody:hover td {
     text-shadow: 0 0 3px #aaa
 }
 
-tbody:hover tr:hover td {
+tbody:hover tr:hover td{
     color: #565656;
     text-shadow: 0 1px 0 #fff
 }
 
+tbody:hover tr:hover td.red {
+    color: #ff3333;
+    text-shadow: 0 1px 0 #fff
+}
+tbody:hover tr:hover td.yellow {
+    color: #dbd800;
+    text-shadow: 0 1px 0 #fff
+}
+tbody:hover tr:hover td.blue {
+    color: #2338c2;
+    text-shadow: 0 1px 0 #fff
+}
+tbody:hover tr:hover td.green {
+    color: #148714;
+    text-shadow: 0 1px 0 #fff
+}
+tbody:hover tr:hover td.purple {
+    color: #5d1487;
+    text-shadow: 0 1px 0 #fff
+}tbody:hover tr:hover td.brown {
+    color: #91470a;
+    text-shadow: 0 1px 0 #fff
+}
 
 .yt-iscriviti {
     text-align: center;
