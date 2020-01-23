@@ -3258,7 +3258,13 @@ p:empty {
     }
 }
 
-@media(max-height:900px) {
+@media(min-width:1400px) {
+    .preview-article-header h1 {
+        font-size: 4.5em;
+    }
+}
+
+@media(max-height:899px) {
     .preview-article-text {
         display: none
     }
@@ -5643,7 +5649,7 @@ main .main-scroll>img {
     main .main-scroll>.row,
     main .main-scroll>[class*=' row-col-'],
     main .main-scroll>[class^=row-col-] {
-        margin-top: 60px;
+        margin-top: 70px;
         margin-bottom: 40px
     }
     .sides {
