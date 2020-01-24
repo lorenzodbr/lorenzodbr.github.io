@@ -1471,7 +1471,7 @@ figure {
 }
 
 .description-table .description-title,
-figure .description-title {
+figure .description-title{
     font-family: Montserrat, sans-serif;
     font-size: .75rem;
     font-weight: 700;
@@ -1487,6 +1487,26 @@ figure .description-title span {
     font-size: .625rem;
     letter-spacing: 1.1px;
     text-transform: uppercase
+}
+
+.description-title-big span{
+	font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    display: block;
+    margin-top: 28px;
+    letter-spacing: .2px;
+    color: #a9acb5
+}
+
+.description-title-big{
+	font-family: Montserrat, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    display: block;
+    margin-top: 28px;
+    letter-spacing: .2px;
+    color: #a9acb5
 }
 
 .description-table p,
@@ -2454,11 +2474,19 @@ a {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1133px) and (max-width:1399px) {
     .logo {
         height: 120px;
         top: 0;
-		padding-left: 30px;
+		padding-left: 1px;
+    }
+}
+
+@media(min-width:1400px) {
+    .logo {
+        height: 120px;
+        top: 0;
+		padding-left: 21px;
     }
 }
 
@@ -2473,6 +2501,7 @@ a {
     display: inline-block;
     table-layout: fixed;
     height: 100%;
+	width: 100%;
     table-layout: fixed;
     vertical-align: middle;
     text-decoration: none
@@ -5651,7 +5680,7 @@ main .main-scroll>img {
     main .main-scroll>[class^=row-col-] {
         margin-top: 70px;
         margin-bottom: 40px
-    }
+    }		
     .sides {
         width: 100%;
         left: 0
@@ -6089,7 +6118,8 @@ a:hover {
         color: #a9acb5
     }
     .nav-list {
-        background: #fff;
+        background: rgba(255, 255, 255, 0.4);
+		backdrop-filter: blur(4px);
     }
     .window-height {
         background-color: transparent
