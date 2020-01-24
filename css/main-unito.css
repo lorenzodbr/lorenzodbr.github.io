@@ -6118,7 +6118,7 @@ a:hover {
         color: #a9acb5
     }
     .nav-list {
-        background: rgba(255, 255, 255, 0.4);
+        background: rgba(255, 255, 255, 0.8);
 		backdrop-filter: blur(4px);
     }
     .window-height {
