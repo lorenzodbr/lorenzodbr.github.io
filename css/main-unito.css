@@ -20,6 +20,12 @@ summary {
     display: block
 }
 
+figcaption{
+	
+	text-align: center;
+	
+}
+
 audio:not([controls]) {
     display: none;
     height: 0
@@ -3395,7 +3401,11 @@ p:empty {
 .single-project {
     margin-bottom: 115px;
     margin-top: 115px;
-	text-align: justify;
+	
+}
+
+.single-project p {
+    text-align: justify;
 }
 
 .single-project+div {
@@ -6527,9 +6537,6 @@ div.cs-select .cs-options ul {
     .animate-box-top>div {
         border-right: 1px solid #edf5f8
     }
-    figcaption .description-title {
-        padding: 0 20px
-    }
 }
 
 .split {
@@ -6550,7 +6557,14 @@ div.cs-select .cs-options ul {
 }
 
 .tris {
-    padding: 10px 0 0
+    padding: 10px 0 0;
+}
+
+@media(min-width: 1133px){
+	.tris{
+		display: flex;
+		align-items: center;
+	}
 }
 
 .post-content-text li a,
@@ -6667,6 +6681,19 @@ tbody:hover tr:hover td.purple {
     .single-project-next {
         margin-left: -15px
     }
+}
+
+.fonti{
+	width: 100%;
+}
+
+.fonti div{
+	width: 100%;
+}
+
+.fonti div div figure figcaption{
+	text-align: left;
+	margin-left: 20px;
 }
 
 .single-project .small-title {
