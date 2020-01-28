@@ -3292,7 +3292,7 @@ p:empty {
     }
 }
 
-@media(max-width:1200px) {
+@media(min-width:1200px) {
     .preview-article-header h1 {
         font-size: 3.25rem;
         margin-bottom: 23px
