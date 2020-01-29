@@ -410,6 +410,10 @@ input[type=search]::-webkit-search-decoration {
     width: 33.33333%
 }
 
+.row-col-12>.col-xs-6 {
+    width: 50%
+}
+
 .row-col-12>.col-xs-10 {
     width: 83.33333%
 }
