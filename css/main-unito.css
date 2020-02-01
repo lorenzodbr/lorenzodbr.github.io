@@ -1180,7 +1180,7 @@ body.window-height {
         font-size: 1.875rem
     }
     .recensioni {
-        max-width: 88.88889%
+        max-width: 100%
     }
     .animate-box-bot>div,
     .animate-box-top>div {
@@ -3418,8 +3418,19 @@ p:empty {
     text-align: justify;
 }
 
+.single-project .nota{
+	font-size: 1rem!important;
+	text-align: left!important
+}
+
 .single-project+div {
-    margin-bottom: 150px
+    margin-bottom: 50px
+}
+
+span#typed{
+	
+	width: 100%
+	
 }
 
 @media(max-width:479px) {
