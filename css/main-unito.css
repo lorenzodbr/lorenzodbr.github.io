@@ -6706,10 +6706,12 @@ tbody:hover tr:hover td.purple {
 
 .fonti{
 	width: 100%;
+        max-width: 100vw
 }
 
 .fonti div{
 	width: 100%;
+        max-width: 100vw
 }
 
 .fonti div div figure figcaption{
