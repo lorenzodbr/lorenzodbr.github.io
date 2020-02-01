@@ -6715,6 +6715,7 @@ tbody:hover tr:hover td.purple {
 .fonti div div figure figcaption{
 	text-align: left;
 	margin-left: 20px;
+        text-overflow: ellipsis;
 }
 
 @media(max-width:1132px) {
