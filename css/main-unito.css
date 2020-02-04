@@ -6152,6 +6152,10 @@ a:hover {
         background: rgba(255, 255, 255, 0.65);
 		backdrop-filter: blur(4px);
     }
+	.nav-list-pages {
+        background: none!important;
+		backdrop-filter: blur(0px)!important;
+    }
     .window-height {
         background-color: transparent
     }
