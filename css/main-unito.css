@@ -6148,9 +6148,9 @@ a:hover {
     .nav-list>li ul a span:first-child {
         color: #a9acb5
     }
-    .nav-list {
-        background: rgba(255, 255, 255, 0.65);
-		backdrop-filter: blur(4px);
+    .nav-list:hover {
+        background: #fff;
+		backdrop-filter: blur(1px);
     }
 	.nav-list-pages {
         background: none!important;
