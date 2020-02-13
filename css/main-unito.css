@@ -2563,6 +2563,7 @@ a {
     }
 	.logo a img {
 		height: 6vh;
+		min-height:35px;
 		width: auto;
 	}
 	
@@ -2571,7 +2572,7 @@ a {
 @media(min-width:1200px) {
     .atail-text-logo {
         padding: 20px 0 0;
-		height: 10vh;
+		height: 100%;
     }
 }
 
