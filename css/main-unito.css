@@ -6722,8 +6722,7 @@ tbody:hover tr:hover td.purple {
 }
 
 .fonti span{
-	white-space: nowrap;
-    text-overflow: ellipsis;
+	
 	overflow: auto;
 	margin-bottom: 10px;
 	line-height: 1.75;
