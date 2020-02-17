@@ -6823,6 +6823,7 @@ tbody:hover tr:hover td.purple {
 @media(max-width:1132px) {
 	.fonti{
 		width: 90vw;
+		margin-left:20px;
 	}
 }
 .single-project .small-title {
