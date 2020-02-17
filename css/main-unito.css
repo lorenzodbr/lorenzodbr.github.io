@@ -1887,7 +1887,6 @@ main .main-scroll>[id^=huge_it_google] {
         transform: translate(50%, 100%);
         opacity: 0;
         background-color: var(--primary-color);
-		transition: background-color .3s;
     }
     .atail-header-opened nav,
     .atail-header-opened nav.row {
