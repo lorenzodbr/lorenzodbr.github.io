@@ -93,7 +93,7 @@ summary {
 }
 
 input:checked + .slider {
-  background-color: var(--bg-color);
+  background-color: var(--table-head);
 }
 
 input:checked + .slider:before {
