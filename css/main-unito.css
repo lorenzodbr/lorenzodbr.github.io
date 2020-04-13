@@ -6586,7 +6586,7 @@ span[data-action=show-nav]>span>span {
 }
 
 .copyright {
-    color: #e0e0e0
+    color: var(--link-color);
 }
 
 .all-projects-animate-box>div {
