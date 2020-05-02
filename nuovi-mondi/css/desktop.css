@@ -1,0 +1,2355 @@
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes fade-in {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-o-keyframes fade-in {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes off-left-to-right {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(100%)
+    }
+}
+
+@-moz-keyframes off-left-to-right {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(100%)
+    }
+}
+
+@-o-keyframes off-left-to-right {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(100%)
+    }
+}
+
+@keyframes off-left-to-right {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(100%)
+    }
+}
+
+@-webkit-keyframes right-to-left {
+    0% {
+        opacity: 0;
+        transform: translateX(100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-moz-keyframes right-to-left {
+    0% {
+        opacity: 0;
+        transform: translateX(100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-o-keyframes right-to-left {
+    0% {
+        opacity: 0;
+        transform: translateX(100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes right-to-left {
+    0% {
+        opacity: 0;
+        transform: translateX(100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-moz-keyframes left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-o-keyframes left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes fade-left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-moz-keyframes fade-left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-o-keyframes fade-left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes fade-left-to-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes menu-list {
+    0% {
+        opacity: 0;
+        transform: translateX(-10%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-moz-keyframes menu-list {
+    0% {
+        opacity: 0;
+        transform: translateX(-10%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-o-keyframes menu-list {
+    0% {
+        opacity: 0;
+        transform: translateX(-10%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes menu-list {
+    0% {
+        opacity: 0;
+        transform: translateX(-10%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes creatives-list {
+    0% {
+        opacity: 0;
+        transform: translateX(-20%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-moz-keyframes creatives-list {
+    0% {
+        opacity: 0;
+        transform: translateX(-20%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-o-keyframes creatives-list {
+    0% {
+        opacity: 0;
+        transform: translateX(-20%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes creatives-list {
+    0% {
+        opacity: 0;
+        transform: translateX(-20%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes bottom-to-top {
+    0% {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-moz-keyframes bottom-to-top {
+    0% {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-o-keyframes bottom-to-top {
+    0% {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes bottom-to-top {
+    0% {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes slight-bottom-to-top {
+    0% {
+        opacity: 0;
+        transform: translateY(1%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-moz-keyframes slight-bottom-to-top {
+    0% {
+        opacity: 0;
+        transform: translateY(1%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-o-keyframes slight-bottom-to-top {
+    0% {
+        opacity: 0;
+        transform: translateY(1%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes slight-bottom-to-top {
+    0% {
+        opacity: 0;
+        transform: translateY(1%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes top-to-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-moz-keyframes top-to-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-o-keyframes top-to-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes top-to-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(3%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-moz-keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(3%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-o-keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(3%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(3%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes mouse-scroll {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(12px)
+    }
+}
+
+@-webkit-keyframes anime-null {}
+
+@-moz-keyframes anime-null {}
+
+@-o-keyframes anime-null {}
+
+@keyframes anime-null {}
+
+.wrap {
+    width: 100%;
+    padding: 0;
+    max-width: 1100px!important
+}
+
+.cotw {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin: 0;
+}
+
+.cotw a {
+    width: 24px;
+    height: 170px;
+    background-size: cover;
+    background-image: url(../images/logo_rotated.png)
+}
+
+.cotw a:hover {
+    margin-top: -10px
+}
+
+.social-links {
+    margin-top: 25px
+}
+
+.social-links li {
+    width: 100%
+}
+
+.content-col {
+    width: 64%;
+    max-width: 700px;
+    float: right
+}
+
+.aside-col {
+    width: 36%;
+    max-width: 400px;
+    float: left
+}
+
+.colspan {
+    width: 100%;
+    float: left;
+    clear: both;
+    padding: 70px 0
+}
+
+.colspan:last-child {
+    padding: 0
+}
+
+.button {
+    height: 56px;
+    padding: 0 40px 0 0;
+    font-size: 1.6em;
+    line-height: 55px;
+    cursor: pointer
+}
+
+.button::before {
+    margin-top: 0
+}
+
+form {
+    height: 60px
+}
+
+form input[type=text],
+form .at-cv-input {
+    width: 100%;
+    height: 60px;
+    font-size: 1.6em;
+    padding-left: 20px
+}
+
+form input[type=submit] {
+    background-size: 70px 60px;
+    width: 100%;
+    height: 60px
+}
+
+form input[type=submit]:hover {
+    max-width: 70px
+}
+
+.newsletter input[type=text]:hover {
+    padding-left: 24px
+}
+
+.header-home {
+    padding: 70px 0
+}
+
+.header-home .wrap {
+    position: relative
+}
+
+.header-home .content-col {
+    float: right
+}
+
+.header-home .button {
+    display: none
+}
+
+.header-home .button.more-creatives {
+    display: inline-block
+}
+
+.creative h2 {
+    margin-top: 110px;
+    max-width: 70%;
+    margin-bottom: 0
+}
+
+.creative p.featured {
+    margin-top: 40px
+}
+
+.creative .button {
+    margin-top: 25px
+}
+
+.creative .creative-profile {
+    min-height: 650px
+}
+
+.creative .creative-profile .a-wrap {
+    overflow: hidden
+}
+
+.creative .creative-profile .button {
+    margin-top: 40px
+}
+
+.creative .creative-profile .cp-parent,
+.creative .creative-profile .gif-container {
+    width: 650px;
+    height: 650px;
+    margin-right: 50px
+}
+
+.creative.photo {
+    margin: 100px 0
+}
+
+.creative.film {
+    padding-bottom: 100px;
+    margin-bottom: 50px
+}
+
+.creative.photo .creative-profile {
+    margin-right: 50px
+}
+
+.creative .content-col {
+    max-width: inherit
+}
+
+.header-creative {
+    padding: 70px 0 0
+}
+
+.header-creative .wrap {
+    position: relative
+}
+
+.header-creative figure {
+    margin-top: 50px
+}
+
+.header-creative figcaption {
+    display: flex
+}
+
+.creative-bio {
+    padding: 70px 0
+}
+
+.creative-bio .aside-col {
+    margin-top: 0
+}
+
+.creative-bio .aside-col h3 {
+    font-family: roboto mono, courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    line-height: 28px
+}
+
+@media only screen and (min-width:1000px) {
+    .creative-bio .aside-col h3 {
+        font-size: 1.6em;
+        line-height: 32px
+    }
+}
+
+.creative-bio .aside-col p {
+    margin-top: 15px!important
+}
+
+figure {
+    position: relative;
+    float: left
+}
+
+figure img {
+    float: left;
+    margin-bottom: 0
+}
+
+figure figcaption {
+    display: flex;
+    transition: all .4s ease;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, .9);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    bottom: 30px;
+    right: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    margin-left: 0
+}
+
+figure:hover figcaption {
+    width: auto;
+    height: auto;
+    opacity: 1
+}
+
+.creative-portfolio {
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-bottom: 20px
+}
+
+.creative-portfolio .wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.creative-portfolio .wrap .flex-col-1,
+.creative-portfolio .wrap .flex-col-2 {
+    flex: 1
+}
+
+.creative-portfolio .wrap .flex-col-1 {
+    margin-right: 50px
+}
+
+.creative-portfolio .wrap img {
+    width: 100%;
+    margin-left: 0
+}
+
+.creative-portfolio .wrap figure,
+.creative-portfolio .wrap .video-wrap {
+    margin-bottom: 50px
+}
+
+#region-cross {
+    margin: 50px 0 70px
+}
+
+#region-cross a h2 {
+    padding: 70px 0 10px
+}
+
+#region-cross a p .see-more {
+    display: inline-block;
+    position: relative
+}
+
+#region-cross a p .see-more:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #333;
+    transition: .5s ease
+}
+
+#region-cross a p .see-more:hover:after {
+    width: 100%
+}
+
+#region-cross a .map {
+    max-width: 525px;
+    height: 300px;
+    float: right;
+    background-size: 525px 300px!important;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease
+}
+
+#region-cross a:hover p .see-more {
+    border-bottom: 1px solid transparent
+}
+
+#region-cross a:hover p .see-more:after {
+    width: 100%
+}
+
+#region-cross a:hover .map {
+    transform: rotate(5deg)
+}
+
+.more {
+    margin: 30px 0 100px
+}
+
+.more h3 {
+    margin-bottom: 15px
+}
+
+.creatives {
+    padding: 0 0 70px;
+    margin-bottom: 50px
+}
+
+.creatives .content-col {
+    margin-right: 0;
+    padding-top: 35px
+}
+
+.creatives .filters {
+    display: inherit;
+    height: auto;
+    padding-top: 70px
+}
+
+.creatives .filters h5 {
+    margin-top: 10px
+}
+
+.bottom-bar {
+    position: inherit;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-bottom: 90px
+}
+
+.bottom-bar .wrap {
+    border-top: 1px solid rgba(51, 51, 51, .05);
+    border-bottom: 1px solid rgba(51, 51, 51, .05);
+    height: 80px;
+    padding-top: 20px
+}
+
+.bottom-bar.filter-bar {
+    display: none
+}
+
+.bottom-bar .share {
+    display: inherit;
+    float: left
+}
+
+.bottom-bar .share li {
+    float: left;
+    margin-right: 20px;
+    font-family: roboto mono, courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    line-height: 28px;
+    line-height: 20px!important;
+    height: 60px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center
+}
+
+@media only screen and (min-width:1000px) {
+    .bottom-bar .share li {
+        font-size: 1.6em;
+        line-height: 32px
+    }
+}
+
+.bottom-bar .share li:last-child {
+    margin-left: 10px
+}
+
+.bottom-bar p {
+    line-height: 60px!important
+}
+
+.bottom-bar p.next-creative {
+    display: inherit;
+    float: right;
+    margin-right: 50px
+}
+
+.bottom-bar p.next-creative a {
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    line-height: 32px
+}
+
+.bottom-bar p.next-creative a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #333;
+    transition: .5s ease
+}
+
+.bottom-bar p.next-creative a:hover:after {
+    width: 100%
+}
+
+.bottom-bar p.home-link {
+    display: none
+}
+
+.bottom-bar .aside-col .button {
+    float: left
+}
+
+.addthis_inline_share_toolbox {
+    display: inline-flex;
+    margin: 20px 0 0 10px
+}
+
+#creative-menu {
+    display: inherit;
+    opacity: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: url(../images/bg.jpg) #fff;
+    background-size: 240px 240px;
+    overflow-y: scroll
+}
+
+#creative-menu .content-col {
+    position: relative;
+    z-index: 9999
+}
+
+#creative-menu .content-col ul {
+    list-style: none;
+    padding: 50px 0 70px
+}
+
+#creative-menu .content-col ul li {
+    font-family: sofia-pro, helvetica, arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.2em;
+    line-height: 46px
+}
+
+@media only screen and (min-width:700px) {
+    #creative-menu .content-col ul li {
+        font-size: 4em;
+        line-height: 80px
+    }
+}
+
+#creative-menu .content-col ul li a {
+    cursor: pointer
+}
+
+#creative-menu .content-col ul li a.art {
+    color: #b85c35
+}
+
+#creative-menu .content-col ul li a.art:hover {
+    background-color: rgba(184, 92, 53, .07)
+}
+
+#creative-menu .content-col ul li a.photo {
+    color: #62a5d7
+}
+
+#creative-menu .content-col ul li a.photo:hover {
+    background-color: rgba(98, 165, 215, .07)
+}
+
+#creative-menu .content-col ul li a.film {
+    color: #f5c870
+}
+
+#creative-menu .content-col ul li a.film:hover {
+    background-color: rgba(245, 200, 112, .07)
+}
+
+#creative-menu .content-col ul li a:visited {
+    text-decoration: line-through
+}
+
+#creative-menu .menu-filters {
+    position: fixed;
+    top: 0;
+    left: auto
+}
+
+#creative-menu .menu-filters .filters ul li.key {
+    font-size: 12px;
+    line-height: 22px!important;
+    font-weight: 500
+}
+
+#creative-menu .menu-filters .filters ul li.key:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    background-color: red;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%
+}
+
+#creative-menu .menu-filters .filters ul li.key.key-art {
+    margin-top: 40px
+}
+
+#creative-menu .menu-filters .filters ul li.key.key-art:before {
+    background-color: #b85c35
+}
+
+#creative-menu .menu-filters .filters ul li.key.key-art div {
+    color: #b85c35
+}
+
+#creative-menu .menu-filters .filters ul li.key.key-photo {
+    margin-top: 10px
+}
+
+#creative-menu .menu-filters .filters ul li.key.key-photo:before {
+    background-color: #62a5d7
+}
+
+#creative-menu .menu-filters .filters ul li.key.key-photo div {
+    color: #62a5d7
+}
+
+#creative-menu .menu-filters .filters ul li.key div:hover {
+    color: #333
+}
+
+#artist .filters li.temp-artist-disable div,
+#photo .filters li.temp-photo-disable div,
+.filters li.disable div {
+    text-decoration: line-through
+}
+
+.menu-close {
+    width: 56px;
+    height: 56px;
+    background-size: cover;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHZlcnNpb249JzEuMScgdmlld0JveD0nMCAwIDU2IDU2JyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnPjx0aXRsZT5DbG9zZTwvdGl0bGU+PGcgZmlsbD0nbm9uZScgZmlsbC1ydWxlPSdldmVub2RkJz48ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMiAtMiknIGZpbGw9JyMzMzMnPjxwYXRoIGQ9J20yNy4wNzEgMjkuODk5bC03LjA3MTEgNy4wNzExIDIuODI4NCAyLjgyODQgNy4wNzExLTcuMDcxMSA3LjA3MTEgNy4wNzExIDIuODI4NC0yLjgyODQtNy4wNzExLTcuMDcxMSA3LjA3MTEtNy4wNzExLTIuODI4NC0yLjgyODQtNy4wNzExIDcuMDcxMS03LjA3MTEtNy4wNzExLTIuODI4NCAyLjgyODQgNy4wNzExIDcuMDcxMXonLz48L2c+PC9nPjwvc3ZnPgo=);
+    text-indent: -9999px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10000;
+    transition: all .4s ease
+}
+
+.menu-close:hover {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg)
+}
+
+.footer h4 {
+    margin-bottom: 15px
+}
+
+.footer .footer-archive,
+.footer .footer-email {
+    display: inherit
+}
+
+.footer .footer-social {
+    margin: 0;
+    width: auto;
+    clear: none
+}
+
+.footer .footer-social,
+.footer .footer-credit {
+    width: 36%;
+    min-width: inherit;
+    float: inherit
+}
+
+.footer .colspan {
+    width: 100%;
+    float: left;
+    clear: both;
+    padding: 0 0 70px
+}
+
+.footer .colspan:last-child {
+    padding: 0
+}
+
+.footer form input[type=text] {
+    max-width: 380px
+}
+
+#artist.all-creatives .footer,
+#photo.all-creatives .footer,
+#sitemap.all-creatives .footer {
+    margin-bottom: 0
+}
+
+.newsletter {
+    padding: 50px 0
+}
+
+.newsletter h4 {
+    line-height: 60px!important;
+    margin-bottom: 0
+}
+
+#primary {
+    display: inherit;
+    margin: 0 0 50px
+}
+
+#primary li {
+    font-family: roboto mono, courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    line-height: 28px;
+    display: inline-flex;
+    margin-right: 60px
+}
+
+@media only screen and (min-width:1000px) {
+    #primary li {
+        font-size: 1.6em;
+        line-height: 32px
+    }
+}
+
+#primary li span {
+    display: none
+}
+
+#primary li:last-child {
+    margin-right: 0
+}
+
+#primary li a {
+    color: #333;
+    display: inline-block;
+    position: relative
+}
+
+#primary li a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #333;
+    transition: .5s ease
+}
+
+#primary li a:hover:after {
+    width: 100%
+}
+
+#primary li a.active {
+    text-decoration: line-through
+}
+
+.header-creative.feature h1 {
+    margin: 130px 0 0
+}
+
+.header-creative.features h1 {
+    margin: 0 0 60px;
+    padding-top: 20px;
+    padding-right: 1%
+}
+
+.header-home.features {
+    padding-bottom: 50px
+}
+
+.header-home.features h1 {
+    padding-top: 20px;
+    margin-top: 0
+}
+
+#feature .content-col h2 {
+    font-size: 2.6em;
+    line-height: 36px
+}
+
+#feature .aside-col {
+    display: inherit;
+    padding-top: 83px
+}
+
+#feature .aside-col h4 {
+    font-family: roboto mono, courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    line-height: 28px;
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+    clear: both;
+    text-transform: capitalize
+}
+
+@media only screen and (min-width:1000px) {
+    #feature .aside-col h4 {
+        font-size: 1.6em;
+        line-height: 32px
+    }
+}
+
+#feature .aside-col p {
+    font-family: sofia-pro, helvetica, arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-bottom: 40px!important;
+    width: 100%;
+    float: left;
+    clear: both
+}
+
+@media only screen and (min-width:1290px) {
+    #feature .aside-col p {
+        font-size: 2.4em;
+        line-height: 34px;
+        margin-bottom: 15px
+    }
+}
+
+#feature .aside-col p.creative a {
+    display: inline-block;
+    position: relative;
+    color: #333
+}
+
+#feature .aside-col p.creative a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #333;
+    transition: .5s ease
+}
+
+#feature .aside-col p.creative a:hover:after {
+    width: 100%
+}
+
+#feature .aside-col p.next-feature {
+    font-family: roboto mono, courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    line-height: 28px;
+    margin-bottom: 0!important
+}
+
+@media only screen and (min-width:1000px) {
+    #feature .aside-col p.next-feature {
+        font-size: 1.6em;
+        line-height: 32px
+    }
+}
+
+#feature .aside-col p.next-feature a {
+    color: #333;
+    border-bottom: 1px solid rgba(51, 51, 51, .1);
+    display: inline-block;
+    position: relative
+}
+
+#feature .aside-col p.next-feature a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #333;
+    transition: .5s ease
+}
+
+#feature .aside-col p.next-feature a:hover:after {
+    width: 100%
+}
+
+#feature .aside-col .share {
+    margin-bottom: 120px;
+    width: 100%;
+    float: left;
+    clear: both
+}
+
+#feature .aside-col .share li {
+    float: left;
+    height: 20px;
+    margin-right: 15px
+}
+
+#related,
+#filters {
+    padding: 100px 0 50px
+}
+
+#related .content-col ul,
+#filters .content-col ul {
+    padding-bottom: 0
+}
+
+#related.features,
+#filters.features {
+    display: inherit;
+    background: 0 0;
+    padding: 0
+}
+
+#related.features .content-col,
+#filters.features .content-col {
+    margin-bottom: 50px
+}
+
+#related.features .content-col ul,
+#filters.features .content-col ul {
+    padding-bottom: 0
+}
+
+#related.features .content-col ul li div,
+#filters.features .content-col ul li div {
+    cursor: pointer
+}
+
+#related.features .content-col ul li:nth-child(n+7),
+#filters.features .content-col ul li:nth-child(n+7) {
+    display: none
+}
+
+#related.features .content-col ul li.photo a,
+#related.features .content-col ul li.photo div,
+#filters.features .content-col ul li.photo a,
+#filters.features .content-col ul li.photo div {
+    color: #62a5d7
+}
+
+#related.features .content-col ul li.photo a:after,
+#related.features .content-col ul li.photo div:after,
+#filters.features .content-col ul li.photo a:after,
+#filters.features .content-col ul li.photo div:after {
+    border-bottom-color: #62a5d7
+}
+
+#related.features .content-col ul li.art a,
+#related.features .content-col ul li.art div,
+#filters.features .content-col ul li.art a,
+#filters.features .content-col ul li.art div {
+    color: #b85c35
+}
+
+#related.features .content-col ul li.art a:after,
+#related.features .content-col ul li.art div:after,
+#filters.features .content-col ul li.art a:after,
+#filters.features .content-col ul li.art div:after {
+    border-bottom-color: #b85c35
+}
+
+#related.features .content-col ul.less-filters li:nth-child(n+7),
+#filters.features .content-col ul.less-filters li:nth-child(n+7) {
+    display: inherit
+}
+
+#related.features .content-col .more-filters,
+#filters.features .content-col .more-filters {
+    font-family: roboto mono, courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 20px;
+    display: inline-block;
+    padding-top: 10px;
+    cursor: pointer
+}
+
+@media only screen and (min-width:700px) {
+    #related.features .content-col .more-filters,
+    #filters.features .content-col .more-filters {
+        font-size: 1.2em;
+        line-height: 22px
+    }
+}
+
+#related.features .content-col .more-filters span,
+#filters.features .content-col .more-filters span {
+    border-bottom: 1px solid rgba(51, 51, 51, .1);
+    display: inline-block;
+    position: relative
+}
+
+#related.features .content-col .more-filters span:after,
+#filters.features .content-col .more-filters span:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #333;
+    transition: .5s ease
+}
+
+#related.features .content-col .more-filters span:hover:after,
+#filters.features .content-col .more-filters span:hover:after {
+    width: 100%
+}
+
+.posts .related {
+    width: 50%
+}
+
+.posts .related div {
+    overflow: hidden;
+    height: 300px
+}
+
+.posts .related:hover div img {
+    max-width: 105%;
+    margin: -2.5% 0 0 -2.5%
+}
+
+.posts .related.surf-artist div,
+.posts .related.surf-photographer div {
+    height: 525px
+}
+
+.posts .related.creative-archive img {
+    margin-top: -20%
+}
+
+.post-creatives {
+    padding-top: 50px;
+    margin-bottom: 50px
+}
+
+#photo .header-creative .cotw a {
+    background-size: cover;
+    background-image: url(../images/logo_rotated.png)
+}
+
+#artist .header-creative .cotw a {
+    background-size: cover;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48c3ZnIHZlcnNpb249JzEuMScgdmlld0JveD0nMCAwIDE0IDE0NycgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48dGl0bGU+Q09UVzwvdGl0bGU+PGcgZmlsbD0nbm9uZScgZmlsbC1ydWxlPSdldmVub2RkJz48ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg3IDczLjUpIHJvdGF0ZSgtOTApIHRyYW5zbGF0ZSgtNzMuNSAtNyknIGZpbGw9JyNCODVDMzUnIGZpbGwtcnVsZT0nbm9uemVybyc+PHBhdGggZD0nbTEwLjI1NyA5LjM4NjJjLTAuNzMyNjggMS4xMDg5LTEuOTgwMiAxLjg4MTItMy40MDU5IDEuODgxMi0yLjI3NzIgMC0zLjk0MDYtMS45MDExLTMuOTQwNi00LjI1NzQgMC0yLjM3NjIgMS42NjMzLTQuMjc3MyAzLjk0MDYtNC4yNzczIDEuNDA1OSAwIDIuNTk0MSAwLjcxMjg3IDMuMzI2NyAxLjc4MjJsMi4zNTY1LTEuNjIzN2MtMS4xODgxLTEuNzQyNi0zLjI0NzYtMi44OTExLTUuNjgzMi0yLjg5MTEtMy45MDEgMC02Ljg1MTUgMy4xMjg3LTYuODUxNSA3LjAwOTkgMCAzLjg0MTYgMi45NTA1IDYuOTkwMSA2Ljg1MTUgNi45OTAxIDIuNDc1MiAwIDQuNTU0NS0xLjE4ODEgNS43NDI1LTIuOTkwMWwtMi4zMzY2LTEuNjIzN3ptMzYuMTc5LTIuMzc2MmMwIDIuMjc3MiAxLjc2MjMgNC4xMTg4IDQuMDE5OCA0LjExODggMi4yNTc0IDAgNC4wMzk2LTEuODQxNiA0LjAzOTYtNC4xMTg4cy0xLjc4MjItNC4xMzg3LTQuMDM5Ni00LjEzODctNC4wMTk4IDEuODYxNC00LjAxOTggNC4xMzg3em0tMi44OTExIDBjMC0zLjg4MTIgMy4wNDk1LTcuMDA5OSA2LjkxMS03LjAwOTkgMy44ODEyIDAgNi45MzA3IDMuMTI4NyA2LjkzMDcgNy4wMDk5IDAgMy44NDE2LTMuMDQ5NSA2Ljk5MDEtNi45MzA3IDYuOTkwMS0zLjg2MTMgMC02LjkxMS0zLjE0ODUtNi45MTEtNi45OTAxem00NC41OTQtNC4yMzc3aDMuNjgzMXYxMS4wM2gyLjkzMDh2LTExLjAzaDMuNjgzMXYtMi42MTM4aC0xMC4yOTd2Mi42MTM4em01Mi4zMTcgNS45ODAybC0xLjgwMTktNi42NzMyaC0yLjM3NjJjLTAuNTk0MDYgMi4xOTgtMS4yMDc5IDQuNTE0OS0xLjgyMTggNi42NzMybC0yLjY1MzQtOC41OTRoLTMuMTI4N2w0LjU5NDEgMTMuNjQ0aDIuMjk3bDEuODgxMi03LjE2ODMgMS45MjA4IDcuMTY4M2gyLjI3NzJsNC42MzM3LTEzLjY0NGgtMy4xNDg1bC0yLjY3MzMgOC41OTRoLTEuNGUtNHonLz48L2c+PC9nPjwvc3ZnPgo=)
+}
+
+.a-wrap.a-wrap-logo {
+    float: left
+}
+
+.cotw,
+#primary,
+.creatives .filters,
+.multiline-left span.l1,
+.multiline-left span.l2,
+.creative.film .multiline-right span.l1,
+.creative.film .multiline-right span.l2,
+.creative.photo .cp-parent,
+.creative.film .gif-container,
+.creative.photo .featured,
+.creative.film .featured,
+.creative.photo .button,
+.creative.film .button,
+.video-wrap,
+.creative-portfolio .portfolio-wide img,
+.creative-portfolio .flex-col-1 img:nth-child(1),
+.creative-portfolio .flex-col-1 img:nth-child(2),
+.creative-portfolio .flex-col-1 img:nth-child(3),
+.creative-portfolio .flex-col-1 img:nth-child(4),
+.creative-portfolio .flex-col-1 img:nth-child(5),
+.creative-portfolio .flex-col-1 img:nth-child(6),
+.creative-portfolio .flex-col-1 img:nth-child(7),
+.creative-portfolio .flex-col-1 img:nth-child(8),
+.creative-portfolio .flex-col-1 img:nth-child(9),
+.creative-portfolio .flex-col-1 img:nth-child(10),
+.creative-portfolio .flex-col-2 img:nth-child(1),
+.creative-portfolio .flex-col-2 img:nth-child(2),
+.creative-portfolio .flex-col-2 img:nth-child(3),
+.creative-portfolio .flex-col-2 img:nth-child(4),
+.creative-portfolio .flex-col-2 img:nth-child(5),
+.creative-portfolio .flex-col-2 img:nth-child(6),
+.creative-portfolio .flex-col-2 img:nth-child(7),
+.creative-portfolio .flex-col-2 img:nth-child(8),
+.creative-portfolio .flex-col-2 img:nth-child(9),
+.creative-portfolio .flex-col-2 img:nth-child(10),
+#creative-menu .menu-filters,
+#filter-creatives,
+.icon-scroll {
+    opacity: 0
+}
+
+.in-view .cotw,
+.in-view #primary {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fade-in;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: fade-in;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-duration: 1s;
+    -o-animation-name: fade-in;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-name: fade-in;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view .icon-scroll {
+    -webkit-animation-delay: 2s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fade-in;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 2s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: fade-in;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 2s;
+    -o-animation-duration: 1s;
+    -o-animation-name: fade-in;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-name: fade-in;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creatives .filters {
+    -webkit-animation-delay: 1.3s;
+    -webkit-animation-duration: 1.1s;
+    -webkit-animation-name: left-to-right;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.3s;
+    -moz-animation-duration: 1.1s;
+    -moz-animation-name: left-to-right;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.3s;
+    -o-animation-duration: 1.1s;
+    -o-animation-name: left-to-right;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.3s;
+    animation-duration: 1.1s;
+    animation-name: left-to-right;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view .multiline-left span.l1 {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: right-to-left;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: right-to-left;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-duration: 1s;
+    -o-animation-name: right-to-left;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-name: right-to-left;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view .multiline-left span.l2 {
+    -webkit-animation-delay: .7s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: right-to-left;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .7s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: right-to-left;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .7s;
+    -o-animation-duration: 1s;
+    -o-animation-name: right-to-left;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .7s;
+    animation-duration: 1s;
+    animation-name: right-to-left;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative.film .multiline-right span.l1 {
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: left-to-right;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: left-to-right;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1s;
+    -o-animation-duration: 1s;
+    -o-animation-name: left-to-right;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-name: left-to-right;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative.film .multiline-right span.l2 {
+    -webkit-animation-delay: 1.2s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: left-to-right;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.2s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: left-to-right;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.2s;
+    -o-animation-duration: 1s;
+    -o-animation-name: left-to-right;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.2s;
+    animation-duration: 1s;
+    animation-name: left-to-right;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative.photo .cp-parent,
+.in-view.creative.film .gif-container {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fade-in-up;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: fade-in-up;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-duration: 1s;
+    -o-animation-name: fade-in-up;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-name: fade-in-up;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative.photo .featured,
+.in-view.creative.film .featured {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative.photo .button,
+.in-view.creative.film .button {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .video-wrap {
+    -webkit-animation-delay: .3s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .3s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .3s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .3s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .portfolio-wide img {
+    -webkit-animation-delay: .3s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .3s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .3s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .3s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-1 img:nth-child(1) {
+    -webkit-animation-delay: .3s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .3s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .3s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .3s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-1 img:nth-child(2) {
+    -webkit-animation-delay: .4s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .4s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .4s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .4s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-1 img:nth-child(3) {
+    -webkit-animation-delay: .5s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .5s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .5s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .5s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-1 img:nth-child(4) {
+    -webkit-animation-delay: .6s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .6s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .6s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .6s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-1 img:nth-child(5) {
+    -webkit-animation-delay: .7s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .7s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .7s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .7s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-1 img:nth-child(6) {
+    -webkit-animation-delay: .8s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .8s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .8s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .8s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-1 img:nth-child(7) {
+    -webkit-animation-delay: .9s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .9s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .9s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .9s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-1 img:nth-child(8) {
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-1 img:nth-child(9) {
+    -webkit-animation-delay: 1.1s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.1s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.1s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.1s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-1 img:nth-child(10) {
+    -webkit-animation-delay: 1.4s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.4s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.4s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.4s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-2 img:nth-child(1) {
+    -webkit-animation-delay: .6s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .6s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .6s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .6s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-2 img:nth-child(2) {
+    -webkit-animation-delay: .7s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .7s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .7s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .7s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-2 img:nth-child(3) {
+    -webkit-animation-delay: .8s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .8s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .8s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .8s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-2 img:nth-child(4) {
+    -webkit-animation-delay: .9s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .9s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .9s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .9s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-2 img:nth-child(5) {
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-2 img:nth-child(6) {
+    -webkit-animation-delay: 1.1s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.1s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.1s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.1s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-2 img:nth-child(7) {
+    -webkit-animation-delay: 1.2s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.2s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.2s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.2s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-2 img:nth-child(8) {
+    -webkit-animation-delay: 1.3s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.3s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.3s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.3s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-2 img:nth-child(9) {
+    -webkit-animation-delay: 1.4s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.4s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.4s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.4s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative-portfolio .flex-col-2 img:nth-child(10) {
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.5s;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.5s;
+    -o-animation-duration: 1.2s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.5s;
+    animation-duration: 1.2s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.menu-in-view#creative-menu {
+    -webkit-animation-delay: 0s;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-name: fade-in;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0s;
+    -moz-animation-duration: .5s;
+    -moz-animation-name: fade-in;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0s;
+    -o-animation-duration: .5s;
+    -o-animation-name: fade-in;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-duration: .5s;
+    animation-name: fade-in;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.menu-in-view .menu-filters {
+    -webkit-animation-delay: .4s;
+    -webkit-animation-duration: .8s;
+    -webkit-animation-name: menu-list;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .4s;
+    -moz-animation-duration: .8s;
+    -moz-animation-name: menu-list;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .4s;
+    -o-animation-duration: .8s;
+    -o-animation-name: menu-list;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .4s;
+    animation-duration: .8s;
+    animation-name: menu-list;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.menu-in-view #filter-creatives {
+    -webkit-animation-delay: .1s;
+    -webkit-animation-duration: .8s;
+    -webkit-animation-name: menu-list;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .1s;
+    -moz-animation-duration: .8s;
+    -moz-animation-name: menu-list;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .1s;
+    -o-animation-duration: .8s;
+    -o-animation-name: menu-list;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .1s;
+    animation-duration: .8s;
+    animation-name: menu-list;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.icon-scroll {
+    display: inherit;
+    width: 20px;
+    height: 34px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    margin-top: 25px;
+    position: relative;
+    float: right
+}
+
+.icon-scroll:before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: mouse-scroll;
+    position: absolute;
+    left: 8px;
+    top: 8px
+}
+
+.icon-scroll span {
+    float: right;
+    margin-right: 38px;
+    font-family: roboto mono, courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 34px
+}
