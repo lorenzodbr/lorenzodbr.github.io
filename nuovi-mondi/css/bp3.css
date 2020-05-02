@@ -2647,7 +2647,7 @@ figure figcaption strong {
     width: 100%;
     float: left;
     clear: both;
-    padding: 40px 0
+    padding: 40px 0 80px;
 }
 
 .footer h3,
