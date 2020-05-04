@@ -3264,6 +3264,10 @@ figure figcaption strong {
     overflow: hidden;
 }
 
+.centered {
+	text-align: center;
+}
+
 .head{
 	margin-right: 10px;
 	width: 37%;
