@@ -1016,8 +1016,6 @@ form input[type=submit] {
 
 .header-creative {
     width: 100%;
-    float: left;
-    clear: both;
     padding: 0
 }
 
@@ -1697,27 +1695,27 @@ figure figcaption strong {
     font-family: sofia-pro, helvetica, arial, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 3em;
+    font-size: 4em;
     line-height: 40px
 }
 
 @media only screen and (min-width:700px) {
     .header-creative.feature h1 {
-        font-size: 4em;
+        font-size: 5em;
         line-height: 54px
     }
 }
 
 @media only screen and (min-width:1000px) {
     .header-creative.feature h1 {
-        font-size: 5em;
+        font-size: 6em;
         line-height: 64px
     }
 }
 
 @media only screen and (min-width:1290px) {
     .header-creative.feature h1 {
-        font-size: 7em;
+        font-size: 8em;
         line-height: 90px
     }
 }
@@ -1820,10 +1818,6 @@ figure figcaption strong {
 
 .header-home.features p.location span {
     text-transform: capitalize
-}
-
-#feature .content-col {
-    padding-top: 78px
 }
 
 #feature .content-col p {
@@ -2335,6 +2329,18 @@ figure figcaption strong {
     transition: all .4s ease
 }
 
+
+.prev>svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.single-project-arrow>svg {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 @media only screen and (min-width:1000px) {
     .posts .related h3 {
         font-size: 3em;
@@ -2342,9 +2348,8 @@ figure figcaption strong {
     }
 }
 
-.posts .related.artist:hover h3,
-.posts .related.art:hover h3 {
-    color: #b85c35
+.posts .related:nth-child(2) {
+	text-align: right;
 }
 
 .posts .related.photo:hover h3 {
@@ -3034,7 +3039,8 @@ figure figcaption strong {
 }
 
 #photo .icon-scroll {
-    border: 2px solid rgba(98, 165, 215, .1)
+    border: 2px solid rgba(98, 165, 215, .1);
+	margin-bottom: 25px;
 }
 
 #photo .icon-scroll:before {
@@ -3042,7 +3048,7 @@ figure figcaption strong {
 }
 
 #photo .icon-scroll span {
-    color: #62a5d7
+    color: #333
 }
 
 #photo #mobile-filters {
@@ -3762,22 +3768,22 @@ figure figcaption strong {
 }
 
 #feature .content-col {
-    -webkit-animation-delay: .2s;
+    -webkit-animation-delay: .5s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: slight-bottom-to-top;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
-    -moz-animation-delay: .2s;
+    -moz-animation-delay: .5s;
     -moz-animation-duration: 1s;
     -moz-animation-name: slight-bottom-to-top;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
-    -o-animation-delay: .2s;
+    -o-animation-delay: .5s;
     -o-animation-duration: 1s;
     -o-animation-name: slight-bottom-to-top;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
-    animation-delay: .2s;
+    animation-delay: .5s;
     animation-duration: 1s;
     animation-name: slight-bottom-to-top;
     animation-fill-mode: both;

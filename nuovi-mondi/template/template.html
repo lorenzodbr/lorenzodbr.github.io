@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.jpg">
     <meta name="theme-color" content="#ffffff">
     <!--[if lt IE 9]>
-<link rel="stylesheet" href="https://clubofthewaves.com/wp-content/themes/cotw/css/fix.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="../css/fix.css" media="screen" type="text/css" />
 <![endif]-->
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -25,25 +25,30 @@
         gtag('config', 'UA-4467663-6');
     </script>
 </head>
-   <body id="photo" class="preload">
-      <section class="header-creative feature">
-         <div class="wrap">
+<body id="photo" class="preload">
+    <section class="header-creative feature">
+        <div class="wrap">
             <div class="a-wrap a-wrap-logo">
-               <p class="cotw"><a href="/">Storia</a></p>
+                <p class="cotw"><a href="">Storia</a></p>
             </div>
-            <div class="content-col">
-               <ul id="primary">
-					<li><a href="../">Home</a></li>
-                    <li class="photo"><a href="../oriente" class="active">Oriente</a></li>
+			<div class="content-col">
+                <ul id="primary">
+                    <li><a href="../">Home</a></li>
+                    <li><a class="active" href="../oriente">Oriente</a></li>
                     <li><a href="../america">America</a></li>
                     <li><a href="../civilta-precolombiane">Civiltà Precol.</a></li>
                     <li><a href="../conseguenze">Conseguenze</a></li>
-               </ul>
-               <h1>Insert Text Here</h1>
+                </ul>
+                <div class="a-wrap">
+                    <h1 class="multiline-up">
+						<span class="a-wrap"><span class="l1">Insert Text Here</span></span>
+					</h1>
+					<div class="icon-scroll"><span>Scorri</span></div>
+                </div>
             </div>
-         </div>
-      </section>
-      <section id="feature">
+        </div>
+    </section>
+    <section id="feature">
          <div class="wrap">
             <div class="content-col">
                <p>The World Surf League (WSL) is the international governing body of professional surfing. It&#8217;s come a long way since it was known as the ASP (Association of Surfing Professionals) and in the beginning, the IPS (International Professional Surfers), founded in 1976.</p>
@@ -113,12 +118,12 @@
                <a href="https://clubofthewaves.com/feature/photos-from-a-golden-era-of-surfing/" class="related photo">
                   <div><img src="https://clubofthewaves.com/wp-content/uploads/surfing-golden-era.jpg" /></div>
                   <p></p>
-                  <h3>Sezione Precedente: Home</h3>
+                  <h3><span class="single-project-arrow prev"><svg xmlns="http://www.w3.org/2000/svg" width="57.143" height="34.454" viewBox="0 0 57.143 34.454" enable-background="new 0 0 57.143 34.454"><g><g><path d="M51.908 17.599 46.891 13.1V17.094H6.904v1H46.891V22.099z"></path></g></g></svg></span>Home</h3>
                </a>
                <a href="https://clubofthewaves.com/feature/ron-church/" class="related photo">
                   <div><img src="https://clubofthewaves.com/wp-content/uploads/ron-church-surf-photographer.jpg" /></div>
                   <p></p>
-                  <h3>Sezione Successiva: Lorem ipsum</h3>
+                  <h3>Lorem Ipsum<span class="single-project-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="57.143" height="34.454" viewBox="0 0 57.143 34.454" enable-background="new 0 0 57.143 34.454"><g><g><path d="M51.908 17.599 46.891 13.1V17.094H6.904v1H46.891V22.099z"></path></g></g></svg></span></h3>
                </a>
             </div>
          </div>
@@ -154,9 +159,10 @@
         <div class="navi-close">Chiudi</div>
     </nav>
       <div class="bg-home"></div>
+	  <div class="loader"></div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="../js/feature.js"></script>
-      <script src="https://clubofthewaves.com/wp-content/themes/cotw/js/jquery-scrolltofixed-min.js"></script>
+      <script src="../js/jquery-scrolltofixed-min.js"></script>
       <script src="../js/all.js"></script>
       <script>
          $(document).ready(function(){

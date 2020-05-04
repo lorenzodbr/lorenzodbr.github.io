@@ -1182,17 +1182,27 @@ figure:hover figcaption {
     border-bottom: 1px solid #333;
     transition: .5s ease
 }
+#primary li a.active:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #62a5d7;
+    transition: .5s ease
+}
 
 #primary li a:hover:after {
     width: 100%
 }
 
 #primary li a.active {
-    text-decoration: line-through
+    text-decoration: line-through;
+	color: #62a5d7;
 }
 
 .header-creative.feature h1 {
-    margin: 130px 0 0
+    margin: 100px 0 0
 }
 
 .header-creative.features h1 {
@@ -1548,22 +1558,22 @@ figure:hover figcaption {
 }
 
 .in-view .icon-scroll {
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 1s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: fade-in;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
-    -moz-animation-delay: 2s;
+    -moz-animation-delay: 1s;
     -moz-animation-duration: 1s;
     -moz-animation-name: fade-in;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
-    -o-animation-delay: 2s;
+    -o-animation-delay: 1s;
     -o-animation-duration: 1s;
     -o-animation-name: fade-in;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-duration: 1s;
     animation-name: fade-in;
     animation-fill-mode: both;
