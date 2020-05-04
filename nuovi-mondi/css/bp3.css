@@ -3396,6 +3396,7 @@ figure figcaption strong {
     -o-animation-name: bottom-to-top;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
+	animation-delay: 0.5s;
     animation-duration: 1s;
     animation-name: bottom-to-top;
     animation-fill-mode: both;
@@ -3464,68 +3465,33 @@ figure figcaption strong {
     animation-timing-function: ease
 }
 
-.in-view.creative.art .multiline-right span.l1 {
-    -webkit-animation-duration: 1s;
-    -webkit-animation-name: left-to-right;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-timing-function: ease;
-    -moz-animation-duration: 1s;
-    -moz-animation-name: left-to-right;
-    -moz-animation-fill-mode: both;
-    -moz-animation-timing-function: ease;
-    -o-animation-duration: 1s;
-    -o-animation-name: left-to-right;
-    -o-animation-fill-mode: both;
-    -o-animation-timing-function: ease;
-    animation-duration: 1s;
-    animation-name: left-to-right;
-    animation-fill-mode: both;
-    animation-timing-function: ease
-}
-
+.in-view.creative.art .multiline-right span.l1,
 .in-view.creative.photo .multiline-left span.l1 {
+	-webkit-animation-delay: 0.9s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: left-to-right;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
+	-moz-animation-delay: 0.9s;
     -moz-animation-duration: 1s;
     -moz-animation-name: left-to-right;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
+	-o-animation-delay: 0.9s;
     -o-animation-duration: 1s;
     -o-animation-name: left-to-right;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
+	animation-delay: 0.9s;
     animation-duration: 1s;
     animation-name: left-to-right;
     animation-fill-mode: both;
     animation-timing-function: ease
 }
 
-.in-view.creative.art .multiline-right span.l2 {
-    -webkit-animation-delay: 1.2s;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-name: left-to-right;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-timing-function: ease;
-    -moz-animation-delay: 1.2s;
-    -moz-animation-duration: 1s;
-    -moz-animation-name: left-to-right;
-    -moz-animation-fill-mode: both;
-    -moz-animation-timing-function: ease;
-    -o-animation-delay: 1.2s;
-    -o-animation-duration: 1s;
-    -o-animation-name: left-to-right;
-    -o-animation-fill-mode: both;
-    -o-animation-timing-function: ease;
-    animation-delay: 1.2s;
-    animation-duration: 1s;
-    animation-name: left-to-right;
-    animation-fill-mode: both;
-    animation-timing-function: ease
-}
 
-.in-view.creative.photo .multiline-right span.l2 {
+.in-view.creative.art .multiline-right span.l2,
+.in-view.creative.photo .multiline-left span.l2 {
     -webkit-animation-delay: 1.2s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: left-to-right;
@@ -3550,18 +3516,22 @@ figure figcaption strong {
 
 .in-view.creative.art .cp-parent,
 .in-view.creative.photo .cp-parent {
+	-webkit-animation-delay: 0.75s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: fade-in-up;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
+	-moz-animation-delay: 0.75s;
     -moz-animation-duration: 1s;
     -moz-animation-name: fade-in-up;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
-    -o-animation-duration: 1s;
+    -o-animation-delay: 0.75s;
+	-o-animation-duration: 1s;
     -o-animation-name: fade-in-up;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
+	animation-delay: 0.75s;
     animation-duration: 1s;
     animation-name: fade-in-up;
     animation-fill-mode: both;
@@ -3571,18 +3541,22 @@ figure figcaption strong {
 .in-view .location,
 .in-view.creative.art .featured,
 .in-view.creative.photo .featured {
+    -webkit-animation-delay: 0.75s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: bottom-to-top;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
-    -moz-animation-duration: 1s;
+    -moz-animation-delay: 0.75s;
+	-moz-animation-duration: 1s;
     -moz-animation-name: bottom-to-top;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.;
     -o-animation-duration: 1s;
     -o-animation-name: bottom-to-top;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
+	animation-delay: 0.75s;
     animation-duration: 1s;
     animation-name: bottom-to-top;
     animation-fill-mode: both;
@@ -3591,22 +3565,22 @@ figure figcaption strong {
 
 .in-view.creative.art .button,
 .in-view.creative.photo .button {
-    -webkit-animation-delay: 1.1s;
+    -webkit-animation-delay: .75s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: bottom-to-top;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
-    -moz-animation-delay: 1.1s;
+    -moz-animation-delay: .75s;
     -moz-animation-duration: 1s;
     -moz-animation-name: bottom-to-top;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
-    -o-animation-delay: 1.1s;
+    -o-animation-delay: .75s;
     -o-animation-duration: 1s;
     -o-animation-name: bottom-to-top;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
-    animation-delay: 0.3s;
+    animation-delay: .75s;
     animation-duration: 1s;
     animation-name: bottom-to-top;
     animation-fill-mode: both;
@@ -3637,22 +3611,22 @@ figure figcaption strong {
 }
 
 .in-view.creatives #filter-creatives {
-    -webkit-animation-delay: 1.1s;
+    -webkit-animation-delay: 0.7s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: creatives-list;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
-    -moz-animation-delay: 1.1s;
+    -moz-animation-delay: 0.7s;
     -moz-animation-duration: 1s;
     -moz-animation-name: creatives-list;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
-    -o-animation-delay: 1.1s;
+    -o-animation-delay: 0.7s;
     -o-animation-duration: 1s;
     -o-animation-name: creatives-list;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
-    animation-delay: 1.1s;
+    animation-delay: 0.7s;
     animation-duration: 1s;
     animation-name: creatives-list;
     animation-fill-mode: both;
