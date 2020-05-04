@@ -3478,6 +3478,25 @@ figure figcaption strong {
     animation-timing-function: ease
 }
 
+.in-view.creative.photo .multiline-left span.l1 {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: left-to-right;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: left-to-right;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-duration: 1s;
+    -o-animation-name: left-to-right;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-name: left-to-right;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
 .in-view.creative.art .multiline-right span.l2 {
     -webkit-animation-delay: 1.2s;
     -webkit-animation-duration: 1s;
