@@ -3292,10 +3292,15 @@ figure figcaption strong {
 .creative.art .multiline-right span.l1,
 .creative.art .multiline-right span.l2,
 .creative.art .cp-parent,
+.creative.photo .multiline-left span.l1,
+.creative.photo .multiline-left span.l2,
+.creative.photo .cp-parent,
 .location,
 .loader,
 .creative.art .featured,
 .creative.art .button,
+.creative.photo .featured,
+.creative.photo .button,
 .header-creative img,
 .creatives #filter-creatives,
 .creative-bio .aside-col .website-title,
@@ -3520,7 +3525,31 @@ figure figcaption strong {
     animation-timing-function: ease
 }
 
-.in-view.creative.art .cp-parent {
+.in-view.creative.photo .multiline-right span.l2 {
+    -webkit-animation-delay: 1.2s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: left-to-right;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.2s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: left-to-right;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.2s;
+    -o-animation-duration: 1s;
+    -o-animation-name: left-to-right;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.2s;
+    animation-duration: 1s;
+    animation-name: left-to-right;
+    animation-fill-mode: both;
+    animation-timing-function: ease
+}
+
+.in-view.creative.art .cp-parent,
+.in-view.creative.photo .cp-parent {
     -webkit-animation-duration: 1s;
     -webkit-animation-name: fade-in-up;
     -webkit-animation-fill-mode: both;
@@ -3540,7 +3569,8 @@ figure figcaption strong {
 }
 
 .in-view .location,
-.in-view.creative.art .featured {
+.in-view.creative.art .featured,
+.in-view.creative.photo .featured {
     -webkit-animation-duration: 1s;
     -webkit-animation-name: bottom-to-top;
     -webkit-animation-fill-mode: both;
@@ -3559,7 +3589,8 @@ figure figcaption strong {
     animation-timing-function: ease
 }
 
-.in-view.creative.art .button {
+.in-view.creative.art .button,
+.in-view.creative.photo .button {
     -webkit-animation-delay: 1.1s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: bottom-to-top;
