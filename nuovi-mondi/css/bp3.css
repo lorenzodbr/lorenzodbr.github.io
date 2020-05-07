@@ -1843,7 +1843,8 @@ figure figcaption strong {
     font-style: normal;
     font-size: 1.4em;
     line-height: 28px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+	text-align: justify;
 }
 
 @media only screen and (min-width:1000px) {
