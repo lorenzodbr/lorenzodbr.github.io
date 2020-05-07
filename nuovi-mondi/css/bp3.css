@@ -534,6 +534,19 @@ ul {
     list-style: none
 }
 
+.two-col{
+    columns: 2;
+}
+
+.three-col{
+    columns: 3;
+}
+
+.four-col{
+    columns: 4;
+}
+
+
 .social-links {
     margin-top: 20px
 }
@@ -881,19 +894,23 @@ form input[type=submit] {
     text-transform: capitalize
 }
 
-.header-home h1 a.art {
+.header-home h1 a.art, 
+.header-creative h1 a.art{
     color: #b85c35
 }
 
-.header-home h1 a.art:hover {
+.header-home h1 a.art:hover,
+.header-creative h1 a.art:hover {
     background-color: rgba(184, 92, 53, .07)
 }
 
-.header-home h1 a.photo {
+.header-home h1 a.photo, 
+.header-creative h1 a.photo {
     color: #62a5d7
 }
 
-.header-home h1 a.photo:hover {
+.header-home h1 a.photo:hover,
+.header-creative h1 a.photo:hover {
     background-color: rgba(98, 165, 215, .07)
 }
 
@@ -1880,7 +1897,7 @@ figure figcaption strong {
 }
 
 #feature .content-col p.copyright a {
-    color: #333;
+    color: #62a5d7;
     border-bottom: 1px solid rgba(51, 51, 51, .1)!important;
     display: inline-block;
     position: relative
@@ -1892,20 +1909,12 @@ figure figcaption strong {
     bottom: 0;
     left: 0;
     width: 0%;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #62a5d7;
     transition: .5s ease
 }
 
 #feature .content-col p.copyright a:hover:after {
     width: 100%
-}
-
-#feature .content-col p.copyright a:hover {
-    color: #333!important
-}
-
-#feature .content-col p.copyright a:after {
-    border-bottom-color: #333!important
 }
 
 #feature .content-col p a,
@@ -1997,7 +2006,8 @@ figure figcaption strong {
     color: #333;
     border-bottom: 1px solid rgba(51, 51, 51, .1);
     display: inline-block;
-    position: relative
+    position: relative;
+	cursor: default;
 }
 
 #feature .content-col figure figcaption a:after {
@@ -2902,7 +2912,7 @@ figure figcaption strong {
 #photo #feature .content-col p a:hover,
 #photo #feature .content-col li a:hover {
     color: #62a5d7;
-    border-bottom-color: #62a5d7
+	cursor: default;
 }
 
 #photo #feature .content-col .wp-block-quote p {
@@ -3260,8 +3270,10 @@ figure figcaption strong {
     border-bottom-color: #f5c870
 }
 
-.a-wrap {
-    overflow: hidden;
+.focus{
+	color: red;
+	font-size: 50%;
+	font-family: roboto mono, courier, monospace;
 }
 
 .centered {
@@ -3310,8 +3322,31 @@ figure figcaption strong {
 .creative-bio .aside-col li:nth-child(2),
 .creative-bio .aside-col li:nth-child(3),
 #filters,
-.related {
+.related, .focus {
     opacity: 0
+}
+
+.in-view.focus {
+    -webkit-animation-delay: .3s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .3s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .3s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .3s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease
 }
 
 .in-view .cotw {

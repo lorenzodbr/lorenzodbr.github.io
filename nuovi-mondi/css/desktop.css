@@ -1139,7 +1139,7 @@ figure:hover figcaption {
 
 #primary {
     display: inherit;
-    margin: 0 0 50px
+    margin: 0 0 75px
 }
 
 #primary li {
@@ -1202,7 +1202,7 @@ figure:hover figcaption {
 }
 
 .header-creative.feature h1 {
-    margin: 100px 0 0
+    margin: 50px 0 0
 }
 
 .header-creative.features h1 {
