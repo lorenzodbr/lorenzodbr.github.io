@@ -1860,7 +1860,7 @@ figure figcaption strong {
     font-weight: 400;
     font-style: normal;
     font-size: 1.8em;
-    line-height: 36px
+    line-height: 36px;
 }
 
 @media only screen and (min-width:1000px) {
@@ -3496,6 +3496,29 @@ figure figcaption strong {
     animation-timing-function: ease
 }
 
+#feature .content-col p:first-of-type {
+    webkit-animation-delay: .7s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: slight-bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .7s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: slight-bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .7s;
+    -o-animation-duration: 1s;
+    -o-animation-name: slight-bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .7s;
+    animation-duration: 1s;
+    animation-name: slight-bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
 .in-view.creative.art .multiline-right span.l1,
 .in-view.creative.photo .multiline-left span.l1 {
 	-webkit-animation-delay: 0.9s;
@@ -3804,22 +3827,22 @@ figure figcaption strong {
 
 .feature h1,
 .features h1 {
-    -webkit-animation-delay: .2s;
+    -webkit-animation-delay: .3s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: bottom-to-top;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
-    -moz-animation-delay: .2s;
+    -moz-animation-delay: .3s;
     -moz-animation-duration: 1s;
     -moz-animation-name: bottom-to-top;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
-    -o-animation-delay: .2s;
+    -o-animation-delay: .3s;
     -o-animation-duration: 1s;
     -o-animation-name: bottom-to-top;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
-    animation-delay: .2s;
+    animation-delay: .3s;
     animation-duration: 1s;
     animation-name: bottom-to-top;
     animation-fill-mode: both;
@@ -3837,7 +3860,7 @@ figure figcaption strong {
     -moz-animation-name: slight-bottom-to-top;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
-    -o-animation-delay: .5s;
+    -o-animation-delay: 1s;
     -o-animation-duration: 1s;
     -o-animation-name: slight-bottom-to-top;
     -o-animation-fill-mode: both;
