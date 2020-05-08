@@ -485,7 +485,8 @@
 @keyframes anime-null {}
 
 html {
-    overflow-x: hidden
+    overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -1886,7 +1887,6 @@ figure figcaption strong {
     width: 100%;
     float: left;
     clear: both;
-    padding-top: 30px;
     margin: 0 0 60px
 }
 
@@ -2008,7 +2008,6 @@ figure figcaption strong {
     border-bottom: 1px solid rgba(51, 51, 51, .1);
     display: inline-block;
     position: relative;
-	cursor: default;
 }
 
 #feature .content-col figure figcaption a:after {
@@ -3328,23 +3327,19 @@ figure figcaption strong {
 }
 
 .in-view.focus {
-    -webkit-animation-delay: .3s;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: .5s;
     -webkit-animation-name: bottom-to-top;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
-    -moz-animation-delay: .3s;
-    -moz-animation-duration: 1s;
+    -moz-animation-duration: .5s;
     -moz-animation-name: bottom-to-top;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
-    -o-animation-delay: .3s;
-    -o-animation-duration: 1s;
+    -o-animation-duration: .5s;
     -o-animation-name: bottom-to-top;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
-    animation-delay: .3s;
-    animation-duration: 1s;
+    animation-duration: .5s;
     animation-name: bottom-to-top;
     animation-fill-mode: both;
     animation-timing-function: ease

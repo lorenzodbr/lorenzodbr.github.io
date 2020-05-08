@@ -7,7 +7,7 @@ $(document).ready(function() {
     $('.creatives .filters').scrollToFixed({
         marginTop: 20,
         limit: function() {
-            var limit = $('.newsletter').offset().top - $('.creatives .filters').outerHeight(true) - 100;
+            var limit = $('.creatives .filters').outerHeight(true) - 100;
             return limit;
         }
     });
