@@ -3497,22 +3497,22 @@ figure figcaption strong {
 }
 
 #feature .content-col p:first-of-type {
-    -webkit-animation-delay: .7s;
+    -webkit-animation-delay: 1s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: slight-bottom-to-top;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
-    -moz-animation-delay: .7s;
+    -moz-animation-delay: 1s;
     -moz-animation-duration: 1s;
     -moz-animation-name: slight-bottom-to-top;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
-    -o-animation-delay: .7s;
+    -o-animation-delay: 1s;
     -o-animation-duration: 1s;
     -o-animation-name: slight-bottom-to-top;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
-    animation-delay: .7s;
+    animation-delay: 1s;
     animation-duration: 1s;
     animation-name: slight-bottom-to-top;
     animation-fill-mode: both;
