@@ -3496,28 +3496,6 @@ figure figcaption strong {
     animation-timing-function: ease
 }
 
-#feature .content-col p:first-of-type {
-    -webkit-animation-delay: 1s;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-name: slight-bottom-to-top;
-    -webkit-animation-fill-mode: both;
-    -webkit-animation-timing-function: ease;
-    -moz-animation-delay: 1s;
-    -moz-animation-duration: 1s;
-    -moz-animation-name: slight-bottom-to-top;
-    -moz-animation-fill-mode: both;
-    -moz-animation-timing-function: ease;
-    -o-animation-delay: 1s;
-    -o-animation-duration: 1s;
-    -o-animation-name: slight-bottom-to-top;
-    -o-animation-fill-mode: both;
-    -o-animation-timing-function: ease;
-    animation-delay: 1s;
-    animation-duration: 1s;
-    animation-name: slight-bottom-to-top;
-    animation-fill-mode: both;
-    animation-timing-function: ease;
-}
 
 .in-view.creative.art .multiline-right span.l1,
 .in-view.creative.photo .multiline-left span.l1 {
@@ -3852,22 +3830,22 @@ figure figcaption strong {
 #feature .content-col {
     -webkit-animation-delay: 1s;
     -webkit-animation-duration: 1s;
-    -webkit-animation-name: slight-bottom-to-top;
+    -webkit-animation-name: fade-in;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
     -moz-animation-delay: 1s;
     -moz-animation-duration: 1s;
-    -moz-animation-name: slight-bottom-to-top;
+    -moz-animation-name: fade-in;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
     -o-animation-delay: 1s;
     -o-animation-duration: 1s;
-    -o-animation-name: slight-bottom-to-top;
+    -o-animation-name: fade-in;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
     animation-delay: 1s;
     animation-duration: 1s;
-    animation-name: slight-bottom-to-top;
+    animation-name: fade-in;
     animation-fill-mode: both;
     animation-timing-function: ease
 }
