@@ -2003,13 +2003,6 @@ figure figcaption strong {
     }
 }
 
-#feature .content-col figure figcaption a {
-    color: #333;
-    border-bottom: 1px solid rgba(51, 51, 51, .1);
-    display: inline-block;
-    position: relative;
-}
-
 #feature .content-col figure figcaption a:after {
     content: "";
     position: absolute;

@@ -1220,6 +1220,13 @@ figure:hover figcaption {
     margin-top: 0
 }
 
+#feature .content-col figure figcaption a {
+    color: #333;
+    border-bottom: 1px solid rgba(51, 51, 51, .1);
+    display: inline-block;
+    position: relative
+}
+
 #feature .content-col h2 {
     font-size: 2.6em;
     line-height: 36px
