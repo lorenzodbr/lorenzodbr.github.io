@@ -1704,10 +1704,6 @@ figure figcaption strong {
     display: none
 }
 
-.header-creative.feature .cotw {
-    margin-bottom: 25px
-}
-
 .header-creative.feature h1 {
     margin: 0 0 50px;
     font-family: sofia-pro, helvetica, arial, sans-serif;
@@ -3853,22 +3849,22 @@ figure figcaption strong {
 }
 
 #feature .aside-col {
-    -webkit-animation-delay: .2s;
+    -webkit-animation-delay: .6s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: bottom-to-top;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
-    -moz-animation-delay: .2s;
+    -moz-animation-delay: .6s;
     -moz-animation-duration: 1s;
     -moz-animation-name: bottom-to-top;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
-    -o-animation-delay: .2s;
+    -o-animation-delay: .6s;
     -o-animation-duration: 1s;
     -o-animation-name: bottom-to-top;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
-    animation-delay: .2s;
+    animation-delay: .6s;
     animation-duration: 1s;
     animation-name: bottom-to-top;
     animation-fill-mode: both;

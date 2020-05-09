@@ -501,7 +501,7 @@
     width: 24px;
     height: 170px;
     background-size: cover;
-    background-image: url(../images/logo_rotated.png)
+    background-image: url(../images/logo-rotated.png)
 }
 
 .cotw a:hover {
@@ -1491,7 +1491,7 @@ figure:hover figcaption {
 
 #photo .header-creative .cotw a {
     background-size: cover;
-    background-image: url(../images/logo_rotated.png)
+    background-image: url(../images/logo-rotated.png)
 }
 
 #artist .header-creative .cotw a {
@@ -1546,18 +1546,22 @@ figure:hover figcaption {
 
 .in-view .cotw,
 .in-view #primary {
+	-webkit-animation-delay: .3s;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: fade-in;
     -webkit-animation-fill-mode: both;
     -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .3s;
     -moz-animation-duration: 1s;
     -moz-animation-name: fade-in;
     -moz-animation-fill-mode: both;
     -moz-animation-timing-function: ease;
+    -o-animation-delay: .3s;
     -o-animation-duration: 1s;
     -o-animation-name: fade-in;
     -o-animation-fill-mode: both;
     -o-animation-timing-function: ease;
+	animation-delay: .3s;
     animation-duration: 1s;
     animation-name: fade-in;
     animation-fill-mode: both;
