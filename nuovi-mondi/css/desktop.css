@@ -599,7 +599,7 @@ form input[type=submit]:hover {
 
 .creative h2 {
     margin-top: 110px;
-    max-width: 70%;
+    max-width: 90%;
     margin-bottom: 0
 }
 
@@ -1228,7 +1228,12 @@ figure:hover figcaption {
 }
 
 #feature .content-col h2 {
-    font-size: 2.6em;
+    font-size: 2.4em;
+    line-height: 36px
+}
+
+#feature .content-col h1 {
+    font-size: 3.6em;
     line-height: 36px
 }
 

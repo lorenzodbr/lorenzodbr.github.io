@@ -1886,6 +1886,10 @@ figure figcaption strong {
     margin: 0 0 60px
 }
 
+#feature .content-col p.copyright span{
+    color: #62a5d7;
+}
+
 @media only screen and (min-width:700px) {
     #feature .content-col p.copyright {
         font-size: 1.2em;
@@ -2062,9 +2066,28 @@ figure figcaption strong {
     margin-bottom: 10px
 }
 
+#feature .content-col h1 {
+    font-family: sofia-pro, helvetica, arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-bottom: 10px
+}
+
 @media only screen and (min-width:1290px) {
     #feature .content-col h2 {
         font-size: 2.4em;
+        line-height: 34px;
+        margin-bottom: 15px
+    }
+	#feature .content-col h1 {
+        font-size: 3.4em;
         line-height: 34px;
         margin-bottom: 15px
     }
