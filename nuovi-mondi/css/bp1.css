@@ -615,6 +615,10 @@
     padding-top: 25px
 }
 
+#feature .content-col h1 {
+    padding-top: 25px
+}
+
 #feature .content-col .wp-block-media-text {
     display: -webkit-box;
     display: -moz-box;
