@@ -682,7 +682,7 @@ figure figcaption {
 
 #related,
 #filters {
-    padding: 0 0 30px
+    padding: 0 0 75px
 }
 
 #related .content-col,
@@ -697,10 +697,6 @@ figure figcaption {
     margin-bottom: 15px
 }
 
-#related {
-    padding-top: 60px
-}
-
 .posts .related {
     display: inline-block;
     width: 47%;
@@ -709,7 +705,9 @@ figure figcaption {
 }
 
 .posts .related div {
-    margin-top: 20px
+    margin-top: 20px;
+	background-size: cover;
+	height: 200px;
 }
 
 .posts .related p {
