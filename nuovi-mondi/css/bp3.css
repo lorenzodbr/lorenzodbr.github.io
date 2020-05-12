@@ -1528,6 +1528,8 @@ figure figcaption strong {
     left: 0;
     bottom: 0;
     z-index: 8888;
+    -webkit-transition: bottom 2s;
+    transition: bottom 2s;
 }
 
 .bottom-bar.filter-bar {
