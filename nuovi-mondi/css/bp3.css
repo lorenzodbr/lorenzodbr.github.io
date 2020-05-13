@@ -1519,10 +1519,6 @@ figure figcaption strong {
     color: #b85c35;
 }
 
-.nav-down {
-    bottom: -100%;
-}
-
 .bottom-bar {
     width: 100%;
     height: 50px;
@@ -1532,8 +1528,6 @@ figure figcaption strong {
     left: 0;
     bottom: 0;
     z-index: 8888;
-    -webkit-transition: bottom .2s;
-    transition: bottom .2s;
 }
 
 .bottom-bar.filter-bar {
