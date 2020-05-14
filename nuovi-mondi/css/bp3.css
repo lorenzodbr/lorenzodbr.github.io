@@ -3512,8 +3512,30 @@ a.group-member:after {
     animation-timing-function: ease;
 }
 
-.in-view.cotw,
 .cotw {
+	-webkit-animation-delay: .1s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .1s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .1s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.in-view.cotw {
     -webkit-animation-duration: 1s;
     -webkit-animation-name: bottom-to-top;
     -webkit-animation-fill-mode: both;
