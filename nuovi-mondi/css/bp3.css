@@ -1530,18 +1530,14 @@ figure figcaption strong {
     z-index: 8888;
 }
 
-.bottom-bar.filter-bar {
-    bottom: 0!important;
-}
-
-.bottom-bar.bar-up {
+.bar-up {
     bottom: 0;
-	transition: bottom 1s ease-out
+	transition: bottom .8s ease
 }
 
-.bottom-bar.bar-down {
-    bottom: -100%!important;
-	transition: bottom .8s ease-in-out
+.bar-down {
+    bottom: -100%;
+	transition: bottom .8s ease
 }
 
 .bottom-bar .share {
