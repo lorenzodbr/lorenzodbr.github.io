@@ -980,6 +980,16 @@ form input[type="submit"] {
     z-index: -1;
 }
 
+.creative {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+.creative div {
+    position: relative;
+}
+
 .creative h2 {
     margin-bottom: -20px;
     position: relative;
@@ -2239,7 +2249,7 @@ figure figcaption strong {
     display: inherit;
 }
 
-#feature .aside-col-mobile p.creative {
+#feature .aside-col-mobile p.mob-col {
     font-family: sofia-pro, helvetica, arial, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -2249,7 +2259,7 @@ figure figcaption strong {
     width: 100%;
 }
 
-#feature .aside-col-mobile p.creative a {
+#feature .aside-col-mobile p.mob-col a {
     display: inline-block;
     position: relative;
     color: #333;
@@ -2258,7 +2268,7 @@ figure figcaption strong {
     position: relative;
 }
 
-#feature .aside-col-mobile p.creative a:after {
+#feature .aside-col-mobile p.mob-col a:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -2268,7 +2278,7 @@ figure figcaption strong {
     transition: .5s ease
 }
 
-#feature .aside-col-mobile p.creative a:hover:after {
+#feature .aside-col-mobile p.mob-col a:hover:after {
     width: 100%
 }
 
