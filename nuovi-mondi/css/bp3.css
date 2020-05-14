@@ -3470,7 +3470,7 @@ a.group-member:after {
     opacity: 0;
 }
 
-.in-view .aside-col-mobile {
+.aside-col-mobile {
     -webkit-animation-delay: .4s;
 	-webkit-animation-duration: 1s;
     -webkit-animation-name: bottom-to-top;
@@ -3512,7 +3512,7 @@ a.group-member:after {
     animation-timing-function: ease;
 }
 
-.in-view .cotw {
+.cotw {
     -webkit-animation-duration: 1s;
     -webkit-animation-name: bottom-to-top;
     -webkit-animation-fill-mode: both;
