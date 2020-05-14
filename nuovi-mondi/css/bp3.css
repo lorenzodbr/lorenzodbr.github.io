@@ -3512,6 +3512,7 @@ a.group-member:after {
     animation-timing-function: ease;
 }
 
+.in-view.cotw,
 .cotw {
     -webkit-animation-duration: 1s;
     -webkit-animation-name: bottom-to-top;
