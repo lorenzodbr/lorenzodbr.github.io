@@ -980,16 +980,6 @@ form input[type="submit"] {
     z-index: -1;
 }
 
-.creative {
-    width: 100%;
-    float: left;
-    clear: both;
-}
-
-.creative div {
-    position: relative;
-}
-
 .creative h2 {
     margin-bottom: -20px;
     position: relative;
@@ -2245,6 +2235,55 @@ figure figcaption strong {
     display: none;
 }
 
+#feature .aside-col-mobile {
+    display: inherit;
+}
+
+#feature .aside-col-mobile p.creative {
+    font-family: sofia-pro, helvetica, arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#feature .aside-col-mobile p.creative a {
+    display: inline-block;
+    position: relative;
+    color: #333;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+    display: inline-block;
+    position: relative;
+}
+
+#feature .aside-col-mobile p.creative a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #333;
+    transition: .5s ease
+}
+
+#feature .aside-col-mobile p.creative a:hover:after {
+    width: 100%
+}
+
+#feature .aside-col-mobile h4 {
+    font-family: roboto mono, courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+    line-height: 28px;
+    width: 100%;
+    float: left;
+    clear: both;
+    text-transform: capitalize
+}
+
 #related,
 #filters {
     padding: 40px 0 20px;
@@ -3416,8 +3455,32 @@ a.group-member:after {
 .creative-bio .aside-col li:nth-child(3),
 #filters,
 .related,
-.focus{
+.focus, 
+.aside-col-mobile {
     opacity: 0;
+}
+
+.in-view .aside-col-mobile {
+    -webkit-animation-delay: .4s;
+	-webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: .4s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: .4s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: .4s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
 }
 
 .in-view.focus {

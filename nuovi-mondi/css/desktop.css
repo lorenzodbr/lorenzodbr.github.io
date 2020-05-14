@@ -1235,6 +1235,10 @@ figure:hover figcaption {
     line-height: 36px
 }
 
+#feature .aside-col-mobile{
+	display: none;
+}
+
 #feature .aside-col {
     display: inherit;
     padding-top: 83px
@@ -1266,8 +1270,7 @@ figure:hover figcaption {
     font-style: normal;
     font-size: 2em;
     line-height: 30px;
-    margin-bottom: 10px;
-    margin-bottom: 40px!important;
+    margin-bottom: 40px;
     width: 100%;
     float: left;
     clear: both

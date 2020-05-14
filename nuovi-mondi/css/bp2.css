@@ -640,8 +640,12 @@ figure figcaption {
     color: #333
 }
 
+#feature .aside-col-mobile p.creative {
+    margin-bottom: 60px;
+}
+
 .header-creative.feature h1 {
-    margin: 60px 0 30px
+    margin: 60px 0 60px
 }
 
 #feature .content-col p {
