@@ -17,7 +17,7 @@ $(window).load(function() {
             } else {}
         });
     }
-    $window.on('scroll resize', check_if_in_view);
+    $window.on('scroll resize load', check_if_in_view);
     $window.trigger('scroll');
     $("#menu-link").click(function() {
         $("#menu").fadeIn("fast").css('display', 'flex');
