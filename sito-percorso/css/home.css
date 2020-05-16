@@ -475,11 +475,11 @@
 
     .home__count-title {
         top: 140px;
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .home__count-title svg {
-        height: 12vw;
+        height: 10vw;
     }
     
     .home__pagination-wrapper {
