@@ -39,12 +39,14 @@
     </head>
 
     <body class="en state--cursor-hidden transition-in transition-out">
+	<audio id="bg-audio" loop="true" type="audio/mpeg">
+		<source src="sounds/bg-music.mp3">
+	</audio>
         <header>
             <nav class="nav will-appear">
                 <a class="nav__link js-page-transition" href="">Storia | Percorso 3</a>
                 <a class="nav__logo js-page-transition" href="">
                     <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
-					 
 					 <g stroke="null">
 					  <text stroke="#fff" style="vector-effect: non-scaling-stroke;" transform="matrix(7.7376079950266945,0,0,7.226941084146855,-408.54417930800685,-709.6405906265206) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_1" y="131.8314" x="82.768955" stroke-width="0" fill="#fff">S</text>
 					  <text style="cursor: move;" stroke="#fff" transform="matrix(3.0623254381124085,0,0,3.03756221144536,-36.309817901123424,-17.67986151355088) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_2" y="20.860905" x="10.810539" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#fff">S</text>
@@ -226,6 +228,26 @@
 			 </g>
 			</svg>
         </div>
+		<div class="dismiss-page">
+			<div class="text">
+				<p>&#128266;</p>
+				<p>Si consiglia di alzare il volume</p>
+				<button id="button" onclick="playAndHide()">Capito</button>
+			</div>
+			<div class="bg"></div>
+        </div>
         <script type="text/javascript" src="js/main.js"></script>
+		<script>
+			var audio = document.getElementById('bg-audio');
+			var layer = document.getElementByClassName('.dismiss-page');
+			
+			audio.volume = 0.25;
+			
+			function playAndHide(){
+				audio.play();
+				$('.dismiss-page').addClass('hide');
+			}
+		</script>
+		<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
     </body>
 </html>
