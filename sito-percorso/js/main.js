@@ -367,6 +367,7 @@ if (currentState) {
 	
 	if(currentState === '0'){
 		layer.style.opacity = '0';
+		audio.play();
 	}
 }
 
