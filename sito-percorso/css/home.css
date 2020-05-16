@@ -248,6 +248,7 @@
 .home__slide-title a {
     position: relative;
     line-height: 1.5;
+	text-shadow: 3px 2px 1.5px rgba(255,255,255,.9);
 }
 
 .home__slide-title a::after {
