@@ -77,14 +77,15 @@ function getSoundAndFadeAudio(audiosnippetId) {
 
         // Only fade if past the fade out point or not at zero already
         if ((sound.currentTime >= fadePoint) && (sound.volume != 0.0)) {
-            sound.volume -= 0.075;
+            sound.volume -= 0.01;
         }
         // When volume at zero stop all the intervalling
         if (sound.volume === 0.0) {
             clearInterval(fadeAudio);
         }
-    }, 200);
-
+    }, 20);
+	
+	localStorage.setItem('min', sound.currentTime);
 }
 
 document.querySelectorAll('.js-page-transition').forEach(elem => {
@@ -345,12 +346,20 @@ if (document.querySelector('.swiper-container-ticker')) {
  * Dismiss Page
  *
  */
+
 var audio = document.getElementById('bg-audio');
 var layer = document.getElementById('dismiss-page');
 
 audio.volume = 0.3;
+var currentTrack = getNewTrack(0);
 
-const currentState = localStorage.getItem('state') ? localStorage.getItem('state') : null;
+audio.src = 'sounds/bg-music-' + currentTrack + '.mp3';
+
+audio.onended = function() {
+	currentTrack = getNewTrack(currentTrack);
+	audio.src = 'sounds/bg-music-' + currentTrack + '.mp3';
+	audio.play();
+};
 
 document.getElementById('button').onclick = function() {
 		audio.play();
@@ -358,13 +367,20 @@ document.getElementById('button').onclick = function() {
 		setTimeout(function(){
 			layer.style.zIndex = '-10';
 		}, 500);
-		localStorage.setItem('state', 'hidden');
 }
 
-if(currentState === 'hidden'){
-	audio.play();
-	layer.style.opacity = '0';
-	layer.style.zIndex = '-10';
+function random(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min; //Il max è incluso e il min è incluso 
+}
+
+function getNewTrack(c) {
+	do{
+		n = random(1,4);
+	}while(n == c)
+		
+	return n;
 }
 	
 /**
