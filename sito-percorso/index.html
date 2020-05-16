@@ -228,7 +228,7 @@
 			 </g>
 			</svg>
         </div>
-		<div class="dismiss-page">
+		<div id="dismiss-page">
 			<div class="text">
 				<p>&#128266;</p>
 				<p>Si consiglia di alzare il volume</p>
@@ -238,13 +238,13 @@
         <script type="text/javascript" src="js/main.js"></script>
 		<script>
 			var audio = document.getElementById('bg-audio');
-			var layer = document.getElementByClassName('.dismiss-page');
+			var layer = document.getElementById('dismiss-page');
 			
 			audio.volume = 0.3;
 			
 			function playAndHide(){
 				audio.play();
-				$('.dismiss-page').addClass('hide');
+				layer.style.opacity = '0';
 			}
 		</script>
 		<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>

@@ -157,7 +157,7 @@ body.transition-in {
     background-color: #000;
 }
 
-.dismiss-page{
+#dismiss-page{
 	text-align: center;
 	vertical-align: middle;
 	position: fixed;
@@ -172,7 +172,7 @@ body.transition-in {
 	backdrop-filter: blur(5px);
 }
 
-.dismiss-page .text{
+#dismiss-page .text{
 	font-family: "Courier New";
 	z-index: 98;
 	position: absolute;
@@ -185,11 +185,11 @@ body.transition-in {
     margin: auto;
 }
 
-.dismiss-page .text p{
+#dismiss-page .text p{
 	margin-bottom: 15px;
 }
 
-.dismiss-page .text #button{
+#dismiss-page .text #button{
 	border-radius: 12px;
 	font-family: "Courier New";
 }
