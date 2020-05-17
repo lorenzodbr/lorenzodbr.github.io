@@ -361,6 +361,7 @@ if(prevTrack){
 }
 else{
 	currentTrack = getNewTrack(0);
+	localStorage.setItem('track', currentTrack);
 	audio.src = '/sito-percorso/sounds/bg-music-' + currentTrack +'.mp3';
 }
 
