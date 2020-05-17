@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -180,17 +180,16 @@ body.transition-in {
 }
 
 #dismiss-page .instructions{
+	vertical-align: middle;
 	font-family: "Courier New";
 	z-index: 96;
 	position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 70%;
-    height: 10%;
-    margin: auto;
-	opacity: 0;
+    top: 50%;
+	left: 50%;
+	margin-left: -25vw;
+	margin-top: -10vh;
+    width: 50vw;
+    opacity: 0;
 	transition: opacity 500ms ease;
     will-change: opacity;
 }
@@ -200,17 +199,16 @@ body.transition-in {
 }
 
 #dismiss-page #text{
+	vertical-align: middle;
 	font-family: "Courier New";
 	z-index: 98;
 	position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 70%;
-    height: 10%;
-    margin: auto;
-	transition: opacity 500ms ease;
+	top: 50%;
+	left: 50%;
+	margin-left: -25vw;
+	margin-top: -10vh;
+    width: 50vw;
+    transition: opacity 500ms ease;
     will-change: opacity;
 }
 
