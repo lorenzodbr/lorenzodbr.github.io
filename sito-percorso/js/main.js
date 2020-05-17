@@ -394,7 +394,7 @@ document.getElementById('button-yes').onclick = function() {
 			
 			text.style.opacity = '0';
 			setTimeout(function(){
-			text.style.zIndex = '-10';
+				text.style.zIndex = '-10';
 			}, 500);
 		
 			if(checkBrowser() === 'chrome'){
@@ -434,11 +434,11 @@ document.getElementById('button-no').onclick = function() {
 }
 
 document.getElementById('button-dismiss').onclick = function() {
-		audio.play();
 		layer.style.opacity = '0';
 		setTimeout(function(){
 			layer.style.zIndex = '-10';
 		}, 500);
+		audio.play();
 }
 
 function checkBrowser() {     
