@@ -347,8 +347,11 @@ if (document.querySelector('.swiper-container-ticker')) {
 
 var audio = document.getElementById('bg-audio');
 var layer = document.getElementById('dismiss-page');
+var text = document.getElementById('text');
+var chrome_panel = document.getElementById('chrome');
+var safari_panel = document.getElementById('safari');
 
-audio.volume = 0.3;
+audio.volume = 0.5;
 
 var prevTrack = localStorage.getItem('track') ? localStorage.getItem('track') : null;
 
@@ -382,16 +385,32 @@ if(localStorage.getItem('confirmation') === 'true'){
 }
 
 document.getElementById('button-yes').onclick = function() {
-		layer.style.opacity = '0';
-		setTimeout(function(){
-			layer.style.zIndex = '-10';
-		}, 500);
-		audio.play();
-		
 		localStorage.setItem('answer', 'yes');
 		
 		if(document.getElementById('confirmation').checked){
+			
 			localStorage.setItem('confirmation', 'true');
+			
+			text.style.opacity = '0';
+			setTimeout(function(){
+			text.style.zIndex = '-10';
+			}, 500);
+		
+			if(checkBrowser() === 'chrome'){
+				chrome_panel.style.opacity = '1';
+				safari_panel.style.display = 'none';
+			}
+			else{
+				safari_panel.style.opacity = '1';
+				chrome_panel.style.display = 'none';
+			}
+		}
+		else{
+			layer.style.opacity = '0';
+			setTimeout(function(){
+				layer.style.zIndex = '-10';
+			}, 500);
+			audio.play();
 		}
 }
 
@@ -406,6 +425,56 @@ document.getElementById('button-no').onclick = function() {
 		if(document.getElementById('confirmation').checked){
 			localStorage.setItem('confirmation', 'true');
 		}
+}
+
+document.getElementById('button-dismiss').onclick = function() {
+		layer.style.opacity = '0';
+		setTimeout(function(){
+			layer.style.zIndex = '-10';
+		}, 500);
+}
+
+function checkBrowser() {     
+	// Get the user-agent string 
+	let userAgentString =  
+		navigator.userAgent; 
+  
+	// Detect Chrome 
+	let chromeAgent =  
+		userAgentString.indexOf("Chrome") > -1; 
+  
+	// Detect Internet Explorer 
+	let IExplorerAgent =  
+		userAgentString.indexOf("MSIE") > -1 ||  
+		userAgentString.indexOf("rv:") > -1; 
+  
+	// Detect Firefox 
+	let firefoxAgent =  
+		userAgentString.indexOf("Firefox") > -1; 
+  
+	// Detect Safari 
+	let safariAgent =  
+		userAgentString.indexOf("Safari") > -1; 
+		  
+	// Discard Safari since it also matches Chrome 
+	if ((chromeAgent) && (safariAgent))  
+		safariAgent = false; 
+  
+	// Detect Opera 
+	let operaAgent =  
+		userAgentString.indexOf("OP") > -1; 
+		  
+	// Discard Chrome since it also matches Opera      
+	if ((chromeAgent) && (operaAgent))  
+		chromeAgent = false; 
+	
+	
+	if(chromeAgent){
+		return 'chrome';
+	}
+	else if(safariAgent){
+		return 'safari';
+	}
 }
 
 function random(min, max) {

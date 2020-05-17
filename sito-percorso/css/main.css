@@ -179,7 +179,27 @@ body.transition-in {
 	backdrop-filter: blur(20px);
 }
 
-#dismiss-page .text{
+#dismiss-page .instructions{
+	font-family: "Courier New";
+	z-index: 96;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 70%;
+    height: 10%;
+    margin: auto;
+	opacity: 0;
+	transition: opacity 500ms ease;
+    will-change: opacity;
+}
+
+#dismiss-page .instructions ol li{
+	margin-bottom: 8px;
+}
+
+#dismiss-page #text{
 	font-family: "Courier New";
 	z-index: 98;
 	position: absolute;
@@ -190,24 +210,25 @@ body.transition-in {
     width: 70%;
     height: 10%;
     margin: auto;
+	transition: opacity 500ms ease;
+    will-change: opacity;
 }
 
-#dismiss-page .text p{
+#dismiss-page p{
 	margin-bottom: 15px;
 }
 
-#dismiss-page .text #button-yes,
-#dismiss-page .text #button-no {
+#dismiss-page button{
 	border-radius: 12px;
 	font-family: "Courier New";
 	display: inline;
 	margin-bottom: 15px;
 }
 
-#dismiss-page .text #confirmation{
+#dismiss-page #text #confirmation{
 	vertical-align: middle;
 }
-#dismiss-page .text label{
+#dismiss-page #text label{
 	font-size: 80%;
 }
 
