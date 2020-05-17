@@ -454,6 +454,10 @@ function checkBrowser() {
 	let IExplorerAgent =  
 		userAgentString.indexOf("MSIE") > -1 ||  
 		userAgentString.indexOf("rv:") > -1; 
+    
+	let edgeAgent =  
+		userAgentString.indexOf("Edg") > -1 &&
+		userAgentString.indexOf("Chrome") > -1; 
   
 	// Detect Firefox 
 	let firefoxAgent =  
@@ -475,12 +479,18 @@ function checkBrowser() {
 	if ((chromeAgent) && (operaAgent))  
 		chromeAgent = false; 
 	
+	if ((chromeAgent) && (edgeAgent))  
+		chromeAgent = false; 
+	
 	
 	if(chromeAgent){
 		return 'chrome';
 	}
 	else if(safariAgent){
 		return 'safari';
+	}
+	else{
+		return 'generic';
 	}
 }
 
