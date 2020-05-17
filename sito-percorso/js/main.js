@@ -400,15 +400,19 @@ document.getElementById('button-yes').onclick = function() {
 			if(checkBrowser() === 'chrome'){
 				chrome_panel.style.opacity = '1';
 				safari_panel.style.display = 'none';
+				safari_panel.style.zIndex = '-10';
 			}
 			else if(checkBrowser() === 'safari'){
 				safari_panel.style.opacity = '1';
 				chrome_panel.style.display = 'none';
+				chrome.style.zIndex = '-10';
 			}
 			else{
 				generic_panel.style.opacity = '1';
 				safari_panel.style.display = 'none';
 				chrome_panel.style.display = 'none';
+				safari_panel.style.zIndex = '-10';
+				chrome_panel.style.zIndex = '-10';
 			}
 		}
 		else{
