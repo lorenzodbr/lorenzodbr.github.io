@@ -375,6 +375,10 @@ audio.onended = function() {
 if(localStorage.getItem('confirmation') === 'true'){
 	layer.style.zIndex = '-10';
 	layer.style.opacity = '0';
+	
+	if(localStorage.getItem('answer') === 'yes'){
+		audio.play();
+	}
 }
 
 document.getElementById('button-yes').onclick = function() {
@@ -383,6 +387,8 @@ document.getElementById('button-yes').onclick = function() {
 			layer.style.zIndex = '-10';
 		}, 500);
 		audio.play();
+		
+		localStorage.setItem('answer', 'yes');
 		
 		if(document.getElementById('confirmation').checked){
 			localStorage.setItem('confirmation', 'true');
@@ -394,6 +400,8 @@ document.getElementById('button-no').onclick = function() {
 		setTimeout(function(){
 			layer.style.zIndex = '-10';
 		}, 500);
+		
+		localStorage.setItem('answer', 'no');
 		
 		if(document.getElementById('confirmation').checked){
 			localStorage.setItem('confirmation', 'true');
