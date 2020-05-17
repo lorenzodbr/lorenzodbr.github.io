@@ -188,7 +188,7 @@ body.transition-in {
 	left: 50%;
 	margin-left: -25vw;
 	margin-top: -10vh;
-    width: 50vw;
+    width: 70vw;
     opacity: 0;
 	transition: opacity 500ms ease;
     will-change: opacity;
@@ -207,7 +207,7 @@ body.transition-in {
 	left: 50%;
 	margin-left: -25vw;
 	margin-top: -10vh;
-    width: 50vw;
+    width: 70vw;
     transition: opacity 500ms ease;
     will-change: opacity;
 }
