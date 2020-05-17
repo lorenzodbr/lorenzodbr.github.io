@@ -350,6 +350,7 @@ var layer = document.getElementById('dismiss-page');
 var text = document.getElementById('text');
 var chrome_panel = document.getElementById('chrome');
 var safari_panel = document.getElementById('safari');
+var generic_panel = document.getElementById('generic');
 
 audio.volume = 0.5;
 
@@ -400,8 +401,13 @@ document.getElementById('button-yes').onclick = function() {
 				chrome_panel.style.opacity = '1';
 				safari_panel.style.display = 'none';
 			}
-			else{
+			else if(checkBrowser() === 'safari'){
 				safari_panel.style.opacity = '1';
+				chrome_panel.style.display = 'none';
+			}
+			else{
+				generic_panel.style.opacity = '1';
+				safari_panel.style.display = 'none';
 				chrome_panel.style.display = 'none';
 			}
 		}
