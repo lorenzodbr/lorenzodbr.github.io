@@ -437,7 +437,7 @@ document.getElementById('button-no').onclick = function() {
 		}
 }
 
-document.getElementById('button-dismiss').onclick = function() {
+document.getElementById('button').onclick = function() {
 		audio.play();
 		layer.style.opacity = '0';
 		setTimeout(function(){
