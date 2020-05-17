@@ -148,6 +148,7 @@
     position: relative;
     line-height: 1.05;
     overflow: hidden;
+	width: 20%;
 }
 
 .home__count-inner {

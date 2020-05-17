@@ -84,8 +84,6 @@ function getSoundAndFadeAudio(audiosnippetId) {
             clearInterval(fadeAudio);
         }
     }, 20);
-	
-	localStorage.setItem('min', sound.currentTime);
 }
 
 document.querySelectorAll('.js-page-transition').forEach(elem => {
@@ -351,22 +349,54 @@ var audio = document.getElementById('bg-audio');
 var layer = document.getElementById('dismiss-page');
 
 audio.volume = 0.3;
-var currentTrack = getNewTrack(0);
 
-audio.src = 'sounds/bg-music-' + currentTrack + '.mp3';
+var prevTrack = localStorage.getItem('track') ? localStorage.getItem('track') : null;
+
+var currentTrack;
+
+if(prevTrack){
+	currentTrack = getNewTrack(prevTrack);
+	localStorage.setItem('track', currentTrack);
+	audio.src = '/sito-percorso/sounds/bg-music-' + currentTrack + '.mp3';
+}
+else{
+	currentTrack = getNewTrack(0);
+	audio.src = '/sito-percorso/sounds/bg-music-' + currentTrack +'.mp3';
+}
 
 audio.onended = function() {
-	currentTrack = getNewTrack(currentTrack);
-	audio.src = 'sounds/bg-music-' + currentTrack + '.mp3';
+	currentTrack = getNewTrack(localStorage.getItem('track'));
+	localStorage.setItem('track', currentTrack);
+	audio.src = '/sito-percorso/sounds/bg-music-' + currentTrack + '.mp3';
 	audio.play();
 };
 
-document.getElementById('button').onclick = function() {
-		audio.play();
+if(localStorage.getItem('confirmation') === 'true'){
+	layer.style.zIndex = '-10';
+	layer.style.opacity = '0';
+}
+
+document.getElementById('button-yes').onclick = function() {
 		layer.style.opacity = '0';
 		setTimeout(function(){
 			layer.style.zIndex = '-10';
 		}, 500);
+		audio.play();
+		
+		if(document.getElementById('confirmation').checked){
+			localStorage.setItem('confirmation', 'true');
+		}
+}
+
+document.getElementById('button-no').onclick = function() {
+		layer.style.opacity = '0';
+		setTimeout(function(){
+			layer.style.zIndex = '-10';
+		}, 500);
+		
+		if(document.getElementById('confirmation').checked){
+			localStorage.setItem('confirmation', 'true');
+		}
 }
 
 function random(min, max) {
@@ -378,7 +408,7 @@ function random(min, max) {
 function getNewTrack(c) {
 	do{
 		n = random(1,4);
-	}while(n == c)
+	}while(n == c);
 		
 	return n;
 }
