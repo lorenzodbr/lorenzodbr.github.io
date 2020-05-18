@@ -40,12 +40,11 @@
 	<audio id="bg-audio" type="audio/mp3"></audio>
         <header>
             <nav class="nav will-appear">
-				<a class="nav__link js-page-transition" href="../">Storia | Percorso 3</a>
+				<a class="nav__link js-page-transition" href="../">Home | Percorso 3</a>
                 <a class="nav__logo js-page-transition" href="../">
                     <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
 					 <g stroke="null">
-					  <text stroke="#fff" style="vector-effect: non-scaling-stroke;" transform="matrix(7.7376079950266945,0,0,7.226941084146855,-408.54417930800685,-709.6405906265206) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_1" y="131.8314" x="82.768955" stroke-width="0" fill="#fff">S</text>
-					  <text style="cursor: move;" stroke="#fff" transform="matrix(3.0623254381124085,0,0,3.03756221144536,-36.309817901123424,-17.67986151355088) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_2" y="20.860905" x="10.810539" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#fff">S</text>
+					  <text stroke="#fff" transform="matrix(3.0623254381124085,0,0,3.03756221144536,-36.309817901123424,-17.67986151355088) " xml:space="preserve" text-anchor="start" font-family="'Courier New', Courier, monospace" font-size="24" id="svg_2" y="20.860905" x="10.810539" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#fff">S</text>
 					  <rect stroke="#999999" stroke-width="0.7" rx="1" id="svg_6" height="49.642968" width="0.634834" y="0.178516" x="41.441938" fill="#444444"/>
 					 </g>
 					</svg>
@@ -351,26 +350,13 @@
 				<button id="button-no">No</button><br/>
 				<input type="checkbox" id="confirmation"><label for="confirmation">(Ricorda questa scelta)</label>
 			</div>
-			<div class="instructions" id="chrome">
-				<p>Per poter proseguire, per favore, completa questi passaggi (Chrome):</p>
+			<div id="instructions">
+				<p id="instructions-p"><b>Per poter proseguire, per favore, attiva le impostazioni del sito relative all'audio sul tuo browser, consentendone la riproduzione in ogni caso.</b></p>
 				<ol>
-					<li>1) Premere sull'icona a forma di lucchetto nella barra degli indirizzi</li>
-					<li>2) Aprire il menù delle impostazioni relative ad "Audio"</li>
-					<li>3) Modificare questo da "Automatica" a "Consenti"</li>
+					<li id="instr1"></li>
+					<li id="instr2"></li>
+					<li id="instr3"></li>
 				</ol>
-				<button id="button-dismiss">Fatto</button>
-			</div>
-			<div class="instructions" id="safari">
-				<p>Per poter proseguire, per favore, completa questi passaggi (Safari):</p>
-				<ol type="1">
-					<li>1) Premere su "Safari" nella barra in alto</li>
-					<li>2) Premere "Impostazioni per il sito web..."</li>
-					<li>3) Modificare il campo relativo a "Riproduzione automatica" su "Sempre"</li>
-				</ol>
-				<button id="button-dismiss">Fatto</button>
-			</div>
-			<div class="instructions" id="generic">
-				<p><b>Per poter proseguire, per favore, attiva le impostazioni relative all'audio sul tuo browser, consentendone la riproduzione in ogni caso.</b></p>
 				<button id="button-dismiss">Fatto</button>
 			</div>
         </div>
