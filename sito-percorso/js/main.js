@@ -414,15 +414,15 @@ document.getElementById('button-yes').onclick = function() {
 			
 			if(checkBrowser() === 'chrome'){
 				instructions_p.innerHTML = 'Per poter proseguire, per favore, completa questi passaggi (Chrome):';
-				instr1.innerHTML = '1) Premere sull&quot;icona a forma di lucchetto nella barra degli indirizzi';
-				instr2.innerHTML = '2) Aprire il menù delle impostazioni relative ad "Audio"';
-				instr3.innerHTML = '3) Modificare questo da "Automatica" a "Consenti"';
+				instr1.innerHTML = '1) Premere sull&apos;icona a forma di lucchetto nella barra degli indirizzi';
+				instr2.innerHTML = '2) Premere su &quot;Impostazioni sito&quot;';
+				instr3.innerHTML = '3) Nella pagina che si apre cercare e modificare l&apos;opzione &quot;Audio&quot; da &quot;Automatica&quot; a &quot;Consenti&quot;';
 			}
 			else if(checkBrowser() === 'safari'){
 				instructions_p.innerHTML = 'Per poter proseguire, per favore, completa questi passaggi (Safari):';
-				instr1.innerHTML = '1) Premere su "Safari" nella barra in alto';
-				instr2.innerHTML = '2) Premere "Impostazioni per il sito web..."';
-				instr3.innerHTML = '3) Modificare il campo relativo a "Riproduzione automatica" su "Sempre"';
+				instr1.innerHTML = '1) Premere su &quot;Safari&quot; nella barra in alto';
+				instr2.innerHTML = '2) Premere &quot;Impostazioni per il sito web...&quot;';
+				instr3.innerHTML = '3) Modificare il campo relativo a &quot;Riproduzione automatica&quot; su&quot;Sempre&quot;';
 			
 			}
 		}
