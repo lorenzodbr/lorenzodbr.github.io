@@ -234,27 +234,14 @@
 				<button id="button-no">No</button><br/>
 				<input type="checkbox" id="confirmation"><label for="confirmation">(Ricorda questa scelta)</label>
 			</div>
-			<div class="instructions" id="chrome">
-				<p><b>Per poter proseguire, per favore, completa questi passaggi (Chrome):</b></p>
+			<div id="instructions">
+				<p id="instructions-p"><b>Per poter proseguire, per favore, attiva le impostazioni relative all'audio sul tuo browser, consentendone la riproduzione in ogni caso.</b></p>
 				<ol>
-					<li>1) Premere sull'icona a forma di lucchetto nella barra degli indirizzi</li>
-					<li>2) Aprire il menù delle impostazioni relative ad "Audio"</li>
-					<li>3) Modificare questo da "Automatica" a "Consenti"</li>
+					<li id="instr1"></li>
+					<li id="instr2"></li>
+					<li id="instr3"></li>
 				</ol>
-				<button id="button">Fatto</button>
-			</div>
-			<div class="instructions" id="safari">
-				<p><b>Per poter proseguire, per favore, completa questi passaggi (Safari):</b></p>
-				<ol type="1">
-					<li>1) Premere su "Safari" nella barra in alto</li>
-					<li>2) Premere "Impostazioni per il sito web..."</li>
-					<li>3) Modificare il campo relativo a "Riproduzione automatica" su "Sempre"</li>
-				</ol>
-				<button id="button">Fatto</button>
-			</div>
-			<div class="instructions" id="generic">
-				<p><b>Per poter proseguire, per favore, attiva le impostazioni relative all'audio sul tuo browser, consentendone la riproduzione in ogni caso.</b></p>
-				<button id="button">Fatto</button>
+				<button id="button-dismiss">Fatto</button>
 			</div>
         </div>
         <script type="text/javascript" src="js/main.js"></script>

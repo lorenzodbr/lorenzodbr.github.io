@@ -179,7 +179,7 @@ body.transition-in {
 	backdrop-filter: blur(20px);
 }
 
-#dismiss-page .instructions{
+#dismiss-page #instructions div{
 	vertical-align: middle;
 	font-family: "Courier New";
 	z-index: 96;
@@ -194,7 +194,22 @@ body.transition-in {
     will-change: opacity;
 }
 
-#dismiss-page .instructions ol li{
+#dismiss-page #instructions{
+	vertical-align: middle;
+	font-family: "Courier New";
+	z-index: 97;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	margin-left: -35vw;
+	margin-top: -10vh;
+    width: 70vw;
+    transition: opacity 500ms ease;
+    will-change: opacity;
+}
+
+#dismiss-page #instructions div ol li{
 	margin-bottom: 8px;
 }
 
@@ -220,6 +235,7 @@ body.transition-in {
 	border-radius: 12px;
 	font-family: "Courier New";
 	display: inline;
+	margin-top: 15px;
 	margin-bottom: 15px;
 }
 

@@ -348,6 +348,12 @@ if (document.querySelector('.swiper-container-ticker')) {
 var audio = document.getElementById('bg-audio');
 var layer = document.getElementById('dismiss-page');
 var text = document.getElementById('text');
+var instructions = document.getElementById('instructions');
+var instructions_p = document.getElementById('instructions-p');
+var instr1 = document.getElementById('instr1');
+var instr2 = document.getElementById('instr2');
+var instr3 = document.getElementById('instr3');
+
 var chrome_panel = document.getElementById('chrome');
 var safari_panel = document.getElementById('safari');
 var generic_panel = document.getElementById('generic');
@@ -385,6 +391,11 @@ if(localStorage.getItem('confirmation') === 'true'){
 	}
 }
 
+document.getElementById('button-dismiss').onclick = function() {
+		location.reload();
+ 		return false;
+}
+
 document.getElementById('button-yes').onclick = function() {
 		localStorage.setItem('answer', 'yes');
 		
@@ -396,23 +407,23 @@ document.getElementById('button-yes').onclick = function() {
 			setTimeout(function(){
 				text.style.zIndex = '-10';
 			}, 500);
-		
+			text.style.display = 'none';
+			
+			instructions.style.opacity = '1';
+			
+			
 			if(checkBrowser() === 'chrome'){
-				chrome_panel.style.opacity = '1';
-				safari_panel.style.display = 'none';
-				safari_panel.style.zIndex = '-10';
+				instructions_p.innerHTML = 'Per poter proseguire, per favore, completa questi passaggi (Chrome):';
+				instr1.innerHTML = '1) Premere sull&quot;icona a forma di lucchetto nella barra degli indirizzi';
+				instr2.innerHTML = '2) Aprire il menù delle impostazioni relative ad "Audio"';
+				instr3.innerHTML = '3) Modificare questo da "Automatica" a "Consenti"';
 			}
 			else if(checkBrowser() === 'safari'){
-				safari_panel.style.opacity = '1';
-				chrome_panel.style.display = 'none';
-				chrome.style.zIndex = '-10';
-			}
-			else{
-				generic_panel.style.opacity = '1';
-				safari_panel.style.display = 'none';
-				chrome_panel.style.display = 'none';
-				safari_panel.style.zIndex = '-10';
-				chrome_panel.style.zIndex = '-10';
+				instructions_p.innerHTML = 'Per poter proseguire, per favore, completa questi passaggi (Safari):';
+				instr1.innerHTML = '1) Premere su "Safari" nella barra in alto';
+				instr2.innerHTML = '2) Premere "Impostazioni per il sito web..."';
+				instr3.innerHTML = '3) Modificare il campo relativo a "Riproduzione automatica" su "Sempre"';
+			
 			}
 		}
 		else{
@@ -437,13 +448,6 @@ document.getElementById('button-no').onclick = function() {
 		}
 }
 
-document.getElementById('button').onclick = function() {
-		audio.play();
-		layer.style.opacity = '0';
-		setTimeout(function(){
-			layer.style.zIndex = '-10';
-		}, 500);
-}
 
 function checkBrowser() {     
 	// Get the user-agent string 
