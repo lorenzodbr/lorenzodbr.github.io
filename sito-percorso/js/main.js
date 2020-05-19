@@ -515,16 +515,3 @@ function getNewTrack(c) {
 		
 	return n;
 }
-	
-/**
- * Project overview Title
- * 
- */
-/*const title = document.querySelector('.js-project-overview__title');
-
-if (title) {
-    window.addEventListener('scroll',() => {
-        document.querySelector('.js-project-overview__title').classList.add('state-scrolling')
-        document.querySelector('.js-project-overview__title').style.transform = `translate3d(0,${document.scrollingElement.scrollTop/2}px, 0)`
-    });
-}*/

@@ -137,7 +137,7 @@ a {
     --mouse-x: 10px;
     --mouse-y: 10px;
 
-    --font-size-title: 1.625rem;
+    --font-size-title: 2.125rem;
     --font-size-sub: 1.25rem;
 }
 
@@ -211,14 +211,22 @@ h1 {
 	top: 50%;
 	left: 50%;
 	opacity: 0;
-	margin-left: -35vw;
+	margin-left: -45vw;
 	margin-top: -10vh;
-    width: 70vw;
+    width: 90vw;
     transition: opacity 500ms ease;
     will-change: opacity;
 }
 
-#dismiss-page #instructions div ol li{
+@media only screen and (min-width: 650px){
+	#dismiss-page #instructions{
+		margin-left: -35vw;
+		margin-top: -10vh;
+		width: 70vw;
+	}
+}
+
+#dismiss-page #instructions li{
 	margin-bottom: 8px;
 }
 
@@ -496,11 +504,11 @@ header {
 
 .project .will-appear {
     opacity: 0;
-    transform: translate3d(0,50px,0);
+    transform: translate3d(0, 50px,0);
     transition-property: transform, opacity;
     transition-duration: 600ms;
     transition-timing-function: ease;
-    will-change: opacity, transform;
+    will-change: opacity, padding-top;
 }
 
 .project .did-appear {
