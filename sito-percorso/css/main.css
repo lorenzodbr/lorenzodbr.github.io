@@ -113,7 +113,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    object-fit: contain;
+    object-fit: cover;
     height: 100%;
     width: 100%;
     opacity: 0;
