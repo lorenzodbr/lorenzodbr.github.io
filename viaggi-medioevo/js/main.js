@@ -367,18 +367,18 @@ var currentTrack;
 if(prevTrack){
 	currentTrack = getNewTrack(prevTrack);
 	localStorage.setItem('track', currentTrack);
-	audio.src = '/sito-percorso/sounds/bg-music-' + currentTrack + '.mp3';
+	audio.src = '/viaggi-medioevo/sounds/bg-music-' + currentTrack + '.mp3';
 }
 else{
 	currentTrack = getNewTrack(0);
 	localStorage.setItem('track', currentTrack);
-	audio.src = '/sito-percorso/sounds/bg-music-' + currentTrack +'.mp3';
+	audio.src = '/viaggi-medioevo/sounds/bg-music-' + currentTrack +'.mp3';
 }
 
 audio.onended = function() {
 	currentTrack = getNewTrack(localStorage.getItem('track'));
 	localStorage.setItem('track', currentTrack);
-	audio.src = '/sito-percorso/sounds/bg-music-' + currentTrack + '.mp3';
+	audio.src = '/viaggi-medioevo/sounds/bg-music-' + currentTrack + '.mp3';
 	audio.play();
 };
 
