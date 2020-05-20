@@ -367,18 +367,18 @@ var currentTrack;
 if(prevTrack){
 	currentTrack = getNewTrack(prevTrack);
 	localStorage.setItem('track', currentTrack);
-	audio.src = '/viaggi-medioevo/sounds/bg-music-' + currentTrack + '.mp3';
+	audio.src = '/medioevo/viaggi/sounds/bg-music-' + currentTrack + '.mp3';
 }
 else{
 	currentTrack = getNewTrack(0);
 	localStorage.setItem('track', currentTrack);
-	audio.src = '/viaggi-medioevo/sounds/bg-music-' + currentTrack +'.mp3';
+	audio.src = '/medioevo/viaggi/sounds/bg-music-' + currentTrack +'.mp3';
 }
 
 audio.onended = function() {
 	currentTrack = getNewTrack(localStorage.getItem('track'));
 	localStorage.setItem('track', currentTrack);
-	audio.src = '/viaggi-medioevo/sounds/bg-music-' + currentTrack + '.mp3';
+	audio.src = '/medioevo/viaggi/sounds/bg-music-' + currentTrack + '.mp3';
 	audio.play();
 };
 
@@ -392,8 +392,10 @@ if(localStorage.getItem('confirmation') === 'true'){
 }
 
 document.getElementById('button-dismiss').onclick = function() {
-		location.reload();
- 		return false;
+		layer.style.opacity = '0';
+		setTimeout(function(){
+			layer.style.zIndex = '-10';
+		}, 500);
 }
 
 document.getElementById('button-yes').onclick = function() {
@@ -423,7 +425,6 @@ document.getElementById('button-yes').onclick = function() {
 				instr1.innerHTML = '1) Premere su &quot;Safari&quot; nella barra in alto';
 				instr2.innerHTML = '2) Premere &quot;Impostazioni per il sito web...&quot;';
 				instr3.innerHTML = '3) Modificare il campo relativo a &quot;Riproduzione automatica&quot; su&quot;Sempre&quot;';
-			
 			}
 		}
 		else{

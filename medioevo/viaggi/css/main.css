@@ -231,7 +231,6 @@ h1 {
 @media only screen and (min-width: 650px){
 	#dismiss-page #instructions{
 		margin-left: -35vw;
-		margin-top: -10vh;
 		width: 70vw;
 	}
 }
@@ -246,11 +245,18 @@ h1 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -35vw;
+	margin-left: -45vw;
 	margin-top: -10vh;
-    width: 70vw;
+    width: 90vw;
     transition: opacity 500ms ease;
     will-change: opacity;
+}
+
+@media only screen and (min-width: 650px){
+	#dismiss-page #text{
+		margin-left: -35vw;
+		width: 70vw;
+	}
 }
 
 #dismiss-page p{
@@ -272,6 +278,23 @@ h1 {
 #dismiss-page #text label{
 	font-size: 80%;
 	margin-left: 5px;
+}
+
+#dismiss-page #credits {
+	font-size: 70%;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -45vw;
+    margin-top: -5vh;
+    width: 90vw;
+}
+
+@media only screen and (min-width: 650px){
+	#dismiss-page #credits {
+		margin-left: -35vw;
+		width: 70vw;
+	}
 }
 
 .hide{
