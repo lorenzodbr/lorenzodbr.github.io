@@ -392,10 +392,12 @@ if(localStorage.getItem('confirmation') === 'true'){
 }
 
 document.getElementById('button-dismiss').onclick = function() {
-		layer.style.opacity = '0';
-		setTimeout(function(){
-			layer.style.zIndex = '-10';
-		}, 500);
+	audio.play();
+	
+	layer.style.opacity = '0';
+	setTimeout(function(){
+		layer.style.zIndex = '-10';
+	}, 500);
 }
 
 document.getElementById('button-yes').onclick = function() {
@@ -436,6 +438,9 @@ document.getElementById('button-yes').onclick = function() {
 }
 
 document.getElementById('button-no').onclick = function() {
+		getSoundAndFadeAudio('bg-audio');
+		audio.pause();
+		
 		layer.style.opacity = '0';
 		setTimeout(function(){
 			layer.style.zIndex = '-10';
