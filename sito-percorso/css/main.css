@@ -77,13 +77,23 @@ a {
 @font-face {
     font-family: 'SF Pro Display';
     font-weight: normal;
-    src: url(../fonts/sf-pro-disp.woff2) format('woff2'), url(../fonts/sf-pro-disp.woff) format('woff');
+    src: 
+	url('../fonts/sf-pro-disp.woff2') format('woff2'),
+	url('../fonts/sf-pro-disp.woff') format('woff');
 }
 
 @font-face {
     font-family: 'SF Pro Text';
-    src: url('../fonts/SFProText-Regular.woff2') format('woff2'),
-        url('../fonts/SFProText-Regular.woff') format('woff');
+    src: 
+	url('../fonts/SFProText-Regular.woff2') format('woff2'),
+    url('../fonts/SFProText-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Century Oldschool';
+    src: 
+	url('../fonts/CenturySchoolbook.woff2') format('woff2'),
+    url('../fonts/CenturySchoolbook.woff') format('woff');
 }
 
 
@@ -157,7 +167,7 @@ html {
 }
 
 body {
-    font-family: 'SF Pro Text', Arial, sans-serif;
+    font-family: 'HelveticaNeueLTStd-Roman', Arial, sans-serif;
     padding: 0 var(--page-padding);
     line-height: 1.3;
     background-color: #fff;
@@ -175,7 +185,7 @@ h1 {
 }
 
 #dismiss-page{
-	font-family: 'SF Pro Text', Arial, sans-serif;
+	font-family: 'HelveticaNeueLTStd-Roman', Arial, sans-serif;
 	text-align: center;
 	vertical-align: middle;
 	position: fixed;
@@ -250,7 +260,7 @@ h1 {
 #dismiss-page button{
 	width: 70px;
 	border-radius: 12px;
-	font-family: 'SF Pro Display', Arial, sans-serif;
+	font-family: 'HelveticaNeueLTStd-Roman', Arial, sans-serif;
 	display: inline;
 	margin-top: 15px;
 	margin-bottom: 15px;
