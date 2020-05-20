@@ -413,7 +413,6 @@ document.getElementById('button-yes').onclick = function() {
 			
 			instructions.style.opacity = '1';
 			
-			
 			if(checkBrowser() === 'chrome'){
 				instrp.innerHTML = 'Per poter proseguire, per favore, completa questi passaggi (Chrome):';
 				instr1.innerHTML = '1) Premere sull&apos;icona a forma di lucchetto nella barra degli indirizzi';
