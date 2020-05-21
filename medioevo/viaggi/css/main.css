@@ -151,7 +151,7 @@ a {
     --mouse-x: 10px;
     --mouse-y: 10px;
 
-    --font-size-title: 2.125rem;
+    --font-size-title: 2rem;
     --font-size-sub: 1.25rem;
 }
 
@@ -1257,7 +1257,7 @@ header {
 
     .project-overview__category-link.did-appear {
         opacity: 1;
-        transform: translate3d(0,40%,0);
+        transform: translate3d(0,45%,0);
     }
 
     .project-overview__category-link:hover {

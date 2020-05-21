@@ -503,7 +503,7 @@
 @media screen and (min-width: 1000px) {
 
     .home .swiper-slide-active .project-overview__category-link {
-        transform: translate3d(0,40%,0);
+        transform: translate3d(0,45%,0);
     }
 }
 
