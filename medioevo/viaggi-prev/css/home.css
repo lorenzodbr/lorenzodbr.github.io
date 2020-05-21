@@ -1,17 +1,5 @@
 /* Home */
 
-@font-face {
-    font-family: 'SF Pro Display';
-    font-weight: normal;
-    src: 
-	url('../fonts/sf-pro-disp.woff2') format('woff2'),
-	url('../fonts/sf-pro-disp.woff') format('woff');
-}
-
-body {
-	font-family: 'SF Pro Display', Arial, sans-serif;
-}
-
 :root {
     --transition-timing: 1000ms;
     --clip-path: 0 0 0 0;

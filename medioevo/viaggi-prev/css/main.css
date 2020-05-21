@@ -73,14 +73,6 @@ a {
 /* Font Declaration */
 
 @font-face {
-    font-family: 'Avenir LT Std';
-    src: url('../fonts/AvenirLTStd-Light.woff2') format('woff2'),
-        url('../fonts/AvenirLTStd-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Helvetica Neue';
     font-weight: normal;
     src: url(../fonts/HelveticaNeueLTStd-Roman.woff2) format('woff2'), url(../fonts/HelveticaNeueLTStd-Roman.woff) format('woff');
@@ -179,7 +171,7 @@ html {
 }
 
 body {
-    font-family: 'Avenir LT Std', Arial, sans-serif;
+    font-family: 'HelveticaNeueLTStd-Roman', Arial, sans-serif;
     padding: 0 var(--page-padding);
     line-height: 1.3;
     background-color: #fff;
@@ -435,7 +427,6 @@ h1 {
 /* Navigation */
 
 header {
-	font-family: 'SF Pro Display', Arial, sans-serif;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -694,7 +685,8 @@ header {
 }
 
 .text-image__text-inner {
-	transition: height 500ms ease, opacity 500ms ease;
+	font-family: 'SF Pro Display', Arial, sans-serif;
+    transition: height 500ms ease, opacity 500ms ease;
     will-change: opacity, height;
     height: 0;
     opacity: 0;
@@ -1045,7 +1037,7 @@ header {
 }
 
 .project-overview__category-link {
-	text-decoration: none;
+    text-decoration: none;
     position: fixed;
     right: 20px;
     bottom: 0;
@@ -1089,10 +1081,6 @@ header {
 
 .project-overview__category-link:hover rect {
     y: 0;
-}
-
-.project-overview__category-link-inner{
-    font-family: 'SF Pro Display', Arial, sans-serif;
 }
 
 .project-overview__item {
