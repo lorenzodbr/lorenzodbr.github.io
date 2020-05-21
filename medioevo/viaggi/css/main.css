@@ -284,21 +284,8 @@ h1 {
 	margin-left: 5px;
 }
 
-#dismiss-page #credits {
+#dismiss-page .credits {
 	font-size: 70%;
-	position: absolute;
-	top: 100%;
-	left: 50%;
-	margin-left: -45vw;
-    margin-top: -5vh;
-    width: 90vw;
-}
-
-@media only screen and (min-width: 650px){
-	#dismiss-page #credits {
-		margin-left: -35vw;
-		width: 70vw;
-	}
 }
 
 .hide{
