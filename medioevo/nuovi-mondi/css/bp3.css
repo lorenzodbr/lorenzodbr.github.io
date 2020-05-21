@@ -2296,7 +2296,7 @@ figure figcaption strong {
 
 #related,
 #filters {
-    padding: 40px 0 20px;
+    padding: 40px 0 0;
     width: 100%;
     float: left;
     clear: both;

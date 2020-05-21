@@ -705,7 +705,7 @@ figure figcaption {
     display: inline-block;
     width: 47%;
     max-width: 525px;
-    margin-bottom: 50px
+    margin-bottom: 0;
 }
 
 .posts .related div {

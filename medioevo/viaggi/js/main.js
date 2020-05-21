@@ -70,7 +70,6 @@ function getSoundAndFadeAudio(audiosnippetId) {
 
     var sound = document.getElementById(audiosnippetId);
 
-    // Set the point in playback that fadeout begins. This is for a 2 second fade out.
     var fadePoint = sound.currentTime; 
 
     var fadeAudio = setInterval(function () {
@@ -83,7 +82,7 @@ function getSoundAndFadeAudio(audiosnippetId) {
         if (sound.volume === 0.0) {
             clearInterval(fadeAudio);
         }
-    }, 20);
+    }, 10);
 }
 
 document.querySelectorAll('.js-page-transition').forEach(elem => {
