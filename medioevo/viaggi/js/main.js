@@ -514,7 +514,7 @@ function random(min, max) {
 
 function getNewTrack(c) {
 	do{
-		n = random(1,4);
+		n = random(1,5);
 	}while(n == c);
 		
 	return n;

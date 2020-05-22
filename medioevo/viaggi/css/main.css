@@ -690,8 +690,8 @@ header {
 }
 
 .text-image__text {
-    grid-column-start: 2;
-    grid-column-end: 16;
+    grid-column-start: 3;
+    grid-column-end: 15;
 }
 
 .text-image__text-inner {
@@ -749,13 +749,13 @@ header {
     }
 
     .state--portrait .text-image__image {
-        grid-column-start: 2;
-        grid-column-end: 9;
+        grid-column-start: 3;
+        grid-column-end: 10;
     }
 
     .state--portrait .text-image__text {
-        grid-column-start: 9;
-        grid-column-end: 16;
+        grid-column-start: 10;
+        grid-column-end: 17;
     }
     
     .text-image__text {
@@ -783,13 +783,13 @@ header {
     }
     
     .text-image__text {
-        grid-column-start: 12;
-        grid-column-end: 16;
+        grid-column-start: 13;
+        grid-column-end: 17;
     }
 
     .state--portrait .text-image__text {
-        grid-column-start: 10;
-        grid-column-end: 14;
+        grid-column-start: 11;
+        grid-column-end: 15;
     }
 }
 
