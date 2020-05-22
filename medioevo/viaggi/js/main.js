@@ -76,7 +76,7 @@ function getSoundAndFadeAudio(audiosnippetId) {
 
         // Only fade if past the fade out point or not at zero already
         if ((sound.currentTime >= fadePoint) && (sound.volume != 0.0)) {
-            sound.volume -= 0.01;
+            sound.volume -= 0.0125;
         }
         // When volume at zero stop all the intervalling
         if (sound.volume === 0.0) {
