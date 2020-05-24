@@ -4,10 +4,11 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <title>Medioevo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link rel="icon" type="image/jpg" sizes="32x32" href="img/favicon.jpg" />
 		<link rel="stylesheet" href="style.css" type="text/css" />
         <meta name="theme-color" content="#ffffff" />
     </head>
-    <body>
+    <body class="preload">
         <a href="medioevo/scaligeri">
 			<div style="background-image: url(img/bg-1.webp)">
 				<h1>Scaligeri</h1>
@@ -24,4 +25,10 @@
 			</div>
 		</a>
     </body>
+	
+	<script>
+		$(window).load(function() {
+			$("body").removeClass("preload");
+		}
+	</script>
 </html>

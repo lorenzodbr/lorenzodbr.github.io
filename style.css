@@ -6,6 +6,23 @@
     font-style: normal;
 }
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 body{
 	height: 100vh;
 	width: 100vw;
@@ -14,6 +31,7 @@ body{
 	top: 0;
 	left: 0;
 	overflow: hidden;
+	background-color: #000;
 }
 
 a {
@@ -38,6 +56,13 @@ div{
 	background-size: cover;
 	background-position: top;
 	border-bottom: 2px solid #fff
+	opacity: 0;
+	
+	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 1.5s; /* Internet Explorer */
+         -o-animation: fadein 1.5s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
 }
 
 @media only screen and (min-width: 797px){
@@ -53,4 +78,11 @@ div{
 		line-height: 100vh;
 		font-size: 4vw;
 	}
+}
+
+.preload *{
+	-webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
 }
