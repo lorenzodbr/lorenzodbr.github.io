@@ -173,6 +173,16 @@ a {
     }
 }
 
+@media screen and (min-width: 1500px) {
+    :root {
+        --page-padding: 50px;
+        --grid-gap: 2rem;
+
+        --font-size-title: 4rem;
+        --font-size-sub: 1.625rem;
+    }
+}
+
 html {
     cursor: none;
     background-color: #000;
@@ -661,6 +671,11 @@ header {
 @media screen and (min-width: 1000px) {
     .project__header {
         margin-bottom: 13rem;
+    }
+	
+	.project__header-title {
+        grid-column-start: 2;
+        grid-column-end: 8;
     }
 
     .state--portrait.project__header-image picture {
