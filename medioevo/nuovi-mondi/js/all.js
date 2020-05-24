@@ -1,6 +1,6 @@
 $(window).load(function() {
     $("body").removeClass("preload");
-    var $animation_elements = $('section, footer, .bg-home, .bg-alt, .header-creative, .creative-portfolio, sup');
+    var $animation_elements = $('section, footer, .bg-home, .bg-alt, .header-creative, .creative-portfolio, .content-col, sup');
     var $window = $(window);
 
     function check_if_in_view() {
