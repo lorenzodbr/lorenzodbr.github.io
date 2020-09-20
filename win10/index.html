@@ -178,9 +178,12 @@
                 if (count > 99) {
                     open("BSOD.html", "_self", 1500);
                 }
+				else{
+					document.getElementById("timer").innerHTML = count + "%";
+					document.getElementById("timer2").innerHTML = count + "%";
+				}
 				
-				document.getElementById("timer").innerHTML = count + "%";
-				document.getElementById("timer2").innerHTML = count + "%";
+				
             }
         </script>
     </head>
