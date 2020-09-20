@@ -170,7 +170,7 @@
         </style>
         <script>
             var count = 0;
-            var counter = setInterval(timer, 100); //1000 will  run it every 1 second
+            var counter = setInterval(timer, 10000); //1000 will  run it every 1 second
             var ref = "Configuring updates";
 
             function timer() {
@@ -184,7 +184,7 @@
                 document.getElementById("timer").innerHTML = count + "%";
 				
                 if (count > 99) {
-                    count = 0;
+                    count = -1;
                     return;
                 }
             }
