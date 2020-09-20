@@ -4,8 +4,8 @@
 		var DEFAULTS = {
 			backgroundColor: '#7b7b7b',
 			progressColor: '#177dcf',
-			percent: 75,
-			duration: 10000
+			percent: 100,
+			duration: 1000000
 		};	
 		
 		$(this).each(function () {
