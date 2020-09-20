@@ -175,15 +175,14 @@
                     return;
                 }
 				
+				document.getElementById("timer").innerHTML = count + "%";
+				document.getElementById("timer2").innerHTML = count + "%";
+				
                 if (count == 99) {
 					clearInterval(counter);
                     open("BSOD.html", "_self", 1500);
 					return;
                 }
-				else{
-					document.getElementById("timer").innerHTML = count + "%";
-					document.getElementById("timer2").innerHTML = count + "%";
-				}
             }
         </script>
     </head>
