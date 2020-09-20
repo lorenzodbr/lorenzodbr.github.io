@@ -5,7 +5,7 @@
 			backgroundColor: '#7b7b7b',
 			progressColor: '#177dcf',
 			percent: 75,
-			duration: 1000000
+			duration: 10000
 		};	
 		
 		$(this).each(function () {
