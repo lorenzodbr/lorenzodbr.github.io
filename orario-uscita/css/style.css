@@ -18,8 +18,8 @@ main {
 
 @media (min-width: 700px) {
 	main {
-		max-width: 350px;
-		max-height: 90%;
+		width: 350px;
+		height: 90%;
 		border-radius: 25px;
 	}
 }

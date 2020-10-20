@@ -94,6 +94,9 @@ function setOra(){
 				else if(piano == 0 || piano == 2){
 					document.getElementById("ora").innerHTML = "12:55";
 				}
+				else{
+					document.getElementById("ora").innerHTML = "Errore";
+				}
 			}
 			else{
 				document.getElementById("ora").innerHTML = "Errore";
@@ -119,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-request.open("GET", "http://worldtimeapi.org/api/timezone/Europe/Rome");
+request.open("GET", "https://worldtimeapi.org/api/timezone/Europe/Rome");
 request.send();
 request.onload = updateVar;
 
