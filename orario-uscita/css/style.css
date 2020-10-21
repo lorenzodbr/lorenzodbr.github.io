@@ -47,6 +47,14 @@ p, img, select, button {
 	height: 20px	
 }
 
+#credits {
+	border-radius: 20px;
+	display: block;
+	position: absolute;
+	left: 90%;
+	top: -10%;
+}
+
 .container {
 	position: absolute;
 	top: 50%;

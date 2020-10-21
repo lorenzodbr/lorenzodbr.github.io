@@ -6,7 +6,6 @@
 	<title>Orari di uscita - Marconi Verona</title>
 	<meta name="description" content="Orari di uscita - Marconi Verona">
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
-	<meta name="author" content="SitePoint">
 	<link rel="shortcut icon" href="img/logo.png" />
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -15,6 +14,7 @@
 <body>
 	<main>
 		<div class="container">
+			<button type="button" id="credits" class="btn btn-outline-secondary btn-sm">&#x1F6C8;</button>
 			<img src="img/logo.png">
 			<h4>Oggi:</h4>
 			<p id="data">Attendere...</p>
@@ -30,7 +30,7 @@
 				<input type="checkbox" id="unchecked" class="cbx hidden"/>
 				<label for="unchecked" class="lbl"></label>
 			</div>
-			<button type="button" class="btn btn-primary" style="margin-top: 50px" id="button">A che ora si esce?</button>
+			<button type="button" class="btn btn-primary" style="margin-top: 50px" id="result">A che ora si esce?</button>
 			<h3 id="ora"></h3>
 		</div>
 	</main>

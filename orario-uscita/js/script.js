@@ -105,6 +105,10 @@ function setOra(){
 	}
 }
 
+function openWin() {
+    document.location.href = "credits/";
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   var checkbox = document.querySelector('input[type="checkbox"]');
   var select = document.querySelector('select');
@@ -126,4 +130,5 @@ request.open("GET", "https://worldtimeapi.org/api/timezone/Europe/Rome");
 request.send();
 request.onload = updateVar;
 
-document.getElementById("button").addEventListener("click", setOra);
+document.getElementById("result").addEventListener("click", setOra);
+document.getElementById("credits").addEventListener("click", openWin);
