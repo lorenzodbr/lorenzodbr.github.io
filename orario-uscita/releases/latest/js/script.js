@@ -18,4 +18,4 @@ request.open("GET", "https://api.npoint.io/d0f66327be1bdaa66793");
 request.send();
 request.onload = updateVar;
 
-document.getElementById("button").addEventListener("click", openWin);
+document.getElementById("download").addEventListener("click", openWin);
