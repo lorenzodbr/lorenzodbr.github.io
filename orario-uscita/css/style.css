@@ -18,7 +18,7 @@ main {
 	background-color: #eee;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1100px) {
 	main {
 		width: 350px;
 		height: 90%;
@@ -89,7 +89,6 @@ p, img, select, button {
   transition: all 0.3s ease;
 }
 
-.lbl:active:after { transform: scale(1.15, 0.85); }
 
 .cbx:checked ~ label { background: #5eacff; }
 
