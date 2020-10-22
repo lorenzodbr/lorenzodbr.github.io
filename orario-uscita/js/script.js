@@ -7,6 +7,13 @@ var response;
 var piano = 0;
 var sestaOra = false;
 
+if(localStorage.getItem("piano")){
+	document.querySelector("select").value = localStorage.getItem("piano");
+}
+else{
+	document.querySelector("select").value = "0";
+}
+
 function updateVar(){
 	response = JSON.parse(this.responseText);
 	giornoNumerico = response.datetime.substring(8,10);
@@ -123,6 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
   select.addEventListener('change', function () {
     piano = document.querySelector("select").selectedIndex;
+	localStorage.setItem("piano", document.querySelector("select").value);
   });
 });
 
