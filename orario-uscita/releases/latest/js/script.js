@@ -14,7 +14,7 @@ function openWin() {
 
 
 
-request.open("GET", "https://api.npoint.io/d0f66327be1bdaa66793");
+request.open("GET", "https://api.npoint.io/4898d48c75ad218992d4");
 request.send();
 request.onload = updateVar;
 
