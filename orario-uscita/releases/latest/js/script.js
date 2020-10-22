@@ -18,3 +18,6 @@ document.getElementById("download").addEventListener("click", function() {
 document.getElementById("credits").addEventListener("click", function() {
 		document.location.href = "../../credits";
 });
+document.getElementById("settings").addEventListener("click", function() {
+		document.location.href = "../../settings";
+});

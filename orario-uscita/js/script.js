@@ -7,8 +7,13 @@ var response;
 var piano = 0;
 var sestaOra = false;
 
+request.open("GET", "https://worldtimeapi.org/api/timezone/Europe/Rome");
+request.send();
+request.onload = updateVar;
+
 if(localStorage.getItem("piano")){
 	document.querySelector("select").value = localStorage.getItem("piano");
+	piano = document.querySelector("select").value;
 }
 else{
 	document.querySelector("select").value = "0";
@@ -134,9 +139,10 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-request.open("GET", "https://worldtimeapi.org/api/timezone/Europe/Rome");
-request.send();
-request.onload = updateVar;
-
 document.getElementById("result").addEventListener("click", setOra);
-document.getElementById("credits").addEventListener("click", openWin);
+document.getElementById("credits").addEventListener("click", function() {
+		document.location.href = "credits/";
+});
+document.getElementById("settings").addEventListener("click", function() {
+		document.location.href = "settings/";
+});
