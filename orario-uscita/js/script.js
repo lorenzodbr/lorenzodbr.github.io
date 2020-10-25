@@ -30,7 +30,7 @@ function updateVar(){
 
 function setOra(){
 	if(giornoSettimana == 0){
-		document.getElementById("ora").innerHTML = "Non c'è scuola oggi";
+		document.getElementById("ora").innerHTML = "Oggi non c'è scuola";
 	}
 	else if(giornoSettimana == 6){
 		if(piano == 2){
