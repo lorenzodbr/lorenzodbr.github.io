@@ -1,15 +1,20 @@
 var request = new XMLHttpRequest();
+var request2 = new XMLHttpRequest();
 var giornoSettimana;
 var giornoNumerico;
 var mese;
 var anno;
-var response;
 var piano = 0;
 var sestaOra = false;
+var active;
 
-request.open("GET", "https://worldtimeapi.org/api/timezone/Europe/Rome");
+request.open("GET", "https://api.npoint.io/4898d48c75ad218992d4");
 request.send();
-request.onload = updateVar;
+request.onload = redirect;
+
+request2.open("GET", "https://worldtimeapi.org/api/timezone/Europe/Rome");
+request2.send();
+request2.onload = updateVar;
 
 if(localStorage.getItem("piano")){
 	document.querySelector("select").value = localStorage.getItem("piano");
@@ -19,8 +24,17 @@ else{
 	document.querySelector("select").value = "0";
 }
 
+function redirect(){
+	var response = JSON.parse(this.responseText);
+	active = response.active;	
+	
+	if(active === "false"){
+		document.location.href = "disattivata/";
+	}
+}
+
 function updateVar(){
-	response = JSON.parse(this.responseText);
+	var response = JSON.parse(this.responseText);
 	giornoNumerico = response.datetime.substring(8,10);
 	giornoSettimana = response.day_of_week;
 	mese = response.datetime.substring(5,7);
