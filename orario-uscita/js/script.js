@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-var request2 = new XMLHttpRequest();
+var date = new Date();
 var giornoSettimana;
 var giornoNumerico;
 var mese;
@@ -8,13 +8,12 @@ var piano = 0;
 var sestaOra = false;
 var active;
 
+updateVar();
+
 request.open("GET", "https://api.npoint.io/4898d48c75ad218992d4");
 request.send();
 request.onload = redirect;
 
-request2.open("GET", "https://worldtimeapi.org/api/timezone/Europe/Rome");
-request2.send();
-request2.onload = updateVar;
 
 if(localStorage.getItem("piano")){
 	document.querySelector("select").value = localStorage.getItem("piano");
@@ -34,12 +33,21 @@ function redirect(){
 }
 
 function updateVar(){
-	var response = JSON.parse(this.responseText);
-	giornoNumerico = response.datetime.substring(8,10);
-	giornoSettimana = response.day_of_week;
-	mese = response.datetime.substring(5,7);
-	anno = response.datetime.substring(0,4);
-	document.getElementById("data").innerHTML = giornoNumerico + "-" + mese + "-" + anno;
+	var weekday = new Array(7);
+	
+	weekday[0] = "Domenica";
+	weekday[1] = "Lunedì";
+	weekday[2] = "Martedì";
+	weekday[3] = "Mercoledì";
+	weekday[4] = "Giovedì";
+	weekday[5] = "Venerdì";
+	weekday[6] = "Sabato";
+	
+	giornoNumerico = date.getDate();
+	giornoSettimana = date.getDay();
+	mese = date.getMonth() + 1;
+	anno = date.getFullYear();
+	document.getElementById("data").innerHTML = weekday[giornoSettimana] + ", " + giornoNumerico + "/" + mese + "/" + anno;
 }
 
 function setOra(){
