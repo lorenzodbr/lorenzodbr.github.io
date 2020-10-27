@@ -15,6 +15,6 @@ function updateVar(){
 		document.getElementById("reason").innerHTML = reason;
 	}
 	else{
-		document.location.href = "../";
+		//document.location.href = "../";
 	}
 }
