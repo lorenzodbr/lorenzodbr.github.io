@@ -9,8 +9,6 @@ if (currentTheme) {
 		
 		document.getElementById("back").classList.remove('btn-outline-secondary');
 		document.getElementById("back").classList.add('btn-outline-light');
-		
-		document.getElementById("logo").src="../img/logo-dark.png";
     }
 	else{
 		document.getElementById("settings").classList.remove('btn-outline-light');
@@ -18,7 +16,5 @@ if (currentTheme) {
 		
 		document.getElementById("back").classList.remove('btn-outline-light');
 		document.getElementById("back").classList.add('btn-outline-secondary');
-		
-		document.getElementById("logo").src="../img/logo-light.png";
 	}
 }
