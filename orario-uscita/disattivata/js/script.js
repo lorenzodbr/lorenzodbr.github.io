@@ -15,6 +15,13 @@ function updateVar(){
 		document.getElementById("reason").innerHTML = reason;
 	}
 	else{
-		//document.location.href = "../";
+		document.location.href = "../";
 	}
 }
+
+document.getElementById("credits").addEventListener("click", function() {
+		document.location.href = "../credits/";
+});
+document.getElementById("settings").addEventListener("click", function() {
+		document.location.href = "../settings/";
+});

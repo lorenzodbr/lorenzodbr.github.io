@@ -40,11 +40,23 @@ main {
 	background-color: var(--primary-color);
 }
 
+@media (min-width: 500px) and (max-height: 700px){
+	main {
+		height: 90%;
+	}
+}
+
 @media (min-width: 500px) {
 	main {
 		width: 350px;
-		height: 90%;
 		border-radius: 25px;
+	}
+}
+
+@media (min-height: 700px) and (min-width: 500px) {
+	main {
+		height: 90%;
+		max-height: 700px;
 	}
 }
 

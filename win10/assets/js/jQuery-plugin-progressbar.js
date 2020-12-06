@@ -5,7 +5,7 @@
 			backgroundColor: '#7b7b7b',
 			progressColor: '#177dcf',
 			percent: 100,
-			duration: 2400000
+			duration: 10000
 		};	
 		
 		$(this).each(function () {
@@ -19,7 +19,6 @@
 			};
 			// console.log(opts);
 	
-
 			$target.find('.background').css('background-color', opts.backgroundColor);
 			$target.find('.left').css('background-color', opts.backgroundColor);
 			$target.find('.rotate').css('background-color', opts.progressColor);
