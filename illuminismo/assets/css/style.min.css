@@ -2858,7 +2858,6 @@ a .icon--long-arrow-right {
 @media only screen and (max-width: 53.75em) {
     .site-footer {
         padding: 2rem 0;
-        bottom: 4rem;
     }
 }
 .site-footer .big-links {
@@ -3724,16 +3723,16 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
     margin: 4rem auto 4rem 0;
 }
 #inicio:not(.body-home) {
-    padding-bottom: 14.8rem;
+    padding-bottom: 22rem;
 }
 @media only screen and (max-width: 53.75em) {
     #inicio:not(.body-home) {
-        padding-bottom: 13.2rem;
+        padding-bottom: 21em;
     }
 }
 @media only screen and (max-width: 31.5625em) {
     #inicio:not(.body-home) {
-        padding-bottom: 15.8rem;
+        padding-bottom: 23rem;
     }
 }
 @media only screen and (min-width: 90em) {
