@@ -3818,8 +3818,7 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
 }
 @media only screen and (max-width: 23.25em) {
     .body-home .site-header__title {
-        line-height: 1.4;
-        top: -0.3rem;
+        line-height: 1;
     }
 }
 .section--artista .section__content,
