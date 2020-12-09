@@ -3211,6 +3211,7 @@ a .icon--long-arrow-right {
         padding: 0.6rem 0 0.8rem;
         border-top: 1px solid #bfbfbf;
         opacity: 1;
+		height: 39px;
     }
 }
 .section-indicator__list {
