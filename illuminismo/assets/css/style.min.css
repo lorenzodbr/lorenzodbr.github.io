@@ -2982,7 +2982,6 @@ a .icon--long-arrow-right {
 }
 .primary-nav__toggle--open {
     font-size: 1.7rem;
-	margin-right: 2rem;
 }
 
 @media only screen and (max-width: 53.75em) {
