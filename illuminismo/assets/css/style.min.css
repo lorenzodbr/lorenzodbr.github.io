@@ -2468,16 +2468,16 @@ mark {
     }
 }
 .big-links__item:first-child .big-links__link::after {
-    animation: e 1s cubic-bezier(0.28, 0.61, 0.26, 1) 2.6s 1 backwards;
+    animation: e 1s cubic-bezier(0.28, 0.61, 0.26, 1) 2.5s 1 backwards;
 }
 .big-links__item:nth-child(2) .big-links__link:after {
-    animation: e 1s cubic-bezier(0.28, 0.61, 0.26, 1) 2.8s 1 backwards;
+    animation: e 1s cubic-bezier(0.28, 0.61, 0.26, 1) 2.7s 1 backwards;
 }
 .big-links__item:nth-child(3) .big-links__link:after {
-    animation: e 1s cubic-bezier(0.28, 0.61, 0.26, 1) 3s 1 backwards;
+    animation: e 1s cubic-bezier(0.28, 0.61, 0.26, 1) 2.9s 1 backwards;
 }
 .big-links__item:nth-child(4) .big-links__link:after {
-    animation: e 1s cubic-bezier(0.28, 0.61, 0.26, 1) 3.2s 1 backwards;
+    animation: e 1s cubic-bezier(0.28, 0.61, 0.26, 1) 3.1s 1 backwards;
 }
 .big-links__link {
     display: block;
@@ -3775,7 +3775,7 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
     animation: d 1.6s linear 1s 1 backwards;
 }
 .fullscreen__title .line--1 {
-    animation: d 1.6s linear 1.6s 1 backwards;
+    animation: d 1.6s linear 1.5s 1 backwards;
 }
 .textshadow .fullscreen__title .letter-by-letter > span {
     transition: all 0.2s linear 0s;
@@ -3785,7 +3785,7 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
     color: #fff;
 }
 .fullscreen__content {
-    animation: d 1.6s linear 2.4s 1 backwards;
+    animation: d 1.6s linear 2s 1 backwards;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
