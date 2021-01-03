@@ -472,7 +472,7 @@
     function a() {
         ! function(e, t) {
             if (!(e instanceof a)) throw new TypeError("Cannot call a class as a function")
-        }(this), this.maxLinksCount = 5, this.excessives = !1, this.isInit = !1, this.init()
+        }(this), this.maxLinksCount = 6, this.excessives = !1, this.isInit = !1, this.init()
     }
     t.default = o
 }, function(e, t) {

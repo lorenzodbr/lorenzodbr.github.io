@@ -988,15 +988,13 @@ body.window-height {
 	display: inline-flex;
 }
 
-@media(min-width:1133px) {
-    .atail-multitext-title {
-		cursor: pointer;
-    }
-}
-
 .translate-link-active{
 	text-decoration: underline;
-	cursor: default!important;
+	cursor: default;
+}
+
+.translate-link-non-active{
+	cursor: pointer;
 }
 
 .atail-multitext-text {
@@ -1350,7 +1348,7 @@ body.window-height {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: var(--bg-color);
     -webkit-transition: -webkit-transform;
     transition: transform, -webkit-transform
 }
@@ -1632,7 +1630,7 @@ figure .description-title{
     font-size: .75rem;
     font-weight: 700;
     display: block;
-    margin-top: 28px;
+    margin-top: 10px;
     margin-bottom: 20px;
     letter-spacing: .2px;
     color: #a9acb5
@@ -3168,7 +3166,7 @@ p:empty {
     width: 100%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    color: #fff
+    color: var(--primary-color)
 }
 
 .atail-preloader.full-preloader {
@@ -3187,7 +3185,7 @@ p:empty {
 }
 
 .atail-preloader .atail-dot {
-    background-color: #fff
+    background-color: var(--bg-color)
 }
 
 @-webkit-keyframes dot-move {
@@ -3919,7 +3917,7 @@ span#typed{
     float: left;
     width: 16.666%;
     height: 100%;
-    background-color: #fff
+    background-color: var(--bg-color);
 }
 
 .all-projects-box-animating .all-projects-animate-box {
@@ -3947,7 +3945,7 @@ span#typed{
 @media(max-width:1132px) {
     .all-projects-animate-box {
         z-index: -1;
-        background-color: #fff
+        background-color: var(--bg-color)
     }
     .all-projects-box-animating .all-projects-animate-box {
         z-index: 4
@@ -3969,7 +3967,7 @@ span#typed{
         width: 100%
     }
     .all-projects-animate-box>div {
-        border-right: 1px solid #edf5f8
+        border-right: 1px solid var(--border-color);
     }
     .atail-disable-decoration .all-projects-animate-box>div {
         border-right: 0
@@ -4315,7 +4313,7 @@ span#typed{
     width: 50%;
     height: 100%;
     opacity: 0;
-    background-color: #fff
+    background-color: var(--primary-color)
 }
 
 .show-post-content .post-slider-images {
@@ -4535,7 +4533,7 @@ span#typed{
     height: 100%;
     padding-right: 30px;
     padding-left: 30px;
-    background-color: #fff
+    background-color: var(--primary-color)
 }
 
 @media(max-width:1132px) {
@@ -4805,7 +4803,7 @@ span#typed{
     left: 0;
     width: 100%;
     height: 45px;
-    background-color: #fff;
+    background-color: var(--bg-color);
     z-index: 3;
     opacity: 0;
     -webkit-transform: translateY(100%);
@@ -4828,7 +4826,7 @@ span#typed{
     padding: 0 20px;
     background-color: #4d4f54;
     border: 0;
-    color: #fff
+    color: var(--bg-color)
 }
 
 @media(max-width:1132px) {
@@ -4985,7 +4983,7 @@ span#typed{
 }
 
 .atail-slider-item .blog-author span {
-    color: #fff
+    color: var(--primary-color)
 }
 
 .atail-slider-item .blog-date span {
@@ -5008,7 +5006,7 @@ span#typed{
     height: 100%;
     -webkit-transition: -webkit-transform;
     transition: transform, -webkit-transform;
-    background-color: #fff
+    background-color: var(--primary-color)
 }
 
 .slider-animate-box .animate-box-left {
@@ -6602,7 +6600,7 @@ form textarea {
 
 @media(max-width:1132px) {
     .all-projects-animate-box {
-        background-color: #fff
+        background-color: var(--bg-color);
     }
     a.button {
         width: 100%
@@ -6652,7 +6650,7 @@ span[data-action=show-nav]>span>span {
 }
 
 .all-projects-animate-box>div {
-    background-color: #fff
+    background-color: var(--bg-color);
 }
 
 form.yikes-easy-mc-form input.yikes-easy-mc-email,
@@ -6754,7 +6752,7 @@ div.cs-select .cs-options ul {
 
 .post-content-text li a,
 p a {
-    font-family: Hind, sans-serif
+    /*font-family: Hind, sans-serif*/
 }
 
 .autonomia {
@@ -6765,7 +6763,7 @@ p a {
 
 .benchmarks {
     transition: background-color .3s;
-	
+	margin: 30px 0;
 	background-color: var(--bg-translation-color);
     padding: 15px 25px
 }
@@ -6870,9 +6868,8 @@ tbody:hover tr:hover td.purple {
     }
 }
 
-.no-weight span a{
+.no-weight div p a{
 	font-weight: 400;
-	color: #a9acb5;
 }
 
 .fonti{
