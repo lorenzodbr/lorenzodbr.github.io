@@ -1648,7 +1648,7 @@ figure .description-title span {
     font-size: 1rem;
     font-weight: 700;
     display: block;
-    margin-top: 28px;
+    /*margin-top: 28px;*/
     letter-spacing: .2px;
     color: #a9acb5
 }
@@ -1658,7 +1658,7 @@ figure .description-title span {
     font-size: 0.8rem;
     font-weight: 400;
     display: block;
-    margin-top: 28px;
+    /*margin-top: 28px;*/
     letter-spacing: .2px;
     color: #a9acb5
 }
