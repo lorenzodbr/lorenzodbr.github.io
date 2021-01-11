@@ -769,6 +769,9 @@ input[type=search]::-webkit-search-decoration {
     .row-col-12>.col-md-push-2 {
         left: 16.66667%
     }
+	.row-col-12>.col-md-push-3 {
+        left: 25%
+    }
     html {
         overflow: hidden
     }
@@ -981,7 +984,6 @@ body.window-height {
     margin-bottom: 15px;
     font-size: .75rem;
     letter-spacing: 1.97px;
-	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: 25px;
     margin-bottom: 35px;
