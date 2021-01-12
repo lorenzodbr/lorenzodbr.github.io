@@ -3524,7 +3524,7 @@ p:empty {
         width: 100%
     }
     .preview-article-header h1 {
-        max-width: 400px
+        /*max-width: 400px*/
     }
     .preview-article-text {
         width: 50%
@@ -3532,10 +3532,6 @@ p:empty {
     .preview-images-item {
         left: 50%;
         width: 50%
-    }
-	
-    .preview-images-item img.images-item-active {
-        left: -1px
     }
 }
 
@@ -6883,17 +6879,24 @@ tbody:hover tr:hover td.purple {
 }
 
 .fonti span{
-	white-space: nowrap;
-    text-overflow: ellipsis;
-	overflow: hidden;
 	margin-bottom: 5px;
 	line-height: 1.75;
 }
 
-.fonti p{
+.fonti p, .fonti p a{
+	color: #a9acb5!important;
 	font-size: .9rem;
 	margin-bottom: 5px;
-	color: #a9acb5;
+	white-space: nowrap;
+	overflow-x: auto;
+	text-overflow: clip!important;
+	
+	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.fonti p::-webkit-scrollbar{ 
+    display: none;  /* Safari and Chrome */
 }
 
 .single-project .small-title {
