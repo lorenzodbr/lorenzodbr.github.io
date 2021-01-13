@@ -1218,13 +1218,13 @@ body.window-height {
 
 .promo-box {
     line-height: 1.61;
-    margin: 40px 0 30px 0;
+    margin: 40px 0 0;
     max-width: 520px
 }
 
 @media(min-width:1133px) {
     .promo-box {
-        margin-bottom: 100px;
+        /*margin-bottom: 100px;*/
     }
 }
 
@@ -1636,6 +1636,7 @@ figure .description-title{
     margin-bottom: 20px;
     letter-spacing: .2px;
     color: #a9acb5
+	text-align: center;
 }
 
 .description-table .description-title span,
@@ -3445,7 +3446,7 @@ p:empty {
 }
 
 .preview-article-text {
-    margin-bottom: 21px
+    margin-bottom: 13px
 }
 
 @media(max-width:800px) {
@@ -3468,7 +3469,7 @@ p:empty {
     }
 }
 
-@media(max-height:899px) {
+@media(max-width: 1100px) {
     .preview-article-text {
         display: none
     }
@@ -3490,7 +3491,7 @@ p:empty {
 
 .projects-item-animate .preview-article-text p {
     -webkit-transition: -webkit-transform .5s .5s, -webkit-transform .4s .5s;
-    transition: transform .5s .5s, transform .4s .5s, -webkit-transform .5s .5s, -webkit-transform .4s .5s;
+    transition: transform .5s .5s, transform .4s .5s, -webkit-transform .5s .5s, -webkit-transform .4s .5s, color .3s;
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1
@@ -6765,7 +6766,7 @@ p a {
 	background-color: var(--bg-translation-color);
     padding: 15px 25px
 }
-
+/*
 tbody:hover td {
     color: transparent;
     text-shadow: 0 0 3px #aaa
@@ -6799,7 +6800,7 @@ tbody:hover tr:hover td.purple {
     color: #91470a;
     text-shadow: 0 1px 0 #fff
 }
-
+*/
 .yt-iscriviti {
     text-align: center;
     background: #f9f9f9;
