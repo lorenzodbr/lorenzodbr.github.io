@@ -6298,7 +6298,7 @@ a {
 .side-content a:hover,
 a.blog-date:hover,
 a:hover {
-    color: var(--primary-color);
+    color: #ff3644;
 }
 
 @media(min-width:1133px) {
