@@ -33,6 +33,7 @@ summary {
     --heading-color: rgba(255,255,255,.65);
 	--border-color: #edf5f8;
 	--bg-translation-color: #f0f0f0;
+	--dark-grey-color: #353535;
 }
 
 [data-theme="dark"] {
@@ -48,6 +49,7 @@ summary {
 	--heading-color: rgba(33,33,33,.85);
 	--border-color: #303030;
 	--bg-translation-color: #333333;
+	--dark-grey-color: #353535;
 }
 
 .theme-switch-wrapper {
@@ -1981,7 +1983,7 @@ main .main-scroll>[id^=huge_it_google] {
         margin-left: 41px;
         content: 'MENU';
         letter-spacing: 1px;
-        color: #565656
+        color: var(--dark-grey-color);
     }
     ol.nav-list ul {
         counter-reset: section
@@ -2082,7 +2084,7 @@ main .main-scroll>[id^=huge_it_google] {
     margin: 0 10px 0 0;
     content: "0" counters(section, ".");
     letter-spacing: .7px;
-    color: #565656
+    color: var(--dark-grey-color);
 }
 
 .nav-list li:first-child:before {
