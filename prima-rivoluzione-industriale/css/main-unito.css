@@ -6263,7 +6263,8 @@ h3 {
 }
 
 h4 {
-    letter-spacing: -.85px
+    letter-spacing: -.85px;
+	margin-top: 35px;
 }
 
 .atail-text-logo {
