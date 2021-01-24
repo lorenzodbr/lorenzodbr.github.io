@@ -1,3 +1,37 @@
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #000000;
+}
+::-webkit-scrollbar-track:active {
+  background: #000000;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
 a,
 abbr,
 acronym,
@@ -2243,6 +2277,12 @@ h1 {
         font-size: 6rem;
     }
 }
+@media only screen and (max-width: 24em) {
+    .title-1,
+    h1 {
+        font-size: 5rem;
+    }
+}
 @media only screen and (max-width: 22.5em) {
     .title-1,
     h1 {
@@ -2875,7 +2915,7 @@ a .icon--long-arrow-right {
 }
 @media only screen and (max-width: 53.75em) {
     .site-header__inner {
-        padding: 1rem 2rem 0.6rem;
+        padding: 2rem 2rem 0.6rem;
     }
     body:not(.body-home) .site-header__inner {
         background-color: #fff;
@@ -2982,6 +3022,7 @@ a .icon--long-arrow-right {
 }
 .primary-nav__toggle--open {
     font-size: 1.7rem;
+	margin-right: 5px;
 }
 
 @media only screen and (max-width: 53.75em) {
@@ -3769,6 +3810,7 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
     justify-content: space-between;
 }
 .fullscreen__header {
+	margin-top: auto;
     margin-bottom: auto;
 }
 .fullscreen__title .line--0 {
