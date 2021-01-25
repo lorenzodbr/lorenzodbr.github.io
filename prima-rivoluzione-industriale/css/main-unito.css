@@ -6308,10 +6308,12 @@ a:hover {
     }
     .nav-list:hover {
         background: var(--heading-color);
+		-webkit-backdrop-filter: blur(10px);
 		backdrop-filter: blur(10px);
     }
 	.nav-list-pages {
         background: none!important;
+		-webkit-backdrop-filter: blur(0px)!important;
 		backdrop-filter: blur(0px)!important;
     }
     .window-height {

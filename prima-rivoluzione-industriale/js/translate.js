@@ -2,8 +2,8 @@ function translate(event) {
 	let testoTradotto = $(event.target).siblings(".testo-tradotto");
 	let testoOriginale = $(event.target).siblings(".testo-originale");
 	
-	var linkOriginale;
-	var linkTradotto;
+	let linkOriginale;
+	let linkTradotto;
 	
 	if($(event.target).prop("id") == "originale"){
 		linkOriginale = $(event.target);
