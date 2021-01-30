@@ -1040,11 +1040,6 @@ body.window-height {
 }
 
 .text-non-active{
-	animation-name: fadeOutOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-duration: .4s;
-	
 	display: none;
 }
 
