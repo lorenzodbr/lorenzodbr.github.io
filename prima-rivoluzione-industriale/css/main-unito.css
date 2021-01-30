@@ -1044,8 +1044,6 @@ body.window-height {
 	animation-iteration-count: 1;
 	animation-timing-function: ease-out;
 	animation-duration: .4s;
-	
-	display: none;
 }
 
 .text-active{
@@ -6227,6 +6225,7 @@ td {
 body {
     letter-spacing: -.46999999999999975px;
     background-color: var(--bg-color);
+	-webkit-transition: background-color .3s;
 	transition: background-color .3s;
 }
 
@@ -6431,6 +6430,7 @@ a:hover {
     .logo,
     .show-nav {
         background-color: var(--bg-color);
+		-webkit-transition: background-color .3s;
 		transition: background-color .3s;
     }
     .nav-list li a,
@@ -6581,6 +6581,7 @@ button.no-button:hover {
 .right-side,
 .single-project .jssocials-share {
     border-color: var(--border-color);
+	-webkit-transition: border-color .3s;
 	transition: border-color .3s;
 }
 
@@ -6811,6 +6812,7 @@ p a {
 }
 
 .benchmarks {
+    -webkit-transition: background-color .3s;
     transition: background-color .3s;
 	margin: 30px 0;
 	background-color: var(--bg-translation-color);
@@ -6967,6 +6969,7 @@ tbody:hover tr:hover td.purple {
 .single-project-info .atail-project-image {
     position: relative;
 	background-color: var(--secondary-color);
+	-webkit-transition: background-color .3s;
 	transition: background-color .3s;
 }
 
