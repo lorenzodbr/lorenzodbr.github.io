@@ -46,7 +46,7 @@ summary {
 	--table-color-even: #595959;
 	--title-color: #f3f3f3;
     --text-color: #f5f5f5;
-	--link-color: #a8abb4;
+	--link-color: #ffffff;
     --bg-color: #212121;
 	--heading-color: rgba(33,33,33,.85);
 	--border-color: #303030;
@@ -766,6 +766,9 @@ input[type=search]::-webkit-search-decoration {
     .row-col-12>.col-md-5 {
         width: 41.66667%
     }
+    .row-col-12>.col-md-6 {
+        width: 50%
+    }
     .row-col-12>.col-md-7 {
         width: 58.33333%
     }
@@ -796,6 +799,10 @@ input[type=search]::-webkit-search-decoration {
     html {
         overflow: hidden
     }
+	
+	.col-md-8>.col-md-4 {
+		width: 50%
+	}
 }
 
 @media(min-width:1200px) {
