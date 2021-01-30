@@ -2388,6 +2388,8 @@ main .main-scroll>[id^=huge_it_google] {
         width: 100%;
         padding-left: 23px;
         color: var(--text-color);
+		-webkit-transition: fill .3s;
+		transition: fill .3s;
     }
     .nav-list>li>a>span {
         display: block;
