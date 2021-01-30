@@ -119,7 +119,7 @@ input:checked + .slider:before {
    cursor: default;
 }
 
-@keyframes fadeInOpacity {
+@keyframes fadeIn {
 	0% {
 		opacity: 0;
 	}
@@ -128,13 +128,24 @@ input:checked + .slider:before {
 	}
 }
 
-@keyframes fadeOutOpacity {
-	0% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
 }
 
 figcaption{
@@ -1044,7 +1055,7 @@ body.window-height {
 }
 
 .text-active{
-	animation-name: fadeInOpacity;
+	animation-name: fadeIn;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: .4s;
