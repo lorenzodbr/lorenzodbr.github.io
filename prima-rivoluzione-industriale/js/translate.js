@@ -1,4 +1,4 @@
-function translate(event) {
+function translate() {
 	let testoTradotto = $(event.target).siblings(".testo-tradotto");
 	let testoOriginale = $(event.target).siblings(".testo-originale");
 	
@@ -12,6 +12,7 @@ function translate(event) {
 		testoTradotto.addClass("text-non-active").removeClass("text-active");
 		
 		testoOriginale.removeClass("text-non-active").addClass("text-active");
+		//removeMargin();
 		
 		linkOriginale.removeClass("translate-link-non-active").addClass("translate-link-active");
 		
@@ -24,6 +25,7 @@ function translate(event) {
 		testoOriginale.addClass("text-non-active").removeClass("text-active");
 		
 		testoTradotto.removeClass("text-non-active").addClass("text-active");
+		//removeMargin();
 		
 		linkTradotto.removeClass("translate-link-non-active").addClass("translate-link-active");
 		
@@ -31,5 +33,14 @@ function translate(event) {
 	}
 }
 
+function removeMargin(){
+	$('.benchmarks').each(function() {
+		$(this).children(".text-active").last().css("margin", 0);
+		$(this).children(".text-non-active").last().css("margin", 0);
+	});
+}
+
 $(".originale").click(translate);
 $(".tradotto").click(translate);
+
+window.addEventListener("load", removeMargin());
