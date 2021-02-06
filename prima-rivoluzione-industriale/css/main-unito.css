@@ -37,7 +37,7 @@ summary {
 	--bg-translation-color: #f0f0f0;
 	--dark-grey-color: #353535;
 	--strong-color: #565656;
-	--loading-img: ../img/loading.gif;
+	--loading-img: url(../img/loading.gif);
 }
 
 [data-theme="dark"] {
@@ -56,7 +56,7 @@ summary {
 	--bg-translation-color: #333333;
 	--dark-grey-color: #353535;
 	--strong-color: #ffffff;
-	--loading-img: ../img/loading-inverted.gif;
+	--loading-img: url(../img/loading-inverted.gif);
 }
 
 .theme-switch-wrapper {
