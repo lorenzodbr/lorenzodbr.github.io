@@ -36,6 +36,7 @@ summary {
 	--border-color: #edf5f8;
 	--bg-translation-color: #f0f0f0;
 	--dark-grey-color: #353535;
+	--strong-color: #565656;
 }
 
 [data-theme="dark"] {
@@ -53,6 +54,7 @@ summary {
 	--border-color: #303030;
 	--bg-translation-color: #333333;
 	--dark-grey-color: #353535;
+	--strong-color: #ffffff;
 }
 
 .theme-switch-wrapper {
@@ -171,7 +173,8 @@ a:hover {
 
 b,
 strong {
-    font-weight: 700
+    font-weight: 700;
+	color: var(--strong-color);
 }
 
 h1 {
@@ -1675,7 +1678,7 @@ figure .description-title{
     margin-top: 10px;
     margin-bottom: 20px;
     letter-spacing: .2px;
-    color: #a9acb5
+    color: #a9acb5;
 	text-align: center;
 }
 
@@ -2590,6 +2593,16 @@ h3 {
     text-decoration: none
 }
 
+.small-text {
+    display: block;
+    font-size: .875rem;
+    font-style: normal;
+    color: #a9acb5;
+    letter-spacing: -.35px;
+    margin-bottom: 26px;
+    text-decoration: none
+}
+
 .small-title>span {
     display: block;
     font-size: .625rem;
@@ -2971,7 +2984,8 @@ p:empty {
     background-color: #f6f8fb
 }
 
-.atail-post .small-title {
+.atail-post .small-title,
+.small-text {
     color: inherit
 }
 
