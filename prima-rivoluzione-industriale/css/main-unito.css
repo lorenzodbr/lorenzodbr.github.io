@@ -2597,7 +2597,7 @@ h3 {
 
 .small-text {
     display: block;
-    font-size: .875rem;
+    font-size: .9rem;
     font-style: normal;
     color: #a9acb5;
     letter-spacing: -.35px;
@@ -2664,7 +2664,7 @@ h5 {
 
 h6 {
     color: #4d4f54;
-    font-size: .8rem;
+    font-size: .9rem;
     letter-spacing: -.9px;
     line-height: 1.1;
     margin: 20px 0;
@@ -2689,6 +2689,7 @@ a {
 @media(max-width:1132px){
     .logo {
 		width: 50%;
+		
 	}
 }
 
@@ -2767,7 +2768,6 @@ a {
 @media(max-width:1132px) {
     .logo a img {
         width: 30px;
-		padding-top: 7px;
     }
     .atail-text-logo {
         height: auto;
