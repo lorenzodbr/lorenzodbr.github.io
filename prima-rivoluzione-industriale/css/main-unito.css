@@ -1062,13 +1062,22 @@ body.window-height {
     text-decoration: underline
 }
 
-.benchmarks span{
-    font-size: 1rem!important;
-    text-transform: inherit!important;
-    letter-spacing: -.35px;
-	text-align: justify;
+@media(min-width:1133px) {
+	.benchmarks span{
+		font-size: 1.2rem!important;
+		text-transform: inherit;
+		letter-spacing: -.35px;
+		text-align: justify;
+	}
 }
 
+.benchmarks span{
+	font-size: 1rem;
+	text-transform: inherit;
+	letter-spacing: -.35px;
+	text-align: justify;
+}
+	
 .benchmarks span:not([class*="text-active"]):not([class*="text-non-active"]):last-child{
     margin: 0;
 }
