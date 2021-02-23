@@ -1,3 +1,21 @@
+[data-theme="dark"]{
+	--scrollbar-thumb: #ffffff;
+	--scrollbar-thumb-hover: #ffffff;
+	--scrollbar-thumb-active: #ffffff;
+	--scrollbar-track: #000000;
+	--scrollbar-track-hover: #000000;
+	--scrollbar-track-active: #000000;
+}
+
+[data-theme="light"] {
+	--scrollbar-thumb: #000000;
+	--scrollbar-thumb-hover: #000000;
+	--scrollbar-thumb-active: #000000;
+	--scrollbar-track: #ffffff;
+	--scrollbar-track-hover: #ffffff;
+	--scrollbar-track-active: #ffffff;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
   height: 5px;
@@ -7,26 +25,26 @@
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ffffff;
+  background: var(--scrollbar-thumb);
   border: 0px none #ffffff;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffffff;
+  background: var(--scrollbar-thumb-hover);
 }
 ::-webkit-scrollbar-thumb:active {
-  background: #ffffff;
+  background: var(--scrollbar-thumb-active);
 }
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: var(--scrollbar-track);
   border: 0px none #ffffff;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-track:hover {
-  background: #000000;
+  background: var(--scrollbar-track-hover);
 }
 ::-webkit-scrollbar-track:active {
-  background: #000000;
+  background: var(--scrollbar-track-active);
 }
 ::-webkit-scrollbar-corner {
   background: transparent;
@@ -2244,6 +2262,29 @@ body {
     background: #000;
     color: #fff;
 }
+.sub-title-1
+{
+    font-family: Work Sans, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1;
+}
+@media only screen and (max-width: 53.75em) {
+    .sub-title-1{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 25.625em) {
+    .sub-title-1{
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 90em) {
+    .sub-title-1{
+        font-size: 4rem;
+    }
+}
+
 .title-1,
 h1 {
     font-family: Albra-Medium, sans-serif;
@@ -2256,7 +2297,7 @@ h1 {
 @media only screen and (min-width: 90em) {
     .title-1,
     h1 {
-        font-size: 18rem;
+        font-size: 16rem;
     }
 }
 @media only screen and (max-width: 53.75em) {
@@ -2314,7 +2355,6 @@ h2 {
     text-transform: uppercase;
     font-weight: 300;
     line-height: 1;
-    margin: 0 0 2rem;
 }
 @media only screen and (max-width: 53.75em) {
     .title-02,
@@ -2334,8 +2374,7 @@ h2 {
         font-size: 4.8rem;
     }
 }
-.title-03,
-h3 {
+.title-03{
     font-family: Albra-Medium, sans-serif;
     font-size: 2.4rem;
     text-transform: uppercase;
@@ -2345,14 +2384,12 @@ h3 {
     margin: 0 0 1.5rem;
 }
 @media only screen and (max-width: 53.75em) {
-    .title-03,
-    h3 {
+    .title-03{
         font-size: 1.8rem;
     }
 }
 @media only screen and (min-width: 90em) {
-    .title-03,
-    h3 {
+    .title-03{
         font-size: 2.8rem;
     }
 }
@@ -2360,15 +2397,24 @@ h3 {
 h4 {
     font-family: Work Sans, sans-serif;
     font-size: 2.4rem;
-    font-weight: 900;
+    font-weight: 300;
     line-height: 1.3;
     letter-spacing: 0;
     margin: 0 0 1.5rem;
     text-transform: none;
 }
+@media only screen and (max-width: 53.75em) {
+    .title-04{
+        font-size: 2.6rem;
+    }
+}
+@media only screen and (max-width: 25.625em) {
+    .title-04{
+        font-size: 1.8rem;
+    }
+}
 @media only screen and (min-width: 90em) {
-    .title-04,
-    h4 {
+    .title-04{
         font-size: 2.8rem;
     }
 }
@@ -2424,6 +2470,76 @@ mark {
         display: block;
     }
 }
+
+.etimologia h4{
+	color: #999
+}
+
+.etimologia .left{
+	animation: d 1.6s linear 2s 1 backwards;
+	float: left;
+	width: 25%;
+	text-align: right;
+}
+
+.etimologia .right{
+	float: right;
+	width: 70%;
+}
+
+.etimologia .right .up{
+	animation: d 1.6s linear 2.5s 1 backwards;
+	margin-bottom: 1rem;
+}
+
+.etimologia .right .down{
+	animation: d 1.6s linear 3s 1 backwards;
+}
+
+@media only screen and (max-width: 53.75em) {
+    .etimologia .title-02
+    {
+        font-size: 3.6rem;
+    }
+	
+	.etimologia .left{
+		float: none;
+		width: 100%;
+		text-align: left;
+	}
+	
+	.etimologia .right{
+		float: none;
+		width: 100%;
+		text-align: justify;
+	}
+}
+@media only screen and (max-width: 25.625em) {
+    .etimologia .title-02
+	{
+        font-size: 2.6rem;
+		float: none;
+    }
+	
+	.etimologia .left{
+		float: none;
+		width: 100%;
+		text-align: left;
+	}
+	
+	.etimologia .right{
+		float: none;
+		width: 100%;
+		text-align: justify;
+	}
+}
+@media only screen and (min-width: 90em) {
+    .etimologia .title-02
+	{
+        font-size: 5rem;
+    }
+}
+
 .textshadow .text-outline {
     text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
     color: #fff;
@@ -3330,7 +3446,7 @@ a .icon--long-arrow-right {
     }
 }
 .body-numeros-da-violencia-domestica .section-indicator,
-.current-section-not-cover .body-exposicao .section-indicator {
+.current-section-not-cover .body .section-indicator {
     display: block !important;
     opacity: 1;
     pointer-events: all;
@@ -3763,25 +3879,25 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
     display: block;
     margin: 4rem auto 4rem 0;
 }
-#inicio:not(.body-home) {
+#pagina:not(.body-home) {
     padding-bottom: 22rem;
 }
 @media only screen and (max-width: 53.75em) {
-    #inicio:not(.body-home) {
+    #pagina:not(.body-home) {
         padding-bottom: 21em;
     }
 }
 @media only screen and (max-width: 31.5625em) {
-    #inicio:not(.body-home) {
+    #pagina:not(.body-home) {
         padding-bottom: 23rem;
     }
 }
 @media only screen and (min-width: 90em) {
-    #inicio:not(.body-home) {
+    #pagina:not(.body-home) {
         padding-bottom: 15.8rem;
     }
 }
-#inicio:not(.body-home) .site {
+#pagina:not(.body-home) .site {
     background-color: #fff;
     position: relative;
     z-index: 5;
@@ -3790,12 +3906,19 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
     position: relative;
     width: 100%;
     height: 100vh;
-    padding-top: 8.1rem;
+    padding-top: 11rem;
     padding-bottom: 3rem;
 }
 @media only screen and (max-width: 53.75em) {
     .fullscreen {
         padding-bottom: 5rem;
+		height: auto;
+    }
+}
+@media only screen and (max-width: 25.625em) {
+    .fullscreen {
+        padding-top: 10rem;
+		height: auto;
     }
 }
 @media only screen and (min-width: 90em) {
@@ -3827,7 +3950,6 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
     color: #fff;
 }
 .fullscreen__content {
-    animation: d 1.6s linear 2s 1 backwards;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -3886,13 +4008,25 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
     display: block;
 }
 .section--expo-capa .fullscreen__content {
-    margin-top: 12rem;
+    margin-top: 11rem;
 }
 @media only screen and (min-width: 90em) {
     .section--expo-capa .fullscreen__content {
-        margin-top: 18rem;
+        margin-top: 14rem;
     }
 }
+
+@media only screen and (max-width: 53.75em) {
+    .section--expo-capa .fullscreen__content {
+		margin-top: 10rem;
+	}
+}
+@media only screen and (max-width: 25.625em) {
+    .section--expo-capa .fullscreen__content {
+		margin-top: 9rem;
+	}
+}
+
 .section--cartas .section__content {
     max-width: 86rem;
     margin: 8rem 0 0 auto;
