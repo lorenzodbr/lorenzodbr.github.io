@@ -1898,6 +1898,7 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
     height: 100%;
+	scroll-behavior: smooth;
 }
 .js *,
 .js :after,
@@ -3890,6 +3891,7 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
     display: block;
     margin: 4rem auto 4rem 0;
 }
+/*
 #pagina:not(.body-home) {
     padding-bottom: 22rem;
 }
@@ -3907,7 +3909,9 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
     #pagina:not(.body-home) {
         padding-bottom: 15.8rem;
     }
-}
+}*/
+
+
 #pagina:not(.body-home) .site {
     background-color: #fff;
     position: relative;
