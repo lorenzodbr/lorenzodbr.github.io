@@ -2500,12 +2500,12 @@ mark {
 }
 
 .etimologia .right .up{
-	animation: d 1.6s linear 2.5s 1 backwards;
+	animation: d 1.6s linear 2.25s 1 backwards;
 	margin-bottom: 1rem;
 }
 
 .etimologia .right .down{
-	animation: d 1.6s linear 3s 1 backwards;
+	animation: d 1.6s linear 2.5s 1 backwards;
 }
 
 @media only screen and (max-width: 53.75em) {
@@ -2568,6 +2568,20 @@ mark {
 .text__author {
     font-weight: 700;
 }
+
+.text__author:before {
+	    content: '';
+    display: inline-block;
+    width: 2rem;
+    border-bottom: solid 1px #000;
+    /* position: absolute; */
+    transform: translateY(-0.35rem);
+    /* left: 0; */
+    /* top: 50%; */
+    z-index: 1;
+    margin-right: .5rem;
+}
+
 .text__data {
     font-family: Albra-Medium, sans-serif;
     font-weight: 400;
@@ -4749,4 +4763,27 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
     display: block;
     width: 18rem;
     margin-top: 3rem;
+}
+
+blockquote.quote {
+	font-size: 1.9rem;
+    position: relative; 
+    text-align: center;
+    padding: 1rem 1.2rem;
+    width: 95%;  /* create space for the quotes */
+    color: #000;
+    margin: 3rem auto;
+}
+blockquote.EN {
+    background:
+    linear-gradient(to right, #000 2px, transparent 2px) 0% 100%,
+    linear-gradient(to bottom, #000 2px, transparent 2px) 100% 0%,
+    linear-gradient(to left, #000 2px, transparent 2px) 100% 0%,
+    linear-gradient(to top, #000 2px, transparent 2px) 0% 100%,
+	linear-gradient(to right, #000 2px, transparent 2px) 0% 0%,
+    linear-gradient(to bottom, #000 2px, transparent 2px) 0% 0%,
+    linear-gradient(to left, #000 2px, transparent 2px) 100% 100%,
+    linear-gradient(to top, #000 2px, transparent 2px) 100% 100%;;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
 }
