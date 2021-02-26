@@ -3198,6 +3198,7 @@ a .icon--long-arrow-right {
 }
 .menu-opened .primary-nav__wrapper {
     transform: translateX(0);
+	overflow: auto;
 }
 @media screen and (min-height: 560px) {
     .primary-nav__wrapper {
@@ -4768,7 +4769,7 @@ blockquote.quote {
 	font-size: 1.9rem;
     position: relative; 
     text-align: center;
-    padding: 1rem 1.2rem;
+    padding: 2rem 2rem;
     width: 95%;  /* create space for the quotes */
     color: #000;
     margin: 3rem auto;
