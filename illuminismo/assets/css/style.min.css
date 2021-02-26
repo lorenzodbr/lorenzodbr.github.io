@@ -2265,7 +2265,7 @@ body {
 .sub-title-1
 {
     font-family: Work Sans, sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 300;
     line-height: 1;
 }
@@ -2281,7 +2281,7 @@ body {
 }
 @media only screen and (min-width: 90em) {
     .sub-title-1{
-        font-size: 4rem;
+        font-size: 2.6rem;
     }
 }
 
@@ -2456,6 +2456,11 @@ h6:not(:first-child) {
 }
 p:not(:last-child) {
     margin-bottom: 1.5rem;
+}
+@media only screen and (max-width: 53.75em) {
+    p {
+        text-align: justify;
+    }
 }
 strong {
     font-weight: 600;
@@ -3059,7 +3064,7 @@ a .icon--long-arrow-right {
         padding: 2rem 2rem 0.6rem;
     }
     body:not(.body-home) .site-header__inner {
-        background-color: #fff;
+        /*background-color: #fff;*/
     }
 }
 .site-header__holder {
