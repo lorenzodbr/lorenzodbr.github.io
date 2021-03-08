@@ -7,7 +7,7 @@
 	--scrollbar-track-active: #000000;
 }
 
-[data-theme="light"] {
+:root {
 	--scrollbar-thumb: #000000;
 	--scrollbar-thumb-hover: #000000;
 	--scrollbar-thumb-active: #000000;
@@ -1940,6 +1940,12 @@ body.dark-bg {
 }
 @media only screen and (max-width: 53.75em) {
     .inner {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+@media only screen and (max-width: 25.625em) {
+    .inner {
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -2504,12 +2510,12 @@ mark {
 }
 
 .etimologia .right .up{
-	animation: d 1.6s linear 2.25s 1 backwards;
+	animation: d 1s linear 2.25s 1 backwards;
 	margin-bottom: 1rem;
 }
 
 .etimologia .right .down{
-	animation: d 1.6s linear 2.5s 1 backwards;
+	animation: d 1s linear 2.5s 1 backwards;
 }
 
 @media only screen and (max-width: 53.75em) {
@@ -3064,7 +3070,7 @@ a .icon--long-arrow-right {
         padding: 2rem 2rem 0.6rem;
     }
     body:not(.body-home) .site-header__inner {
-        /*background-color: #fff;*/
+        background-color: #fff;
     }
 }
 .site-header__holder {
