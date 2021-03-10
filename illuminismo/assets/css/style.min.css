@@ -138,6 +138,9 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
+i {
+	font-style: italic;
+}
 article,
 aside,
 details,
