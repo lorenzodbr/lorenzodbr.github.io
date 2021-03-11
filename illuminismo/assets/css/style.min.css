@@ -1,12 +1,3 @@
-[data-theme="dark"]{
-	--scrollbar-thumb: #ffffff;
-	--scrollbar-thumb-hover: #ffffff;
-	--scrollbar-thumb-active: #ffffff;
-	--scrollbar-track: #000000;
-	--scrollbar-track-hover: #000000;
-	--scrollbar-track-active: #000000;
-}
-
 :root {
 	--scrollbar-thumb: #000000;
 	--scrollbar-thumb-hover: #000000;
@@ -14,6 +5,15 @@
 	--scrollbar-track: #ffffff;
 	--scrollbar-track-hover: #ffffff;
 	--scrollbar-track-active: #ffffff;
+}
+
+[data-theme="dark"]{
+	--scrollbar-thumb: #ffffff;
+	--scrollbar-thumb-hover: #ffffff;
+	--scrollbar-thumb-active: #ffffff;
+	--scrollbar-track: #000000;
+	--scrollbar-track-hover: #000000;
+	--scrollbar-track-active: #000000;
 }
 
 ::-webkit-scrollbar {
