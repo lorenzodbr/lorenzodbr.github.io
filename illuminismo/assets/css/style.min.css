@@ -3334,6 +3334,7 @@ a .icon--long-arrow-right {
     clear: both;
     margin: 0 0 0.5rem;
     padding: 0;
+	margin-left: .8rem;
 }
 .primary-nav__main-nav-submenu-item:after {
     content: "";
