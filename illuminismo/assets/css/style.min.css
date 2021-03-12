@@ -2339,6 +2339,45 @@ h1 {
         font-size: 4rem;
     }
 }
+
+.title-1-small{
+    font-family: Albra-Medium, sans-serif;
+    font-size: 7.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 0 2rem;
+}
+@media only screen and (min-width: 90em) {
+    .title-1-small{
+        font-size: 10rem;
+    }
+}
+@media only screen and (max-width: 53.75em) {
+    .title-1-small {
+        font-size: 7rem;
+    }
+}
+@media only screen and (max-width: 32.5em) {
+    .title-1-small {
+        font-size: 6rem;
+    }
+}
+@media only screen and (max-width: 25.625em) {
+    .title-1-small {
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width: 24em) {
+    .title-1-small {
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 22.5em) {
+    .title-1-small {
+        font-size: 3rem;
+    }
+}
 @media only screen and (max-width: 32.5em) {
     .body-numeros-da-violencia-domestica .title-01 {
         font-size: 5.4rem;
@@ -2496,7 +2535,7 @@ mark {
 }
 
 .etimologia .left{
-	animation: d 1.6s linear 2s 1 backwards;
+	animation: d 1.6s linear 1 backwards;
 	float: left;
 	width: 25%;
 	text-align: right;
@@ -2513,12 +2552,12 @@ mark {
 }
 
 .etimologia .right .up{
-	animation: d 1s linear 2.25s 1 backwards;
+	animation: d 1.6s linear .5s 1 backwards;
 	margin-bottom: 1rem;
 }
 
 .etimologia .right .down{
-	animation: d 1s linear 2.5s 1 backwards;
+	animation: d 1.6s linear .75s 1 backwards;
 }
 
 @media only screen and (max-width: 53.75em) {
@@ -3977,11 +4016,9 @@ html:not(.current-section-not-cover) .section-direction-buttons__item--bottom .i
 	margin-top: auto;
     margin-bottom: auto;
 }
-.fullscreen__title .line--0 {
-    animation: d 1.6s linear 1s 1 backwards;
-}
+.fullscreen__title .line--0,
 .fullscreen__title .line--1 {
-    animation: d 1.6s linear 1.5s 1 backwards;
+    animation: d 1.6s linear 1s 1 backwards;
 }
 .textshadow .fullscreen__title .letter-by-letter > span {
     transition: all 0.2s linear 0s;
@@ -4791,12 +4828,10 @@ blockquote.quote {
 }
 
 @media only screen and (max-width: 53.75em) {
-    blockquote.quote {}
-}
-
-@media only screen and (max-width: 25.625em) {
     blockquote.quote {
 		font-size: 1.7rem;
+		padding: 2rem;
+		max-width: 100%;
 	}
 }
 
@@ -4809,7 +4844,28 @@ blockquote.EN {
 	linear-gradient(to right, #000 2px, transparent 2px) 0% 0%,
     linear-gradient(to bottom, #000 2px, transparent 2px) 0% 0%,
     linear-gradient(to left, #000 2px, transparent 2px) 100% 100%,
-    linear-gradient(to top, #000 2px, transparent 2px) 100% 100%;;
+    linear-gradient(to top, #000 2px, transparent 2px) 100% 100%;
     background-repeat: no-repeat;
     background-size: 20px 20px;
+}
+
+cite {
+	font-size: 1.2rem;
+	display: block;
+	margin-top: 1rem;
+	text-align: right;
+}
+
+@media only screen and (max-width: 53.75em) {
+    cite {
+		font-size: 1.25rem;
+	}
+}
+
+cite span {
+	font-style: italic;
+}
+
+cite:before {
+	content: '- ';
 }
