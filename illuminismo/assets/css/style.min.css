@@ -2619,6 +2619,7 @@ mark {
 }
 .text__author {
     font-weight: 700;
+	margin-top: 5rem;
 }
 
 .text__author:before {
