@@ -4871,3 +4871,7 @@ cite span {
 cite:before {
 	content: '- ';
 }
+
+.size-reduced {
+	font-size: 90%;
+}
