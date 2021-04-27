@@ -1,97 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+		<url>
+			<loc>https://lorenzodbr.github.io/medioevo/</loc>
+			<changefreq>never</changefreq>
+		</url>
 
+		<url>
+			<loc>https://lorenzodbr.github.io/scaligeri</loc>
+			<changefreq>never</changefreq>
+		</url>
 
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/scaligeri/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/nuovi-mondi/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/viaggi/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/scaligeri/industria-tessile/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/scaligeri/loggia-delle-sgarzarie/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/scaligeri/produzione-dei-pannilana/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/scaligeri/domus-mercatorum/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/scaligeri/legislazione/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/nuovi-mondi/oriente/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/nuovi-mondi/america/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/nuovi-mondi/civilta-precolombiane/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/nuovi-mondi/conseguenze/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/nuovi-mondi/gruppo/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/viaggi/viaggi-e-viaggiatori/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/viaggi/alberghi-e-albergatori/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://lorenzodbr.github.io/medioevo/viaggi/pellegrinaggi/</loc>
-  <lastmod>2021-04-23T16:46:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+		<url>
+			<loc>https://lorenzodbr.github.io/nuovi-mondi</loc>
+			<changefreq>never</changefreq>
+		</url>
 
+		<url>
+			<loc>https://lorenzodbr.github.io/viaggi</loc>
+			<changefreq>never</changefreq>
+		</url>
 
-</urlset>
+	</urlset>
+
