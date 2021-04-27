@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 		<url>
-			<loc>https://lorenzodbr.github.io/medioevo/</loc>
+			<loc>https://lorenzodbr.github.io/medioevo/scaligeri</loc>
 			<changefreq>never</changefreq>
 		</url>
 
 		<url>
-			<loc>https://lorenzodbr.github.io/scaligeri</loc>
+			<loc>https://lorenzodbr.github.io/medioevo/nuovi-mondi</loc>
 			<changefreq>never</changefreq>
 		</url>
 
 		<url>
-			<loc>https://lorenzodbr.github.io/nuovi-mondi</loc>
+			<loc>https://lorenzodbr.github.io/medioevo/viaggi</loc>
 			<changefreq>never</changefreq>
 		</url>
-
+		
 		<url>
-			<loc>https://lorenzodbr.github.io/viaggi</loc>
+			<loc>https://lorenzodbr.github.io/prima-rivoluzione-industriale</loc>
 			<changefreq>never</changefreq>
 		</url>
-
+		
+		<url>
+			<loc>https://lorenzodbr.github.io/illuminismo</loc>
+			<changefreq>never</changefreq>
+		</url>
+		
+		<url>
+			<loc>https://lorenzodbr.github.io/orario-uscita</loc>
+			<changefreq>never</changefreq>
+		</url>
 	</urlset>
 
