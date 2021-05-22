@@ -76,7 +76,7 @@ function getSoundAndFadeAudio(audiosnippetId) {
 
         // Only fade if past the fade out point or not at zero already
         if ((sound.currentTime >= fadePoint) && (sound.volume != 0.0)) {
-            sound.volume -= 0.0125;
+            sound.volume -= 0.01;
         }
         // When volume at zero stop all the intervalling
         if (sound.volume === 0.0) {
@@ -437,8 +437,8 @@ document.getElementById('button-yes').onclick = function() {
 }
 
 document.getElementById('button-no').onclick = function() {
-		getSoundAndFadeAudio('bg-audio');
-		audio.pause();
+		//getSoundAndFadeAudio('bg-audio');
+		//audio.pause();
 		
 		layer.style.opacity = '0';
 		setTimeout(function(){
