@@ -1,14 +1,15 @@
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const path = "/storia/prima-rivoluzione-industriale/img/logo-navbar";
 
 function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
-		document.querySelector('.atail-text-logo').querySelector('img').src = "/prima-rivoluzione-industriale/img/logo-navbar-dark.png";
+		document.querySelector('.atail-text-logo').querySelector('img').src = path + "-dark.png";
 		localStorage.setItem('theme', 'dark'); //add this
     }
     else {
         document.documentElement.setAttribute('data-theme', 'light');
-		document.querySelector('.atail-text-logo').querySelector('img').src = "/prima-rivoluzione-industriale/img/logo-navbar.png";
+		document.querySelector('.atail-text-logo').querySelector('img').src = path + ".png";
         localStorage.setItem('theme', 'light'); //add this
     }    
 }
@@ -20,7 +21,7 @@ if (currentTheme) {
 
     if (currentTheme === 'dark') {
         toggleSwitch.checked = true;
-		document.querySelector('.atail-text-logo').querySelector('img').src = "/prima-rivoluzione-industriale/img/logo-navbar-dark.png";
+		document.querySelector('.atail-text-logo').querySelector('img').src = path + "-dark.png";
 	}
 }
 
