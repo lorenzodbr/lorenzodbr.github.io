@@ -1,16 +1,17 @@
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-const path = "/storia/prima-rivoluzione-industriale/img/logo-navbar";
+const pathDark = "/storia/prima-rivoluzione-industriale/img/logo-navbar-dark.png";
+const pathLight = "/storia/prima-rivoluzione-industriale/img/logo-navbar.png";
 
 function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
-		document.querySelector('.atail-text-logo').querySelector('img').src = path + "-dark.png";
-		localStorage.setItem('theme', 'dark'); //add this
+		document.querySelector('.atail-text-logo').querySelector('img').src = pathDark;
+		localStorage.setItem('theme', 'dark');
     }
     else {
         document.documentElement.setAttribute('data-theme', 'light');
-		document.querySelector('.atail-text-logo').querySelector('img').src = path + ".png";
-        localStorage.setItem('theme', 'light'); //add this
+		document.querySelector('.atail-text-logo').querySelector('img').src = pathLight;
+        localStorage.setItem('theme', 'light');
     }    
 }
 
@@ -21,7 +22,7 @@ if (currentTheme) {
 
     if (currentTheme === 'dark') {
         toggleSwitch.checked = true;
-		document.querySelector('.atail-text-logo').querySelector('img').src = path + "-dark.png";
+		document.querySelector('.atail-text-logo').querySelector('img').src = pathDark;
 	}
 }
 
